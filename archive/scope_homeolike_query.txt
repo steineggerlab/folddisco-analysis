@@ -1,0 +1,812 @@
+scop_benchmark/pdb/pdbstyle-2.08/an/d9anta_.ent		result/scope_homeo/homeo_result_d9anta__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/an/d9antb_.ent		result/scope_homeo/homeo_result_d9antb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ah/d1ahdp1.ent	P27,P41,P40	result/scope_homeo/homeo_result_d1ahdp1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sa/d1sana_.ent		result/scope_homeo/homeo_result_d1sana__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d2hoaa1.ent	A46,A32,A58	result/scope_homeo/homeo_result_d2hoaa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d1homa_.ent		result/scope_homeo/homeo_result_d1homa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wi/d1wi3a1.ent	A32,A48	result/scope_homeo/homeo_result_d1wi3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7ia_.ent		result/scope_homeo/homeo_result_d1p7ia__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7ib_.ent		result/scope_homeo/homeo_result_d1p7ib__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7ic_.ent		result/scope_homeo/homeo_result_d1p7ic__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7id_.ent		result/scope_homeo/homeo_result_d1p7id__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d2hdda_.ent		result/scope_homeo/homeo_result_d2hdda__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d2hddb_.ent		result/scope_homeo/homeo_result_d2hddb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7ja_.ent		result/scope_homeo/homeo_result_d1p7ja__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7jb_.ent		result/scope_homeo/homeo_result_d1p7jb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7jc_.ent		result/scope_homeo/homeo_result_d1p7jc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p7/d1p7jd_.ent		result/scope_homeo/homeo_result_d1p7jd__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/en/d1enha_.ent		result/scope_homeo/homeo_result_d1enha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/du/d1du0a_.ent		result/scope_homeo/homeo_result_d1du0a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/du/d1du0b_.ent		result/scope_homeo/homeo_result_d1du0b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d3hdda_.ent		result/scope_homeo/homeo_result_d3hdda__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d3hddb_.ent		result/scope_homeo/homeo_result_d3hddb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d2hosa_.ent		result/scope_homeo/homeo_result_d2hosa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d2hosb_.ent		result/scope_homeo/homeo_result_d2hosb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d2hota_.ent		result/scope_homeo/homeo_result_d2hota__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d2hotb_.ent		result/scope_homeo/homeo_result_d2hotb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d1hddc_.ent		result/scope_homeo/homeo_result_d1hddc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d1hddd_.ent		result/scope_homeo/homeo_result_d1hddd__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jw/d2jwta2.ent	A10,A26,A19	result/scope_homeo/homeo_result_d2jwta2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/p8/d2p81a_.ent		result/scope_homeo/homeo_result_d2p81a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zt/d1ztra1.ent	A35,A6,A3	result/scope_homeo/homeo_result_d1ztra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jg/d1jgga_.ent		result/scope_homeo/homeo_result_d1jgga__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jg/d1jggb_.ent		result/scope_homeo/homeo_result_d1jggb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b8/d1b8ib_.ent		result/scope_homeo/homeo_result_d1b8ib__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ft/d1ftza_.ent		result/scope_homeo/homeo_result_d1ftza__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ic/d1ic8a1.ent	A250,A210,A267	result/scope_homeo/homeo_result_d1ic8a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ic/d1ic8b1.ent	B267,B240,B258	result/scope_homeo/homeo_result_d1ic8b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lf/d1lfba_.ent		result/scope_homeo/homeo_result_d1lfba__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lf/d2lfba_.ent		result/scope_homeo/homeo_result_d2lfba__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/s7/d1s7ea1.ent	A143,A149	result/scope_homeo/homeo_result_d1s7ea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mi/d1mija_.ent		result/scope_homeo/homeo_result_d1mija__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d1xpxa_.ent		result/scope_homeo/homeo_result_d1xpxa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pu/d1pufa_.ent		result/scope_homeo/homeo_result_d1pufa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b7/d1b72a_.ent		result/scope_homeo/homeo_result_d1b72a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cr/d2craa1.ent	A62,A58	result/scope_homeo/homeo_result_d2craa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x2/d1x2na1.ent	A13,A9,A28	result/scope_homeo/homeo_result_d1x2na1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/e1/d2e1oa1.ent	A8,A26	result/scope_homeo/homeo_result_d2e1oa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cu/d2cufa1.ent	A27,A39,A77,A28	result/scope_homeo/homeo_result_d2cufa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ec/d2ecca2.ent	A17,A62,A54	result/scope_homeo/homeo_result_d2ecca2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uh/d1uhsa1.ent	A38,A65,A50	result/scope_homeo/homeo_result_d1uhsa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zq/d1zq3p1.ent	P68,P25,P50	result/scope_homeo/homeo_result_d1zq3p1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x5/d1x58a1.ent	A15,A26	result/scope_homeo/homeo_result_d1x58a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bw/d1bw5a_.ent		result/scope_homeo/homeo_result_d1bw5a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cq/d2cqxa1.ent	A44,A39	result/scope_homeo/homeo_result_d2cqxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x2/d1x2ma1.ent	A12,A36	result/scope_homeo/homeo_result_d1x2ma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k6/d1k61a_.ent		result/scope_homeo/homeo_result_d1k61a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k6/d1k61b_.ent		result/scope_homeo/homeo_result_d1k61b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k6/d1k61c_.ent		result/scope_homeo/homeo_result_d1k61c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k6/d1k61d_.ent		result/scope_homeo/homeo_result_d1k61d__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ak/d1akhb_.ent		result/scope_homeo/homeo_result_d1akhb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/le/d1le8b_.ent		result/scope_homeo/homeo_result_d1le8b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yr/d1yrnb_.ent		result/scope_homeo/homeo_result_d1yrnb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mn/d1mnmc_.ent		result/scope_homeo/homeo_result_d1mnmc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mn/d1mnmd_.ent		result/scope_homeo/homeo_result_d1mnmd__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ap/d1aplc_.ent		result/scope_homeo/homeo_result_d1aplc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ap/d1apld_.ent		result/scope_homeo/homeo_result_d1apld__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ak/d1akha_.ent		result/scope_homeo/homeo_result_d1akha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/le/d1le8a_.ent		result/scope_homeo/homeo_result_d1le8a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yr/d1yrna_.ent		result/scope_homeo/homeo_result_d1yrna__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f4/d1f43a_.ent		result/scope_homeo/homeo_result_d1f43a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mh/d1mh3a1.ent	A501,A511	result/scope_homeo/homeo_result_d1mh3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mh/d1mh4a1.ent	A508,A500	result/scope_homeo/homeo_result_d1mh4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ig/d1ig7a_.ent		result/scope_homeo/homeo_result_d1ig7a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/e3/d1e3oc1.ent	C106,C154	result/scope_homeo/homeo_result_d1e3oc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/oc/d1octc1.ent	C121,C137,C114	result/scope_homeo/homeo_result_d1octc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gt/d1gt0c1.ent	C155,C131,C145	result/scope_homeo/homeo_result_d1gt0c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hf/d1hf0a1.ent	A129,A128	result/scope_homeo/homeo_result_d1hf0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hf/d1hf0b1.ent	B113,B120	result/scope_homeo/homeo_result_d1hf0b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cq/d1cqta1.ent	A143,A148,A122	result/scope_homeo/homeo_result_d1cqta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cq/d1cqtb1.ent	B661,B660,B635	result/scope_homeo/homeo_result_d1cqtb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o4/d1o4xa1.ent	A138,A161	result/scope_homeo/homeo_result_d1o4xa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/po/d1poga1.ent	A15,A36,A27	result/scope_homeo/homeo_result_d1poga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hd/d1hdpa_.ent		result/scope_homeo/homeo_result_d1hdpa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/oc/d1ocpa_.ent		result/scope_homeo/homeo_result_d1ocpa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cu/d2cuea1.ent	A59,A52,A9	result/scope_homeo/homeo_result_d2cuea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fj/d1fjla_.ent		result/scope_homeo/homeo_result_d1fjla__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fj/d1fjlb_.ent		result/scope_homeo/homeo_result_d1fjlb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fj/d1fjlc_.ent		result/scope_homeo/homeo_result_d1fjlc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pu/d1pufb_.ent		result/scope_homeo/homeo_result_d1pufb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b7/d1b72b_.ent		result/scope_homeo/homeo_result_d1b72b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lf/d1lfup_.ent		result/scope_homeo/homeo_result_d1lfup__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/du/d1du6a1.ent	A26,A41	result/scope_homeo/homeo_result_d1du6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/au/d1au7a1.ent	A144,A120	result/scope_homeo/homeo_result_d1au7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/au/d1au7b1.ent	B128,B106	result/scope_homeo/homeo_result_d1au7b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lk/d2lkxa1.ent	A29,A32,A2	result/scope_homeo/homeo_result_d2lkxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ft/d1ftta_.ent		result/scope_homeo/homeo_result_d1ftta__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x4/d1x41a1.ent	A19,A51	result/scope_homeo/homeo_result_d1x41a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b8/d1b8ia_.ent		result/scope_homeo/homeo_result_d1b8ia__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nk/d1nk3p_.ent		result/scope_homeo/homeo_result_d1nk3p__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nk/d1nk2p_.ent		result/scope_homeo/homeo_result_d1nk2p__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vn/d1vnda_.ent		result/scope_homeo/homeo_result_d1vnda__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qr/d1qrya1.ent	A76,A45,A10	result/scope_homeo/homeo_result_d1qrya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d1wh7a1.ent	A36,A42,A56	result/scope_homeo/homeo_result_d1wh7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d1wh5a1.ent	A74,A8,A50	result/scope_homeo/homeo_result_d1wh5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/na/d3nara_.ent		result/scope_homeo/homeo_result_d3nara__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/na/d3narb_.ent		result/scope_homeo/homeo_result_d3narb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dj/d2djoa1.ent	A52,A59,A46	result/scope_homeo/homeo_result_d2djoa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ec/d2ecba1.ent	A41,A36,A54	result/scope_homeo/homeo_result_d2ecba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a02a_.ent		result/scope_homeo/homeo_result_d3a02a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ln/d3lnqa_.ent		result/scope_homeo/homeo_result_d3lnqa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a01a_.ent		result/scope_homeo/homeo_result_d3a01a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a01b_.ent		result/scope_homeo/homeo_result_d3a01b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a01e_.ent		result/scope_homeo/homeo_result_d3a01e__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a01f_.ent		result/scope_homeo/homeo_result_d3a01f__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r5/d2r5za_.ent		result/scope_homeo/homeo_result_d2r5za__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r5/d2r5zb_.ent		result/scope_homeo/homeo_result_d2r5zb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r5/d2r5ya1.ent	A102,A97,A140,A133	result/scope_homeo/homeo_result_d2r5ya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r5/d2r5yb_.ent		result/scope_homeo/homeo_result_d2r5yb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uu/d4uuta_.ent		result/scope_homeo/homeo_result_d4uuta__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cm/d3cmya1.ent	A29,A55	result/scope_homeo/homeo_result_d3cmya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d3rkqa1.ent	A192,A170	result/scope_homeo/homeo_result_d3rkqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d3rkqb1.ent	B182,B173	result/scope_homeo/homeo_result_d3rkqb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k2/d3k2aa_.ent		result/scope_homeo/homeo_result_d3k2aa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k2/d3k2ab_.ent		result/scope_homeo/homeo_result_d3k2ab__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j1/d4j19a_.ent		result/scope_homeo/homeo_result_d4j19a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j1/d4j19b_.ent		result/scope_homeo/homeo_result_d4j19b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ms/d2msya_.ent		result/scope_homeo/homeo_result_d2msya__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wj/d1wjha1.ent	A67,A65,A27	result/scope_homeo/homeo_result_d1wjha1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lm/d2lmda1.ent	A166,A86,A135,A80,A128,A136,A47,A155	result/scope_homeo/homeo_result_d2lmda1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lp/d2lp0a_.ent		result/scope_homeo/homeo_result_d2lp0a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mw/d2mw8a_.ent		result/scope_homeo/homeo_result_d2mw8a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/da/d2da6a1.ent	A83,A86,A59,A28	result/scope_homeo/homeo_result_d2da6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hi/d2hi3a_.ent		result/scope_homeo/homeo_result_d2hi3a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gd/d1gdta1.ent	A175,A183	result/scope_homeo/homeo_result_d1gdta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gd/d1gdtb1.ent	B153,B175	result/scope_homeo/homeo_result_d1gdtb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr4a1.ent	A162,A183	result/scope_homeo/homeo_result_d1zr4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr4b1.ent	B179,B147	result/scope_homeo/homeo_result_d1zr4b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr4d1.ent	D158,D174	result/scope_homeo/homeo_result_d1zr4d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr4e1.ent	E183,E171	result/scope_homeo/homeo_result_d1zr4e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gm/d2gm4a1.ent	A171,A182	result/scope_homeo/homeo_result_d2gm4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gm/d2gm4b1.ent	B167,B141	result/scope_homeo/homeo_result_d2gm4b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr2a1.ent	A180,A146	result/scope_homeo/homeo_result_d1zr2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zr/d1zr2b1.ent	B182,B151	result/scope_homeo/homeo_result_d1zr2b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/re/d1reta_.ent		result/scope_homeo/homeo_result_d1reta__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/re/d1resa_.ent		result/scope_homeo/homeo_result_d1resa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jj/d1jj6c_.ent		result/scope_homeo/homeo_result_d1jj6c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ij/d1ijwc_.ent		result/scope_homeo/homeo_result_d1ijwc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d1jkoc_.ent		result/scope_homeo/homeo_result_d1jkoc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hc/d1hcra_.ent		result/scope_homeo/homeo_result_d1hcra__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d1jkrc_.ent		result/scope_homeo/homeo_result_d1jkrc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d1jkpc_.ent		result/scope_homeo/homeo_result_d1jkpc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jj/d1jj8c_.ent		result/scope_homeo/homeo_result_d1jj8c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d1jkqc_.ent		result/scope_homeo/homeo_result_d1jkqc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d2ezla_.ent		result/scope_homeo/homeo_result_d2ezla__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d2ezka_.ent		result/scope_homeo/homeo_result_d2ezka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d2ezia_.ent		result/scope_homeo/homeo_result_d2ezia__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d2ezha_.ent		result/scope_homeo/homeo_result_d2ezha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/tc/d1tc3c_.ent		result/scope_homeo/homeo_result_d1tc3c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/u7/d1u78a1.ent	A50,A3	result/scope_homeo/homeo_result_d1u78a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/u7/d1u78a2.ent	A62,A79	result/scope_homeo/homeo_result_d1u78a2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ug/d1ug2a1.ent	A75,A50,A69,A38	result/scope_homeo/homeo_result_d1ug2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a5/d1a5ja1.ent	A3,A35	result/scope_homeo/homeo_result_d1a5ja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a5/d1a5ja2.ent	A104,A86	result/scope_homeo/homeo_result_d1a5ja2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gu/d1guua_.ent		result/scope_homeo/homeo_result_d1guua__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gv/d1gvda_.ent		result/scope_homeo/homeo_result_d1gvda__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gv/d1gv5a_.ent		result/scope_homeo/homeo_result_d1gv5a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gv/d1gv2a1.ent	A108,A135	result/scope_homeo/homeo_result_d1gv2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gv/d1gv2a2.ent	A185,A151	result/scope_homeo/homeo_result_d1gv2a2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h88c1.ent	C87,C79	result/scope_homeo/homeo_result_d1h88c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h88c2.ent	C136,C103	result/scope_homeo/homeo_result_d1h88c2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h88c3.ent	C165,C153	result/scope_homeo/homeo_result_d1h88c3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbja_.ent		result/scope_homeo/homeo_result_d1mbja__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbka_.ent		result/scope_homeo/homeo_result_d1mbka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbha_.ent		result/scope_homeo/homeo_result_d1mbha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbea_.ent		result/scope_homeo/homeo_result_d1mbea__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbga_.ent		result/scope_homeo/homeo_result_d1mbga__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mb/d1mbfa_.ent		result/scope_homeo/homeo_result_d1mbfa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/id/d1idza_.ent		result/scope_homeo/homeo_result_d1idza__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/id/d1idya_.ent		result/scope_homeo/homeo_result_d1idya__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ms/d1msec1.ent	C103,C131	result/scope_homeo/homeo_result_d1msec1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ms/d1msec2.ent	C150,C190	result/scope_homeo/homeo_result_d1msec2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ms/d1msfc1.ent	C118,C120	result/scope_homeo/homeo_result_d1msfc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ms/d1msfc2.ent	C146,C184	result/scope_homeo/homeo_result_d1msfc2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h89c1.ent		result/scope_homeo/homeo_result_d1h89c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h89c2.ent	C120,C104	result/scope_homeo/homeo_result_d1h89c2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h89c3.ent	C162,C180	result/scope_homeo/homeo_result_d1h89c3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cq/d2cqqa1.ent	A51,A13	result/scope_homeo/homeo_result_d2cqqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cq/d2cqra1.ent	A13,A42	result/scope_homeo/homeo_result_d2cqra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wg/d1wgxa1.ent	A37,A64,A14	result/scope_homeo/homeo_result_d1wgxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cr/d2crga1.ent	A27,A20	result/scope_homeo/homeo_result_d2crga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cu/d2cu7a1.ent	A62,A19,A58	result/scope_homeo/homeo_result_d2cu7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xc/d1xc5a1.ent	A427,A471,A432	result/scope_homeo/homeo_result_d1xc5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cj/d2cjja1.ent	A65,A31,A32	result/scope_homeo/homeo_result_d2cjja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fe/d1fexa_.ent		result/scope_homeo/homeo_result_d1fexa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zn/d3zn0b2.ent	B387,B407,B402	result/scope_homeo/homeo_result_d3zn0b2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmzb2.ent	B436,B379,B430	result/scope_homeo/homeo_result_d3zmzb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d2uxnb1.ent	B437,B382,B411	result/scope_homeo/homeo_result_d2uxnb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmsb2.ent	B418,B379,B415	result/scope_homeo/homeo_result_d3zmsb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmtb2.ent	B402,B430,B408	result/scope_homeo/homeo_result_d3zmtb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zn/d3zn1b2.ent	B389,B434,B394	result/scope_homeo/homeo_result_d3zn1b2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmub2.ent	B382,B380,B386	result/scope_homeo/homeo_result_d3zmub2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmvb2.ent	B414,B410,B438	result/scope_homeo/homeo_result_d3zmvb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xagb2.ent	B409,B397,B438	result/scope_homeo/homeo_result_d2xagb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xahb2.ent	B421,B384,B383	result/scope_homeo/homeo_result_d2xahb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iw/d2iw5b1.ent	B438,B382,B422	result/scope_homeo/homeo_result_d2iw5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l3/d5l3db2.ent	B398,B401,B438	result/scope_homeo/homeo_result_d5l3db2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xasb2.ent	B393,B415,B422	result/scope_homeo/homeo_result_d2xasb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvbb2.ent	B433,B397,B404	result/scope_homeo/homeo_result_d4uvbb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xajb2.ent	B416,B427,B409	result/scope_homeo/homeo_result_d2xajb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uv8b2.ent	B393,B380,B392	result/scope_homeo/homeo_result_d4uv8b2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xafb2.ent	B404,B391,B383	result/scope_homeo/homeo_result_d2xafb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvab2.ent	B419,B433,B415	result/scope_homeo/homeo_result_d4uvab2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d2uxxb2.ent	B430,B433,B401	result/scope_homeo/homeo_result_d2uxxb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uv9b2.ent	B396,B437,B379	result/scope_homeo/homeo_result_d4uv9b2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvcb2.ent	B424,B436,B401	result/scope_homeo/homeo_result_d4uvcb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d4uxnb2.ent	B426,B415,B431	result/scope_homeo/homeo_result_d4uxnb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xaqb2.ent	B438,B376,B422	result/scope_homeo/homeo_result_d2xaqb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/of/d1ofcx1.ent	X841,X803	result/scope_homeo/homeo_result_d1ofcx1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ck/d2ckxa1.ent	A655,A652,A633,A649	result/scope_homeo/homeo_result_d2ckxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qh/d2qhba_.ent		result/scope_homeo/homeo_result_d2qhba__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qh/d2qhbb_.ent		result/scope_homeo/homeo_result_d2qhbb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/aj/d2ajea1.ent	A25,A58,A67,A56	result/scope_homeo/homeo_result_d2ajea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h8ac1.ent	C114,C89	result/scope_homeo/homeo_result_d1h8ac1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h8/d1h8ac2.ent	C171,C184	result/scope_homeo/homeo_result_d1h8ac2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a6/d4a69c_.ent		result/scope_homeo/homeo_result_d4a69c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a6/d4a69d_.ent		result/scope_homeo/homeo_result_d4a69d__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/w0/d1w0ta_.ent		result/scope_homeo/homeo_result_d1w0ta__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/w0/d1w0tb_.ent		result/scope_homeo/homeo_result_d1w0tb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iv/d1iv6a_.ent		result/scope_homeo/homeo_result_d1iv6a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/it/d1itya_.ent		result/scope_homeo/homeo_result_d1itya__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ba/d1ba5a_.ent		result/scope_homeo/homeo_result_d1ba5a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/w0/d1w0ua_.ent		result/scope_homeo/homeo_result_d1w0ua__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/w0/d1w0ub_.ent		result/scope_homeo/homeo_result_d1w0ub__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xg/d1xg1a1.ent	A11,A26,A41	result/scope_homeo/homeo_result_d1xg1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vf/d1vf9a_.ent		result/scope_homeo/homeo_result_d1vf9a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vf/d1vfca1.ent	A449,A442,A457	result/scope_homeo/homeo_result_d1vfca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sj/d3sjma_.ent		result/scope_homeo/homeo_result_d3sjma__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sj/d3sjmb_.ent		result/scope_homeo/homeo_result_d3sjmb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pd/d1pdnc1.ent	C20,C55,C56	result/scope_homeo/homeo_result_d1pdnc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pd/d1pdnc2.ent	C113,C115	result/scope_homeo/homeo_result_d1pdnc2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k7/d1k78a1.ent	A56,A36,A50	result/scope_homeo/homeo_result_d1k78a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k7/d1k78a2.ent	A111,A123,A100	result/scope_homeo/homeo_result_d1k78a2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k7/d1k78e1.ent	E39,E54,E78	result/scope_homeo/homeo_result_d1k78e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k7/d1k78e2.ent	E97,E88,E96	result/scope_homeo/homeo_result_d1k78e2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k7/d1k78i1.ent	I117,I129	result/scope_homeo/homeo_result_d1k78i1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/md/d1mdma1.ent	A22,A52,A46	result/scope_homeo/homeo_result_d1mdma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/md/d1mdma2.ent	A135,A125,A100	result/scope_homeo/homeo_result_d1mdma2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pa/d6paxa1.ent	A29,A58,A39	result/scope_homeo/homeo_result_d6paxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pa/d6paxa2.ent	A76,A95,A98	result/scope_homeo/homeo_result_d6paxa2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ig/d1igna2.ent	A493,A530,A574,A474,A559,A454,A582	result/scope_homeo/homeo_result_d1igna2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ig/d1ignb2.ent	B480,B518,B558,B485,B495,B577,B545	result/scope_homeo/homeo_result_d1ignb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ig/d1igna1.ent	A432,A414,A412,A367	result/scope_homeo/homeo_result_d1igna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ig/d1ignb1.ent	B404,B443,B369,B426	result/scope_homeo/homeo_result_d1ignb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uk/d3ukga2.ent	A549,A567,A479,A547,A596,A597,A452	result/scope_homeo/homeo_result_d3ukga2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iu/d1iufa1.ent	A71,A19,A69	result/scope_homeo/homeo_result_d1iufa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iu/d1iufa2.ent	A105,A134,A77	result/scope_homeo/homeo_result_d1iufa2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hl/d1hlva1.ent	A60,A18,A14	result/scope_homeo/homeo_result_d1hlva1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hl/d1hlva2.ent	A73,A101,A80	result/scope_homeo/homeo_result_d1hlva2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bw/d1bw6a_.ent		result/scope_homeo/homeo_result_d1bw6a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bl/d1bl0a1.ent	A28,A11	result/scope_homeo/homeo_result_d1bl0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bl/d1bl0a2.ent	A84,A86,A81	result/scope_homeo/homeo_result_d1bl0a2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5ya1.ent	A37,A7	result/scope_homeo/homeo_result_d1d5ya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5ya2.ent	A98,A88,A67	result/scope_homeo/homeo_result_d1d5ya2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yb1.ent	B5,B12	result/scope_homeo/homeo_result_d1d5yb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yb2.ent	B116,B74,B60	result/scope_homeo/homeo_result_d1d5yb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yc1.ent	C5,C25	result/scope_homeo/homeo_result_d1d5yc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yc2.ent	C58,C73,C80	result/scope_homeo/homeo_result_d1d5yc2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yd1.ent	D38,D7	result/scope_homeo/homeo_result_d1d5yd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d1d5yd2.ent	D75,D103,D84	result/scope_homeo/homeo_result_d1d5yd2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ui/d1ui5a1.ent	A69,A73,A41	result/scope_homeo/homeo_result_d1ui5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ui/d1ui5b1.ent	B18,B68,B6	result/scope_homeo/homeo_result_d1ui5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ui/d1ui6a1.ent	A34,A11,A13	result/scope_homeo/homeo_result_d1ui6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ui/d1ui6b1.ent	B11,B37,B20	result/scope_homeo/homeo_result_d1ui6b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/t5/d1t56a1.ent	A41,A44,A83	result/scope_homeo/homeo_result_d1t56a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ni/d5nioa1.ent	A59,A42,A86	result/scope_homeo/homeo_result_d5nioa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ni/d5nima1.ent	A33,A50,A34	result/scope_homeo/homeo_result_d5nima1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5myna1.ent	A85,A35,A74	result/scope_homeo/homeo_result_d5myna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5mysa1.ent	A76,A87,A88	result/scope_homeo/homeo_result_d5mysa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho4a1.ent	A58,A71,A94	result/scope_homeo/homeo_result_d6ho4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5myta1.ent	A47,A65,A31	result/scope_homeo/homeo_result_d5myta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mx/d5mxva1.ent	A54,A80,A62	result/scope_homeo/homeo_result_d5mxva1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d4m3da1.ent	A82,A40,A50	result/scope_homeo/homeo_result_d4m3da1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j3/d5j3la1.ent	A55,A89,A46	result/scope_homeo/homeo_result_d5j3la1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5myla1.ent	A58,A29,A30	result/scope_homeo/homeo_result_d5myla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5mywa1.ent	A94,A80,A59	result/scope_homeo/homeo_result_d5mywa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/u9/d1u9na1.ent	A60,A77,A65	result/scope_homeo/homeo_result_d1u9na1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j1/d5j1ua1.ent	A67,A39,A59	result/scope_homeo/homeo_result_d5j1ua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r1/d6r1pa1.ent	A53,A57,A76	result/scope_homeo/homeo_result_d6r1pa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j1/d5j1ya1.ent	A37,A45,A76	result/scope_homeo/homeo_result_d5j1ya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/r1/d6r1sa1.ent	A44,A23,A48	result/scope_homeo/homeo_result_d6r1sa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz0a1.ent	A42,A62,A55	result/scope_homeo/homeo_result_d5nz0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5myra1.ent	A82,A63,A68	result/scope_homeo/homeo_result_d5myra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d4m3ba1.ent	A59,A51,A64	result/scope_homeo/homeo_result_d4m3ba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/tp/d3tp3a1.ent	A30,A43,A35	result/scope_homeo/homeo_result_d3tp3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho0a1.ent	A81,A25,A30	result/scope_homeo/homeo_result_d6ho0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/tp/d3tp0a1.ent	A42,A59,A47	result/scope_homeo/homeo_result_d3tp0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j1/d5j1ra1.ent	A44,A69,A90	result/scope_homeo/homeo_result_d5j1ra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mx/d5mxka1.ent	A67,A38,A46	result/scope_homeo/homeo_result_d5mxka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ni/d5niza1.ent	A59,A33,A66	result/scope_homeo/homeo_result_d5niza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mw/d5mwoa1.ent	A91,A94,A83	result/scope_homeo/homeo_result_d5mwoa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d4m3fa1.ent	A88,A91,A75	result/scope_homeo/homeo_result_d4m3fa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d4m3ga1.ent	A71,A92,A60	result/scope_homeo/homeo_result_d4m3ga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nj/d5nj0a1.ent	A59,A63,A43	result/scope_homeo/homeo_result_d5nj0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d4m3ea1.ent	A76,A35,A49	result/scope_homeo/homeo_result_d4m3ea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5myma1.ent	A51,A86,A45	result/scope_homeo/homeo_result_d5myma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5mymb1.ent	B55,B83,B21,B92	result/scope_homeo/homeo_result_d5mymb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5mymc1.ent	C75,C22,C50,C56	result/scope_homeo/homeo_result_d5mymc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/my/d5mymd1.ent	D79,D85,D29	result/scope_homeo/homeo_result_d5mymd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1a1.ent	A75,A83,A56	result/scope_homeo/homeo_result_d5nz1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1b1.ent	B26,B39,B85	result/scope_homeo/homeo_result_d5nz1b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1c1.ent	C28,C52,C63	result/scope_homeo/homeo_result_d5nz1c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1d1.ent	D29,D63,D24	result/scope_homeo/homeo_result_d5nz1d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1e1.ent	E32,E41,E61	result/scope_homeo/homeo_result_d5nz1e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1f1.ent	F29,F70,F57	result/scope_homeo/homeo_result_d5nz1f1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1g1.ent	G72,G28,G24	result/scope_homeo/homeo_result_d5nz1g1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nz/d5nz1h1.ent	H74,H87,H29	result/scope_homeo/homeo_result_d5nz1h1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/u9/d1u9oa1.ent	A34,A72,A64	result/scope_homeo/homeo_result_d1u9oa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/io/d5ioya1.ent	A78,A67,A91	result/scope_homeo/homeo_result_d5ioya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ip/d5ipaa1.ent	A36,A25,A78	result/scope_homeo/homeo_result_d5ipaa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ip/d5ip6a1.ent	A77,A76,A27	result/scope_homeo/homeo_result_d5ip6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/io/d5ioza1.ent	A48,A40,A27	result/scope_homeo/homeo_result_d5ioza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fx/d2fx0a1.ent	A42,A61,A41	result/scope_homeo/homeo_result_d2fx0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jy/d4jyka1.ent	A28,A71,A49	result/scope_homeo/homeo_result_d4jyka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jy/d4jykb1.ent	B49,B24,B61	result/scope_homeo/homeo_result_d4jykb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lo/d3loca1.ent	A31,A18,A44	result/scope_homeo/homeo_result_d3loca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lo/d3locb1.ent	B25,B53,B36	result/scope_homeo/homeo_result_d3locb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lo/d3locc1.ent	C62,C34,C78	result/scope_homeo/homeo_result_d3locc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lo/d3locd1.ent	D72,D62,D20	result/scope_homeo/homeo_result_d3locd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pb/d1pb6a3.ent	A50,A25,A51	result/scope_homeo/homeo_result_d1pb6a3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pb/d1pb6b3.ent	B60,B79,B32	result/scope_homeo/homeo_result_d1pb6b3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pb/d1pb6c3.ent	C34,C19,C62	result/scope_homeo/homeo_result_d1pb6c3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pb/d1pb6d3.ent	D35,D24,D62	result/scope_homeo/homeo_result_d1pb6d3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xk/d4xk4a1.ent	A43,A83,A52	result/scope_homeo/homeo_result_d4xk4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xk/d4xk4b1.ent	B26,B55,B63	result/scope_homeo/homeo_result_d4xk4b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xk/d4xk4c1.ent	C50,C44,C61	result/scope_homeo/homeo_result_d4xk4c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xk/d4xk4d1.ent	D59,D42,D58	result/scope_homeo/homeo_result_d4xk4d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rkta1.ent	A42,A60,A8,A4	result/scope_homeo/homeo_result_d1rkta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rktb1.ent	B63,B17,B69	result/scope_homeo/homeo_result_d1rktb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d1vi0a1.ent	A48,A11,A21	result/scope_homeo/homeo_result_d1vi0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d1vi0b1.ent	B74,B44,B77	result/scope_homeo/homeo_result_d1vi0b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br0a1.ent	A18,A23,A11	result/scope_homeo/homeo_result_d3br0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br0b1.ent	B23,B18,B66	result/scope_homeo/homeo_result_d3br0b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt6a1.ent	A7,A55,A61	result/scope_homeo/homeo_result_d1jt6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt6b1.ent	B14,B4,B44	result/scope_homeo/homeo_result_d1jt6b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt6d1.ent	D70,D56,D60	result/scope_homeo/homeo_result_d1jt6d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt6e1.ent	E20,E52,E11	result/scope_homeo/homeo_result_d1jt6e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br3a1.ent	A63,A47,A50	result/scope_homeo/homeo_result_d3br3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br3b1.ent	B12,B65,B34	result/scope_homeo/homeo_result_d3br3b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pm/d3pm1a1.ent	A21,A30,A47	result/scope_homeo/homeo_result_d3pm1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/pm/d3pm1b1.ent	B35,B52,B25	result/scope_homeo/homeo_result_d3pm1b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rkwa1.ent	A20,A5,A63	result/scope_homeo/homeo_result_d1rkwa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rkwb1.ent	B58,B34,B52	result/scope_homeo/homeo_result_d1rkwb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rkwd1.ent	D29,D33,D54	result/scope_homeo/homeo_result_d1rkwd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rk/d1rkwe1.ent	E38,E63,E16	result/scope_homeo/homeo_result_d1rkwe1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hq/d2hq5a1.ent	A49,A19,A11	result/scope_homeo/homeo_result_d2hq5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hq/d2hq5b1.ent	B5,B33,B52	result/scope_homeo/homeo_result_d2hq5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hq/d2hq5d1.ent	D39,D20,D25	result/scope_homeo/homeo_result_d2hq5d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hq/d2hq5e1.ent	E64,E22,E6	result/scope_homeo/homeo_result_d2hq5e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btla1.ent	A63,A41,A3	result/scope_homeo/homeo_result_d3btla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btlb1.ent	B44,B62,B56	result/scope_homeo/homeo_result_d3btlb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btld1.ent	D21,D67,D59	result/scope_homeo/homeo_result_d3btld1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btle1.ent	E64,E4,E12	result/scope_homeo/homeo_result_d3btle1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btia1.ent	A41,A14,A53	result/scope_homeo/homeo_result_d3btia1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btib1.ent	B50,B41,B44	result/scope_homeo/homeo_result_d3btib1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btid1.ent	D23,D27,D9	result/scope_homeo/homeo_result_d3btid1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btie1.ent	E3,E66,E59	result/scope_homeo/homeo_result_d3btie1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dt/d2dtza1.ent	A45,A58,A2	result/scope_homeo/homeo_result_d2dtza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dt/d2dtzb1.ent	B26,B14,B57	result/scope_homeo/homeo_result_d2dtzb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dt/d2dtzd1.ent	D71,D34,D47	result/scope_homeo/homeo_result_d2dtzd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dt/d2dtze1.ent	E30,E27,E5	result/scope_homeo/homeo_result_d2dtze1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3bt9a1.ent	A38,A4,A23	result/scope_homeo/homeo_result_d3bt9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3bt9b1.ent	B55,B54,B3	result/scope_homeo/homeo_result_d3bt9b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3bt9d1.ent	D9,D54,D62	result/scope_homeo/homeo_result_d3bt9d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3bt9e1.ent	E70,E63,E51	result/scope_homeo/homeo_result_d3bt9e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jusa1.ent	A21,A7,A27	result/scope_homeo/homeo_result_d1jusa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jusb1.ent	B69,B39,B34	result/scope_homeo/homeo_result_d1jusb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jusd1.ent	D30,D36,D31	result/scope_homeo/homeo_result_d1jusd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1juse1.ent	E57,E53,E18	result/scope_homeo/homeo_result_d1juse1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtxa1.ent	A24,A71,A66	result/scope_homeo/homeo_result_d1jtxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtxb1.ent	B55,B70,B66	result/scope_homeo/homeo_result_d1jtxb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtxd1.ent	D60,D65,D55	result/scope_homeo/homeo_result_d1jtxd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtxe1.ent	E50,E42,E9	result/scope_homeo/homeo_result_d1jtxe1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g0/d2g0ea1.ent	A51,A43,A69	result/scope_homeo/homeo_result_d2g0ea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g0/d2g0eb1.ent	B54,B58,B63	result/scope_homeo/homeo_result_d2g0eb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g0/d2g0ed1.ent	D59,D71,D36	result/scope_homeo/homeo_result_d2g0ed1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g0/d2g0ee1.ent	E39,E16,E43	result/scope_homeo/homeo_result_d2g0ee1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btja1.ent	A2,A56,A70	result/scope_homeo/homeo_result_d3btja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btjb1.ent	B72,B57,B26	result/scope_homeo/homeo_result_d3btjb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btjd1.ent	D13,D54,D53	result/scope_homeo/homeo_result_d3btjd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btje1.ent	E51,E58,E9	result/scope_homeo/homeo_result_d3btje1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rp/d1rpwa1.ent	A9,A28,A71	result/scope_homeo/homeo_result_d1rpwa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rp/d1rpwb1.ent	B32,B48,B28	result/scope_homeo/homeo_result_d1rpwb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rp/d1rpwc1.ent	C18,C35,C16	result/scope_homeo/homeo_result_d1rpwc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rp/d1rpwd1.ent	D68,D31,D38	result/scope_homeo/homeo_result_d1rpwd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvua1.ent	A42,A62,A68	result/scope_homeo/homeo_result_d1qvua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvub1.ent	B56,B15,B48	result/scope_homeo/homeo_result_d1qvub1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvud1.ent	D36,D20,D49	result/scope_homeo/homeo_result_d1qvud1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvue1.ent	E68,E24,E11	result/scope_homeo/homeo_result_d1qvue1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br5a1.ent	A21,A61,A26	result/scope_homeo/homeo_result_d3br5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br5b1.ent	B36,B29,B3	result/scope_homeo/homeo_result_d3br5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br5d1.ent	D56,D26,D51	result/scope_homeo/homeo_result_d3br5d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/br/d3br5e1.ent	E38,E39,E55	result/scope_homeo/homeo_result_d3br5e1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btca1.ent	A33,A52,A57	result/scope_homeo/homeo_result_d3btca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btcb1.ent	B2,B69,B25	result/scope_homeo/homeo_result_d3btcb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btcd1.ent	D29,D61,D45	result/scope_homeo/homeo_result_d3btcd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bt/d3btce1.ent	E5,E43,E33	result/scope_homeo/homeo_result_d3btce1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt0a1.ent	A40,A47,A25	result/scope_homeo/homeo_result_d1jt0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt0b1.ent	B10,B20,B48	result/scope_homeo/homeo_result_d1jt0b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt0c1.ent	C13,C65,C28	result/scope_homeo/homeo_result_d1jt0c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jt0d1.ent	D14,D49,D67	result/scope_homeo/homeo_result_d1jt0d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gb/d2gbya1.ent	A9,A11,A59	result/scope_homeo/homeo_result_d2gbya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gb/d2gbyb1.ent	B67,B22,B13	result/scope_homeo/homeo_result_d2gbyb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gb/d2gbyd1.ent	D9,D43,D50	result/scope_homeo/homeo_result_d2gbyd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gb/d2gbye1.ent	E31,E42,E15	result/scope_homeo/homeo_result_d2gbye1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtya1.ent	A60,A44,A8	result/scope_homeo/homeo_result_d1jtya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtyb1.ent	B37,B69,B72	result/scope_homeo/homeo_result_d1jtyb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtyd1.ent	D14,D27,D47	result/scope_homeo/homeo_result_d1jtyd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jt/d1jtye1.ent	E8,E30,E51	result/scope_homeo/homeo_result_d1jtye1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvta1.ent	A46,A7,A56	result/scope_homeo/homeo_result_d1qvta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvtb1.ent	B3,B68,B59	result/scope_homeo/homeo_result_d1qvtb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvtd1.ent	D14,D37,D68	result/scope_homeo/homeo_result_d1qvtd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qv/d1qvte1.ent	E51,E9,E50	result/scope_homeo/homeo_result_d1qvte1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jupa1.ent	A68,A67,A61	result/scope_homeo/homeo_result_d1jupa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jupb1.ent	B12,B16,B3	result/scope_homeo/homeo_result_d1jupb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jupd1.ent	D53,D25,D27	result/scope_homeo/homeo_result_d1jupd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jupe1.ent	E24,E32,E71	result/scope_homeo/homeo_result_d1jupe1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1juma1.ent	A20,A14,A63	result/scope_homeo/homeo_result_d1juma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jumb1.ent	B40,B14,B10	result/scope_homeo/homeo_result_d1jumb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jumd1.ent	D58,D56,D13	result/scope_homeo/homeo_result_d1jumd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ju/d1jume1.ent	E71,E10,E42	result/scope_homeo/homeo_result_d1jume1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ge/d2gena1.ent	A45,A6,A56	result/scope_homeo/homeo_result_d2gena1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fd/d2fd5a1.ent	A59,A76,A12	result/scope_homeo/homeo_result_d2fd5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gf/d2gfna1.ent	A18,A15,A12	result/scope_homeo/homeo_result_d2gfna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gf/d2gfnb1.ent	B36,B40,B25	result/scope_homeo/homeo_result_d2gfnb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d6/d2d6ya1.ent	A41,A55,A31	result/scope_homeo/homeo_result_d2d6ya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d6/d2d6yb1.ent	B50,B31,B68	result/scope_homeo/homeo_result_d2d6yb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/oi/d2oi8a1.ent	A36,A25,A78	result/scope_homeo/homeo_result_d2oi8a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g3/d2g3ba1.ent	A13,A8,A38	result/scope_homeo/homeo_result_d2g3ba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g3/d2g3bb1.ent	B55,B35,B5	result/scope_homeo/homeo_result_d2g3bb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g7/d2g7sa1.ent	A22,A3,A42	result/scope_homeo/homeo_result_d2g7sa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g7/d2g7ga1.ent	A17,A62,A22	result/scope_homeo/homeo_result_d2g7ga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hk/d2hkua1.ent	A85,A25,A53	result/scope_homeo/homeo_result_d2hkua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hk/d2hkub1.ent	B48,B39,B80	result/scope_homeo/homeo_result_d2hkub1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/i1/d2i10a1.ent	A26,A62,A77	result/scope_homeo/homeo_result_d2i10a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/i1/d2i10b1.ent	B78,B43,B30	result/scope_homeo/homeo_result_d2i10b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np3a1.ent	A67,A94,A45	result/scope_homeo/homeo_result_d2np3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np3b1.ent	B26,B57,B49	result/scope_homeo/homeo_result_d2np3b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/c0/d3c07a1.ent	A78,A25,A44	result/scope_homeo/homeo_result_d3c07a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/c0/d3c07b1.ent	B33,B51,B28	result/scope_homeo/homeo_result_d3c07b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hy/d2hyja1.ent	A12,A54,A40	result/scope_homeo/homeo_result_d2hyja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/id/d2id3a1.ent	A42,A52,A30	result/scope_homeo/homeo_result_d2id3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/id/d2id3b1.ent	B36,B59,B79	result/scope_homeo/homeo_result_d2id3b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g7/d2g7la1.ent	A61,A26,A45	result/scope_homeo/homeo_result_d2g7la1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sg/d1sgma1.ent	A76,A68,A7	result/scope_homeo/homeo_result_d1sgma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sg/d1sgmb1.ent	B44,B35,B36	result/scope_homeo/homeo_result_d1sgmb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/t3/d1t33a1.ent	A40,A42,A8,A58	result/scope_homeo/homeo_result_d1t33a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/t3/d1t33b1.ent	B62,B23,B48,B64	result/scope_homeo/homeo_result_d1t33b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d2xpwa1.ent	A65,A55,A33	result/scope_homeo/homeo_result_d2xpwa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d2xpva1.ent	A31,A45,A29	result/scope_homeo/homeo_result_d2xpva1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d2xpsa3.ent	A18,A39,A65	result/scope_homeo/homeo_result_d2xpsa3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d2xpua1.ent	A11,A57,A23	result/scope_homeo/homeo_result_d2xpua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fp/d6fpla1.ent	A36,A63,A13	result/scope_homeo/homeo_result_d6fpla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vk/d2vkea1.ent	A31,A54,A26	result/scope_homeo/homeo_result_d2vkea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xp/d2xpta3.ent	A53,A22,A62	result/scope_homeo/homeo_result_d2xpta3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ab/d4abza1.ent	A19,A36,A31	result/scope_homeo/homeo_result_d4abza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rg/d6rgxa1.ent	A3,A18,A10	result/scope_homeo/homeo_result_d6rgxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rg/d6rgxb1.ent	B4,B42,B5	result/scope_homeo/homeo_result_d6rgxb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bj/d1bjza1.ent	A54,A41,A39	result/scope_homeo/homeo_result_d1bjza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fp/d6fpma1.ent	A28,A63,A23	result/scope_homeo/homeo_result_d6fpma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rb/d6rbla1.ent	A8,A2,A15	result/scope_homeo/homeo_result_d6rbla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o7/d2o7oa1.ent	A16,A34,A4	result/scope_homeo/homeo_result_d2o7oa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/or/d1orka1.ent	A65,A59,A62	result/scope_homeo/homeo_result_d1orka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a6/d1a6ia1.ent	A4,A63,A23	result/scope_homeo/homeo_result_d1a6ia1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ft/d6ftsa1.ent	A26,A37,A33	result/scope_homeo/homeo_result_d6ftsa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d3fk7a1.ent	A29,A4,A33	result/scope_homeo/homeo_result_d3fk7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d3fk7b1.ent	B31,B49,B28	result/scope_homeo/homeo_result_d3fk7b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/du/d1du7a3.ent	A65,A58,A29	result/scope_homeo/homeo_result_d1du7a3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d3fk6a1.ent	A21,A59,A4	result/scope_homeo/homeo_result_d3fk6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d3fk6b1.ent	B7,B5,B8	result/scope_homeo/homeo_result_d3fk6b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rc/d6rcra1.ent	A6,A33,A26	result/scope_homeo/homeo_result_d6rcra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rb/d6rbma1.ent	A58,A57,A35	result/scope_homeo/homeo_result_d6rbma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/tc/d2tcta1.ent	A47,A23,A35	result/scope_homeo/homeo_result_d2tcta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qj/d6qjwa1.ent	A22,A66,A13	result/scope_homeo/homeo_result_d6qjwa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qj/d6qjxa1.ent	A64,A6,A65	result/scope_homeo/homeo_result_d6qjxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fj/d2fj1a1.ent	A2,A48,A22	result/scope_homeo/homeo_result_d2fj1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/au/d4auxa1.ent	A63,A23,A4	result/scope_homeo/homeo_result_d4auxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/qp/d1qpia1.ent	A32,A49,A21	result/scope_homeo/homeo_result_d1qpia1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/v2/d4v2ga1.ent	A36,A5,A9	result/scope_homeo/homeo_result_d4v2ga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/v2/d4v2gb1.ent	B40,B56,B32	result/scope_homeo/homeo_result_d4v2gb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x6/d2x6oa1.ent	A24,A49,A53	result/scope_homeo/homeo_result_d2x6oa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/x9/d2x9da1.ent	A9,A45,A11	result/scope_homeo/homeo_result_d2x9da1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bj/d1bj0a3.ent	A39,A65,A62	result/scope_homeo/homeo_result_d1bj0a3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ns/d2ns7a1.ent	A22,A51,A10	result/scope_homeo/homeo_result_d2ns7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ns/d2ns7b1.ent	B14,B48,B19	result/scope_homeo/homeo_result_d2ns7b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ns/d2ns7c1.ent	C21,C47,C58	result/scope_homeo/homeo_result_d2ns7c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ns/d2ns7d1.ent	D11,D36,D55	result/scope_homeo/homeo_result_d2ns7d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bj/d1bjya3.ent	A11,A7,A67	result/scope_homeo/homeo_result_d1bjya3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/bj/d1bjyb3.ent	B57,B56,B32	result/scope_homeo/homeo_result_d1bjyb3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/v2/d4v2fa1.ent	A7,A11,A4	result/scope_homeo/homeo_result_d4v2fa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xb/d2xb5a1.ent	A58,A57,A19	result/scope_homeo/homeo_result_d2xb5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/tr/d2trta1.ent	A42,A48,A22	result/scope_homeo/homeo_result_d2trta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iu/d2iu5a1.ent	A50,A11,A57	result/scope_homeo/homeo_result_d2iu5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iu/d2iu5b1.ent	B49,B63,B6	result/scope_homeo/homeo_result_d2iu5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fq/d2fq4a1.ent	A12,A62,A37	result/scope_homeo/homeo_result_d2fq4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zk/d1zk8a1.ent	A49,A37,A36	result/scope_homeo/homeo_result_d1zk8a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zk/d1zk8b1.ent	B38,B11,B37	result/scope_homeo/homeo_result_d1zk8b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o7/d2o7ta1.ent	A72,A48,A7	result/scope_homeo/homeo_result_d2o7ta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yv/d2yvea1.ent	A33,A3,A15	result/scope_homeo/homeo_result_d2yvea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yv/d2yveb1.ent	B32,B17,B26	result/scope_homeo/homeo_result_d2yveb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/v7/d1v7ba3.ent	A7,A15,A24	result/scope_homeo/homeo_result_d1v7ba3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/v7/d1v7bb3.ent	B25,B16,B63	result/scope_homeo/homeo_result_d1v7bb3_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zo/d2zoya1.ent	A19,A68,A8	result/scope_homeo/homeo_result_d2zoya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zo/d2zoyb1.ent	B15,B37,B52	result/scope_homeo/homeo_result_d2zoyb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dh/d2dh0a1.ent	A15,A49,A67	result/scope_homeo/homeo_result_d2dh0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dh/d2dh0b1.ent	B30,B68,B16	result/scope_homeo/homeo_result_d2dh0b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zo/d2zoza1.ent	A43,A53,A70	result/scope_homeo/homeo_result_d2zoza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zo/d2zozb1.ent	B68,B48,B61	result/scope_homeo/homeo_result_d2zozb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z0/d1z0xa1.ent	A6,A68,A23	result/scope_homeo/homeo_result_d1z0xa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z0/d1z0xb1.ent	B31,B54,B69	result/scope_homeo/homeo_result_d1z0xb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fb/d2fbqa1.ent	A42,A9,A49	result/scope_homeo/homeo_result_d2fbqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np5a1.ent	A20,A32,A49	result/scope_homeo/homeo_result_d2np5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np5b1.ent	B62,B26,B30	result/scope_homeo/homeo_result_d2np5b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np5c1.ent	C18,C11,C57	result/scope_homeo/homeo_result_d2np5c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/np/d2np5d1.ent	D18,D13,D72	result/scope_homeo/homeo_result_d2np5d1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/id/d2id6a1.ent	A50,A63,A67	result/scope_homeo/homeo_result_d2id6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ie/d2ieka1.ent	A39,A65,A44	result/scope_homeo/homeo_result_d2ieka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zk/d1zkga1.ent	A73,A27,A23	result/scope_homeo/homeo_result_d1zkga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zk/d1zkgb1.ent	B41,B44,B26	result/scope_homeo/homeo_result_d1zkgb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d3ih4a1.ent	A8,A17,A19	result/scope_homeo/homeo_result_d3ih4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d3ih2a1.ent	A14,A63,A73	result/scope_homeo/homeo_result_d3ih2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d3ih3a1.ent	A3,A10,A51	result/scope_homeo/homeo_result_d3ih3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z7/d1z77a1.ent	A10,A21,A28	result/scope_homeo/homeo_result_d1z77a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/i7/d4i76a1.ent	A35,A15,A22	result/scope_homeo/homeo_result_d4i76a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/i7/d4i76b1.ent	B13,B6,B2	result/scope_homeo/homeo_result_d4i76b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d2jk3a1.ent	A4,A24,A26	result/scope_homeo/homeo_result_d2jk3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jk/d2jk3b1.ent	B31,B55,B50	result/scope_homeo/homeo_result_d2jk3b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jj/d2jj7a1.ent	A19,A33,A16	result/scope_homeo/homeo_result_d2jj7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jj/d2jj7b1.ent	B34,B56,B37	result/scope_homeo/homeo_result_d2jj7b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ir/d1irza_.ent		result/scope_homeo/homeo_result_d1irza__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nt/d1ntca1.ent	A386,A409,A436,A442	result/scope_homeo/homeo_result_d1ntca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/nt/d1ntcb1.ent	B454,B416,B453,B439	result/scope_homeo/homeo_result_d1ntcb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihvb_.ent		result/scope_homeo/homeo_result_d4ihvb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihwb_.ent		result/scope_homeo/homeo_result_d4ihwb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihxb_.ent		result/scope_homeo/homeo_result_d4ihxb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihyb_.ent		result/scope_homeo/homeo_result_d4ihyb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jr9a_.ent		result/scope_homeo/homeo_result_d3jr9a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jr9b_.ent		result/scope_homeo/homeo_result_d3jr9b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrha_.ent		result/scope_homeo/homeo_result_d3jrha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrhb_.ent		result/scope_homeo/homeo_result_d3jrhb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iv/d3iv5a_.ent		result/scope_homeo/homeo_result_d3iv5a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iv/d3iv5b_.ent		result/scope_homeo/homeo_result_d3iv5b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrga_.ent		result/scope_homeo/homeo_result_d3jrga__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrgb_.ent		result/scope_homeo/homeo_result_d3jrgb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrfa_.ent		result/scope_homeo/homeo_result_d3jrfa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrfb_.ent		result/scope_homeo/homeo_result_d3jrfb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrca_.ent		result/scope_homeo/homeo_result_d3jrca__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrcb_.ent		result/scope_homeo/homeo_result_d3jrcb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrda_.ent		result/scope_homeo/homeo_result_d3jrda__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrdb_.ent		result/scope_homeo/homeo_result_d3jrdb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jria_.ent		result/scope_homeo/homeo_result_d3jria__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrib_.ent		result/scope_homeo/homeo_result_d3jrib__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jraa_.ent		result/scope_homeo/homeo_result_d3jraa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrab_.ent		result/scope_homeo/homeo_result_d3jrab__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrea_.ent		result/scope_homeo/homeo_result_d3jrea__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jreb_.ent		result/scope_homeo/homeo_result_d3jreb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrba_.ent		result/scope_homeo/homeo_result_d3jrba__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jr/d3jrbb_.ent		result/scope_homeo/homeo_result_d3jrbb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etoa_.ent		result/scope_homeo/homeo_result_d1etoa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etob_.ent		result/scope_homeo/homeo_result_d1etob__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etva_.ent		result/scope_homeo/homeo_result_d1etva__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etvb_.ent		result/scope_homeo/homeo_result_d1etvb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etwa_.ent		result/scope_homeo/homeo_result_d1etwa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etwb_.ent		result/scope_homeo/homeo_result_d1etwb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etya_.ent		result/scope_homeo/homeo_result_d1etya__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etyb_.ent		result/scope_homeo/homeo_result_d1etyb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etka_.ent		result/scope_homeo/homeo_result_d1etka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etkb_.ent		result/scope_homeo/homeo_result_d1etkb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etxa_.ent		result/scope_homeo/homeo_result_d1etxa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etxb_.ent		result/scope_homeo/homeo_result_d1etxb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d3fisa_.ent		result/scope_homeo/homeo_result_d3fisa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d3fisb_.ent		result/scope_homeo/homeo_result_d3fisb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d1fipa_.ent		result/scope_homeo/homeo_result_d1fipa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d1fipb_.ent		result/scope_homeo/homeo_result_d1fipb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d4fisa_.ent		result/scope_homeo/homeo_result_d4fisa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d4fisb_.ent		result/scope_homeo/homeo_result_d4fisb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d1fiaa_.ent		result/scope_homeo/homeo_result_d1fiaa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fi/d1fiab_.ent		result/scope_homeo/homeo_result_d1fiab__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f3/d1f36a_.ent		result/scope_homeo/homeo_result_d1f36a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f3/d1f36b_.ent		result/scope_homeo/homeo_result_d1f36b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihva_.ent		result/scope_homeo/homeo_result_d4ihva__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihwa_.ent		result/scope_homeo/homeo_result_d4ihwa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihxa_.ent		result/scope_homeo/homeo_result_d4ihxa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etqa_.ent		result/scope_homeo/homeo_result_d1etqa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etqb_.ent		result/scope_homeo/homeo_result_d1etqb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etqc_.ent		result/scope_homeo/homeo_result_d1etqc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/et/d1etqd_.ent		result/scope_homeo/homeo_result_d1etqd__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ih/d4ihya_.ent		result/scope_homeo/homeo_result_d4ihya__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/um/d1umqa_.ent		result/scope_homeo/homeo_result_d1umqa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g2/d1g2ha_.ent		result/scope_homeo/homeo_result_d1g2ha__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/of/d1ofcx2.ent	X947,X884,X957,X923,X969,X878	result/scope_homeo/homeo_result_d1ofcx2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rr/d1rr7a_.ent		result/scope_homeo/homeo_result_d1rr7a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/co/d2coba1.ent	A19,A50,A45	result/scope_homeo/homeo_result_d2coba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ga/d2ga1a1.ent	A13,A38,A58,A36,A87	result/scope_homeo/homeo_result_d2ga1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ga/d2ga1b_.ent		result/scope_homeo/homeo_result_d2ga1b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9a1.ent	A128,A121,A79,A76,A33,A123	result/scope_homeo/homeo_result_d2ao9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9b_.ent		result/scope_homeo/homeo_result_d2ao9b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9c_.ent		result/scope_homeo/homeo_result_d2ao9c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9d_.ent		result/scope_homeo/homeo_result_d2ao9d__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9e_.ent		result/scope_homeo/homeo_result_d2ao9e__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9f_.ent		result/scope_homeo/homeo_result_d2ao9f__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9g_.ent		result/scope_homeo/homeo_result_d2ao9g__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9h_.ent		result/scope_homeo/homeo_result_d2ao9h__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ao/d2ao9i_.ent		result/scope_homeo/homeo_result_d2ao9i__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dw/d2dw4a1.ent	A267,A174,A222,A184,A207	result/scope_homeo/homeo_result_d2dw4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z3/d2z3ya1.ent	A237,A228,A249,A201,A199	result/scope_homeo/homeo_result_d2z3ya1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ej/d2ejra1.ent	A241,A239,A257,A203,A230	result/scope_homeo/homeo_result_d2ejra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z5/d2z5ua1.ent	A183,A247,A268,A249,A190	result/scope_homeo/homeo_result_d2z5ua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zn/d3zn0a1.ent	A208,A194,A225,A211,A187	result/scope_homeo/homeo_result_d3zn0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmza1.ent	A202,A264,A273,A253,A225	result/scope_homeo/homeo_result_d3zmza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d2uxna1.ent	A250,A182,A179,A229,A189	result/scope_homeo/homeo_result_d2uxna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmsa1.ent	A221,A191,A261,A216,A256	result/scope_homeo/homeo_result_d3zmsa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmta1.ent	A218,A216,A220,A264,A230	result/scope_homeo/homeo_result_d3zmta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zn/d3zn1a1.ent	A195,A266,A203,A234,A173	result/scope_homeo/homeo_result_d3zn1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmua1.ent	A268,A260,A174,A247,A232	result/scope_homeo/homeo_result_d3zmua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zm/d3zmva1.ent	A183,A243,A194,A228,A175	result/scope_homeo/homeo_result_d3zmva1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xaga1.ent	A230,A172,A258,A240,A187	result/scope_homeo/homeo_result_d2xaga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xaha1.ent	A202,A201,A227,A260,A237	result/scope_homeo/homeo_result_d2xaha1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/iw/d2iw5a1.ent	A197,A175,A193,A171,A221	result/scope_homeo/homeo_result_d2iw5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xasa1.ent	A237,A272,A256,A243,A260	result/scope_homeo/homeo_result_d2xasa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvba1.ent	A259,A247,A175,A224,A248	result/scope_homeo/homeo_result_d4uvba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xaja1.ent	A254,A219,A172,A185,A227	result/scope_homeo/homeo_result_d2xaja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uv8a1.ent	A192,A234,A197,A210,A255	result/scope_homeo/homeo_result_d4uv8a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xafa1.ent	A175,A196,A189,A216,A182	result/scope_homeo/homeo_result_d2xafa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvaa1.ent	A203,A222,A251,A199,A233	result/scope_homeo/homeo_result_d4uvaa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d2uxxa1.ent	A217,A175,A191,A256,A189	result/scope_homeo/homeo_result_d2uxxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uv9a1.ent	A266,A215,A221,A176,A248	result/scope_homeo/homeo_result_d4uv9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uv/d4uvca1.ent	A205,A185,A237,A260,A194	result/scope_homeo/homeo_result_d4uvca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ux/d4uxna1.ent	A194,A241,A247,A238,A223	result/scope_homeo/homeo_result_d4uxna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h9/d2h94a1.ent	A215,A197,A264,A237,A188	result/scope_homeo/homeo_result_d2h94a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xa/d2xaqa1.ent	A192,A239,A271,A175,A260	result/scope_homeo/homeo_result_d2xaqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/co/d2coma1.ent	A85,A101,A47,A56,A12	result/scope_homeo/homeo_result_d2coma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fq/d2fq3a1.ent	A392,A377,A316,A320	result/scope_homeo/homeo_result_d2fq3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/aq/d2aqfa2.ent	A42,A15,A67,A35	result/scope_homeo/homeo_result_d2aqfa2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/cu/d2cuja1.ent	A24,A77,A66,A67,A64	result/scope_homeo/homeo_result_d2cuja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/aq/d2aqea1.ent	A77,A68,A51,A70	result/scope_homeo/homeo_result_d2aqea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l3/d2l3da1.ent	A9,A77,A30,A14,A44	result/scope_homeo/homeo_result_d2l3da1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/jn/d2jn6a1.ent	A59,A86,A60,A67	result/scope_homeo/homeo_result_d2jn6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o3/d2o3fa1.ent	A4,A26,A13,A56	result/scope_homeo/homeo_result_d2o3fa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o3/d2o3fb_.ent		result/scope_homeo/homeo_result_d2o3fb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o3/d2o3fc_.ent		result/scope_homeo/homeo_result_d2o3fc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gn/d3gnaa_.ent		result/scope_homeo/homeo_result_d3gnaa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gn/d3gnba_.ent		result/scope_homeo/homeo_result_d3gnba__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ww/d4wwxb1.ent	B454,B456,B404	result/scope_homeo/homeo_result_d4wwxb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rx9a1.ent	A47,A34,A56	result/scope_homeo/homeo_result_d6rx9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rx9b1.ent	B37,B60,B8	result/scope_homeo/homeo_result_d6rx9b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rxba1.ent	A15,A61,A67	result/scope_homeo/homeo_result_d6rxba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rxbb1.ent	B23,B14,B3	result/scope_homeo/homeo_result_d6rxbb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rxbc1.ent	C38,C32,C31	result/scope_homeo/homeo_result_d6rxbc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rx/d6rxbd1.ent	D31,D24,D33	result/scope_homeo/homeo_result_d6rxbd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/no/d2nogb2.ent	B828,B889,B871	result/scope_homeo/homeo_result_d2nogb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wv/d2wv1a1.ent	A9,A24,A25	result/scope_homeo/homeo_result_d2wv1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wv/d2wv1b1.ent	B62,B63,B22	result/scope_homeo/homeo_result_d2wv1b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gp/d5gp9a1.ent	A4,A25,A64	result/scope_homeo/homeo_result_d5gp9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gp/d5gp9b1.ent	B63,B14,B8	result/scope_homeo/homeo_result_d5gp9b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gp/d5gpaa1.ent	A46,A39,A40	result/scope_homeo/homeo_result_d5gpaa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gp/d5gpab1.ent	B56,B60,B32	result/scope_homeo/homeo_result_d5gpab1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whba1.ent	A37,A76,A26	result/scope_homeo/homeo_result_d3whba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whbb1.ent	B58,B35,B26	result/scope_homeo/homeo_result_d3whbb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whca1.ent	A69,A50,A32	result/scope_homeo/homeo_result_d3whca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whcb1.ent	B59,B27,B41	result/scope_homeo/homeo_result_d3whcb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whcc1.ent	C61,C26,C8	result/scope_homeo/homeo_result_d3whcc1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whcd1.ent	D14,D44,D33	result/scope_homeo/homeo_result_d3whcd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whce1.ent	E33,E39,E68	result/scope_homeo/homeo_result_d3whce1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wh/d3whcf1.ent	F12,F40,F9	result/scope_homeo/homeo_result_d3whcf1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jb_.ent		result/scope_homeo/homeo_result_d6l9jb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jc_.ent		result/scope_homeo/homeo_result_d6l9jc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9je_.ent		result/scope_homeo/homeo_result_d6l9je__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jf_.ent		result/scope_homeo/homeo_result_d6l9jf__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jh_.ent		result/scope_homeo/homeo_result_d6l9jh__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9ji_.ent		result/scope_homeo/homeo_result_d6l9ji__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jk_.ent		result/scope_homeo/homeo_result_d6l9jk__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l9/d6l9jl_.ent		result/scope_homeo/homeo_result_d6l9jl__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/uk/d3ukga1.ent	A410,A414,A400,A388	result/scope_homeo/homeo_result_d3ukga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/zo/d3zoba1.ent	A49,A13,A32	result/scope_homeo/homeo_result_d3zoba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d7/d4d7ma1.ent	A62,A25,A40	result/scope_homeo/homeo_result_d4d7ma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkma1.ent	A13,A41,A37	result/scope_homeo/homeo_result_d5fkma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b3/d4b3aa1.ent	A52,A57,A33	result/scope_homeo/homeo_result_d4b3aa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vk/d2vkva1.ent	A44,A11,A41	result/scope_homeo/homeo_result_d2vkva1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkka1.ent	A28,A39,A14	result/scope_homeo/homeo_result_d5fkka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkkb1.ent	B62,B66,B42	result/scope_homeo/homeo_result_d5fkkb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d7/d4d7na1.ent	A41,A20,A67	result/scope_homeo/homeo_result_d4d7na1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkoa1.ent	A66,A48,A50	result/scope_homeo/homeo_result_d5fkoa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xr/d2xrla1.ent	A57,A38,A63	result/scope_homeo/homeo_result_d2xrla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkla1.ent	A8,A32,A14	result/scope_homeo/homeo_result_d5fkla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/b1/d4b1ra1.ent	A55,A49,A52	result/scope_homeo/homeo_result_d4b1ra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ac/d4ac0a1.ent	A59,A17,A9	result/scope_homeo/homeo_result_d4ac0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fkna1.ent	A22,A23,A4	result/scope_homeo/homeo_result_d5fkna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fk/d5fknb1.ent	B45,B38,B8	result/scope_homeo/homeo_result_d5fknb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/el/d2elka1.ent	A20,A12	result/scope_homeo/homeo_result_d2elka1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/fv/d6fvca1.ent	A55,A9	result/scope_homeo/homeo_result_d6fvca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mg/d2mg4a1.ent	A14,A44	result/scope_homeo/homeo_result_d2mg4a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mg/d2mg4b1.ent	B27,B41	result/scope_homeo/homeo_result_d2mg4b1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h1/d2h1ka_.ent		result/scope_homeo/homeo_result_d2h1ka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/h1/d2h1kb_.ent		result/scope_homeo/homeo_result_d2h1kb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/a0/d3a03a_.ent		result/scope_homeo/homeo_result_d3a03a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/z2/d5z2sa_.ent		result/scope_homeo/homeo_result_d5z2sa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rd/d4rdua_.ent		result/scope_homeo/homeo_result_d4rdua__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/rd/d4rdud_.ent		result/scope_homeo/homeo_result_d4rdud__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/gj/d5gjka_.ent		result/scope_homeo/homeo_result_d5gjka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ka/d6kagb_.ent		result/scope_homeo/homeo_result_d6kagb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ka/d6kagc_.ent		result/scope_homeo/homeo_result_d6kagc__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/kz/d6kz7a_.ent		result/scope_homeo/homeo_result_d6kz7a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/kz/d6kz7c1.ent	C542,C486,C485,C468	result/scope_homeo/homeo_result_d6kz7c1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l7/d2l7fp1.ent	P34,P41,P23	result/scope_homeo/homeo_result_d2l7fp1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l7/d2l7mp1.ent	P28,P55,P58	result/scope_homeo/homeo_result_d2l7mp1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m0/d2m0ca1.ent	A7,A69,A62	result/scope_homeo/homeo_result_d2m0ca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/lt/d2ltpa_.ent		result/scope_homeo/homeo_result_d2ltpa__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m3/d2m34a1.ent	A55,A59,A41	result/scope_homeo/homeo_result_d2m34a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/n8/d2n8ga1.ent	A51,A10,A71	result/scope_homeo/homeo_result_d2n8ga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k4/d2k40a_.ent		result/scope_homeo/homeo_result_d2k40a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dm/d2dmua1.ent	A58,A31	result/scope_homeo/homeo_result_d2dmua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/me/d2me6a1.ent	A25,A53,A69	result/scope_homeo/homeo_result_d2me6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/da/d2da2a1.ent	A35,A12	result/scope_homeo/homeo_result_d2da2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/wq/d1wqia1.ent	A16,A35	result/scope_homeo/homeo_result_d1wqia1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dm/d2dmqa1.ent	A65,A44,A54	result/scope_homeo/homeo_result_d2dmqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dj/d2djna1.ent	A53,A25	result/scope_homeo/homeo_result_d2djna1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/me/d2me0a1.ent	A20,A12,A66	result/scope_homeo/homeo_result_d2me0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yz/d1yz8p2.ent	P13,P53,P8	result/scope_homeo/homeo_result_d1yz8p2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dm/d2dmta1.ent	A16,A24,A19	result/scope_homeo/homeo_result_d2dmta1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/yu/d2yuma1.ent	A38,A28,A43	result/scope_homeo/homeo_result_d2yuma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/da/d2da3a1.ent	A27,A23,A25	result/scope_homeo/homeo_result_d2da3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/da/d2da1a1.ent	A52,A16	result/scope_homeo/homeo_result_d2da1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/da/d2da5a1.ent	A49,A66,A61	result/scope_homeo/homeo_result_d2da5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dn/d2dn0a1.ent	A27,A24,A56	result/scope_homeo/homeo_result_d2dn0a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/l7/d2l7za1.ent	A44,A14,A18	result/scope_homeo/homeo_result_d2l7za1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d4d5fa1.ent	A49,A40,A55	result/scope_homeo/homeo_result_d4d5fa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/xs/d2xsdc2.ent	C370,C347	result/scope_homeo/homeo_result_d2xsdc2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6a_.ent		result/scope_homeo/homeo_result_d2vi6a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6b_.ent		result/scope_homeo/homeo_result_d2vi6b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6c_.ent		result/scope_homeo/homeo_result_d2vi6c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6d_.ent		result/scope_homeo/homeo_result_d2vi6d__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6e_.ent		result/scope_homeo/homeo_result_d2vi6e__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6f_.ent		result/scope_homeo/homeo_result_d2vi6f__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6g_.ent		result/scope_homeo/homeo_result_d2vi6g__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vi/d2vi6h_.ent		result/scope_homeo/homeo_result_d2vi6h__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ld/d2ld5a_.ent		result/scope_homeo/homeo_result_d2ld5a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dm/d2dmsa1.ent	A43,A37,A42	result/scope_homeo/homeo_result_d2dmsa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d9/d2d9aa1.ent	A53,A41	result/scope_homeo/homeo_result_d2d9aa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/q0/d3q0wa1.ent	A39,A93,A28	result/scope_homeo/homeo_result_d3q0wa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/q0/d3q0va1.ent	A54,A74,A56	result/scope_homeo/homeo_result_d3q0va1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/q0/d3q0vb1.ent	B78,B81,B94	result/scope_homeo/homeo_result_d3q0vb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o8/d3o8ga1.ent	A36,A34,A27	result/scope_homeo/homeo_result_d3o8ga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/o8/d3o8ha1.ent	A73,A40,A92	result/scope_homeo/homeo_result_d3o8ha1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g1/d3g1ma1.ent	A60,A28,A22	result/scope_homeo/homeo_result_d3g1ma1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/q3/d3q3sa1.ent	A61,A50,A93	result/scope_homeo/homeo_result_d3q3sa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ey/d5eyra1.ent	A90,A34,A68	result/scope_homeo/homeo_result_d5eyra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/dw/d4dw6a1.ent	A37,A72,A70	result/scope_homeo/homeo_result_d4dw6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g1/d3g1la1.ent	A66,A45,A36	result/scope_homeo/homeo_result_d3g1la1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/q0/d3q0ua1.ent	A27,A82,A75	result/scope_homeo/homeo_result_d3q0ua1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/g1/d3g1oa1.ent	A27,A51,A74	result/scope_homeo/homeo_result_d3g1oa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sd/d3sdga1.ent	A40,A70,A86	result/scope_homeo/homeo_result_d3sdga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/sf/d3sfia1.ent	A44,A34,A57	result/scope_homeo/homeo_result_d3sfia1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hoaa1.ent	A73,A47,A44	result/scope_homeo/homeo_result_d6hoaa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f1/d5f1ja1.ent	A42,A33,A54	result/scope_homeo/homeo_result_d5f1ja1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f2/d5f27a1.ent	A66,A39,A44	result/scope_homeo/homeo_result_d5f27a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d5ezha1.ent	A60,A30,A47	result/scope_homeo/homeo_result_d5ezha1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hn/d6hnxa1.ent	A67,A65,A40	result/scope_homeo/homeo_result_d6hnxa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/hn/d6hnza1.ent	A92,A28,A78	result/scope_homeo/homeo_result_d6hnza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hoda1.ent	A56,A47,A40	result/scope_homeo/homeo_result_d6hoda1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f0/d5f0fa1.ent	A50,A67,A42	result/scope_homeo/homeo_result_d5f0fa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho9a1.ent	A49,A41,A90	result/scope_homeo/homeo_result_d6ho9a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hoba1.ent	A82,A68,A58	result/scope_homeo/homeo_result_d6hoba1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hofa1.ent	A61,A24,A65	result/scope_homeo/homeo_result_d6hofa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f0/d5f04a1.ent	A82,A27,A94	result/scope_homeo/homeo_result_d5f04a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ez/d5ezga1.ent	A69,A90,A89	result/scope_homeo/homeo_result_d5ezga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f0/d5f0ca1.ent	A44,A31,A25	result/scope_homeo/homeo_result_d5f0ca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho6a1.ent	A58,A62,A61	result/scope_homeo/homeo_result_d6ho6a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho2a1.ent	A85,A58,A77	result/scope_homeo/homeo_result_d6ho2a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hoea1.ent	A52,A35,A67	result/scope_homeo/homeo_result_d6hoea1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f0/d5f08a1.ent	A37,A24,A93	result/scope_homeo/homeo_result_d5f08a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho8a1.ent	A74,A72,A41	result/scope_homeo/homeo_result_d6ho8a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/f0/d5f0ha1.ent	A44,A85,A30	result/scope_homeo/homeo_result_d5f0ha1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho1a1.ent	A44,A54,A92	result/scope_homeo/homeo_result_d6ho1a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho5a1.ent	A49,A77,A80	result/scope_homeo/homeo_result_d6ho5a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho3a1.ent	A54,A84,A81	result/scope_homeo/homeo_result_d6ho3a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6ho7a1.ent	A36,A37,A88	result/scope_homeo/homeo_result_d6ho7a1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/ho/d6hoca1.ent	A67,A84,A43	result/scope_homeo/homeo_result_d6hoca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/mg/d2mgqa1.ent	A17,A13,A35	result/scope_homeo/homeo_result_d2mgqa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d2d5va2.ent	A139,A115	result/scope_homeo/homeo_result_d2d5va2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d2d5vb2.ent	B115,B129	result/scope_homeo/homeo_result_d2d5vb2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/vp/d2vpra1.ent	A15,A27,A67	result/scope_homeo/homeo_result_d2vpra1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/d5/d4d5ca1.ent	A51,A66,A24	result/scope_homeo/homeo_result_d4d5ca1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m1/d6m10a_.ent		result/scope_homeo/homeo_result_d6m10a__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m1/d6m10b_.ent		result/scope_homeo/homeo_result_d6m10b__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m1/d6m10c_.ent		result/scope_homeo/homeo_result_d6m10c__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/m1/d6m10d_.ent		result/scope_homeo/homeo_result_d6m10d__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/of/d2ofla1.ent	A25,A77,A23	result/scope_homeo/homeo_result_d2ofla1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/of/d2oflb1.ent	B82,B75,B28	result/scope_homeo/homeo_result_d2oflb1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j4/d6j4ka_.ent		result/scope_homeo/homeo_result_d6j4ka__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/j4/d6j4kb_.ent		result/scope_homeo/homeo_result_d6j4kb__0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osga1.ent	A73,A76	result/scope_homeo/homeo_result_d3osga1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osga2.ent	A111,A113	result/scope_homeo/homeo_result_d3osga2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osgd1.ent	D83,D94	result/scope_homeo/homeo_result_d3osgd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osgd2.ent	D130,D133	result/scope_homeo/homeo_result_d3osgd2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osfa1.ent	A80,A48	result/scope_homeo/homeo_result_d3osfa1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osfa2.ent	A121,A112	result/scope_homeo/homeo_result_d3osfa2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osfd1.ent	D63,D76	result/scope_homeo/homeo_result_d3osfd1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/os/d3osfd2.ent	D107,D135	result/scope_homeo/homeo_result_d3osfd2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k9/d2k9na1.ent	A18,A32	result/scope_homeo/homeo_result_d2k9na1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/k9/d2k9na2.ent	A61,A51	result/scope_homeo/homeo_result_d2k9na2_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/kd/d2kdza1.ent	A3,A2	result/scope_homeo/homeo_result_d2kdza1_0.05_0.tsv
+scop_benchmark/pdb/pdbstyle-2.08/kd/d2kdza2.ent	A107,A92	result/scope_homeo/homeo_result_d2kdza2_0.05_0.tsv
