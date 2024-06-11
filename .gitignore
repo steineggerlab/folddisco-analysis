@@ -1,0 +1,10 @@
+# Ignore folddisco binary
+folddisco
+# Ignore index
+index
+*.lookup
+*.offset
+*.type
+*.value
+# Ignore pdb
+pdb

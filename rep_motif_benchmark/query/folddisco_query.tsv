@@ -1,0 +1,6 @@
+query/betaturn.pdb		result/folddisco/inverted_index/betaturn.tsv
+query/4CHA.pdb	B57,B102,C195	result/folddisco/inverted_index/serine_protease.tsv
+query/1G2F.pdb	F207,F212,F225,F229	result/folddisco/inverted_index/zinc_finger.tsv
+query/1LAP.pdb	250,255,273,332,334	result/folddisco/inverted_index/aminopeptidase.tsv
+query/2N6N.pdb	3,10,15,16,21,23,28,30	result/folddisco/inverted_index/knottin.tsv
+query/homeobox.pdb		result/folddisco/inverted_index/homeobox.tsv
