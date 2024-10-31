@@ -8,3 +8,12 @@ index
 *.value
 # Ignore pdb
 pdb
+foldcomp
+folddisco*
+# Ignore temporary files
+temp
+.DS_Store
+*.tsv
+*.txt
+*.zip
+bin

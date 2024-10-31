@@ -1,0 +1,214 @@
+,matched_motif,similar_motif_found,RMSD,n_mutations,PDB_ID,header_description
+0,B57H B102D C195S,A75H A120D A213S,0.064,0,AF-P17538-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsinogen b (p17538)
+1,B57H B102D C195S,A296H A345D A441S,0.083,0,AF-O15393-F1-model_v4,af-o15393-f1
+2,B57H B102D C195S,A412H A461D A563S,0.086,0,AF-P00748-F1-model_v4,alphafold monomer v2.0 prediction for coagulation factor xii (p00748)
+3,B57H B102D C195S,A75H A120D A213S,0.086,0,AF-Q6GPI1-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsinogen b2 (q6gpi1)
+4,B57H B102D C195S,A243H A292D A387S,0.095,0,AF-Q7Z410-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 9 (q7z410)
+5,B57H B102D C195S,A825H A876D A971S,0.102,0,AF-P98073-F1-model_v4,alphafold monomer v2.0 prediction for enteropeptidase (p98073)
+6,B57H B102D C195S,A526H A576D A699S,0.105,0,AF-P00751-F1-model_v4,alphafold monomer v2.0 prediction for complement factor b (p00751)
+7,B57H B102D C195S,A843H A892D A985S,0.107,0,AF-Q9Y5Q5-F1-model_v4,alphafold monomer v2.0 prediction for atrial natriuretic peptide- conv erting enzyme (q9y5q5)
+8,B57H B102D C195S,A63H A107D A200S,0.108,0,AF-P07478-F1-model_v4,af-p07478-f1
+9,B57H B102D C195S,A366H A414D A511S,0.109,0,AF-Q9BYE2-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 13 (q9bye2)
+10,B57H B102D C195S,A122H A171D A268S,0.109,0,AF-Q86WS5-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 12 (q86ws5)
+11,B57H B102D C195S,A87H A139D A243S,0.113,0,AF-Q5K4E3-F1-model_v4,alphafold monomer v2.0 prediction for polyserase-2 (q5k4e3)
+12,B57H B102D C195S,A248H A293D A389S,0.113,0,AF-Q6ZWK6-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 11 f (q6zwk6)
+13,B57H B102D C195S,A283H A339D A436S,0.115,0,AF-Q9NZP8-F1-model_v4,alphafold monomer v2.0 prediction for complement c1r subcomponent- lik e protein (q9nzp8)
+14,B57H B102D C195S,A100H A150D A245S,0.116,0,AF-A1L453-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 38 (a1l453)
+15,B57H B102D C195S,A121H A172D A275S,0.117,0,AF-A8MTI9-F1-model_v4,alphafold monomer v2.0 prediction for putative serine protease 47 (a8m ti9)
+16,B57H B102D C195S,A380H A429D A525S,0.117,0,AF-P05156-F1-model_v4,af-p05156-f1
+17,B57H B102D C195S,A227H A272D A368S,0.12,0,AF-O60235-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 11 d (o60235)
+18,B57H B102D C195S,A676H A726D A825S,0.121,0,AF-P56730-F1-model_v4,alphafold monomer v2.0 prediction for neurotrypsin (p56730)
+19,B57H B102D C195S,A34H A82D A186S,0.123,0,AF-Q7RTY3-F1-model_v4,alphafold monomer v2.0 prediction for putative serine protease 45 (q7r ty3)
+20,B57H B102D C195S,A63H A107D A200S,0.123,0,AF-P07477-F1-model_v4,alphafold monomer v2.0 prediction for trypsin-1 (p07477)
+21,B57H B102D C195S,A68H A114D A220S,0.126,0,AF-Q7RTY5-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 48 (q7rty5)
+22,B57H B102D C195S,A646H A694D A790S,0.131,0,AF-Q7RTY8-F1-model_v4,af-q7rty8-f1
+23,B57H B102D C195S,A108H A153D A245S,0.131,0,AF-Q9Y337-F1-model_v4,af-q9y337-f1
+24,B57H B102D C195S,A75H A121D A214S,0.133,0,AF-P40313-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsin-like protease ctrl- 1 (p40313)
+25,B57H B102D C195S,A490H A552D A646S,0.133,0,AF-P48740-F1-model_v4,alphafold monomer v2.0 prediction for mannan-binding lectin serine pro tease 1 (p48740)
+26,B57H B102D C195S,A62H A106D A197S,0.133,0,AF-Q92876-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-6 (q92876)
+27,B57H B102D C195S,A615H A664D A763S,0.136,0,AF-Q7RTY7-F1-model_v4,af-q7rty7-f1
+28,B57H B102D C195S,A74H A121D A224S,0.136,0,AF-Q15661-F1-model_v4,alphafold monomer v2.0 prediction for tryptase alpha/beta-1 (q15661)
+29,B57H B102D C195S,A120H A164D A257S,0.137,0,AF-P35030-F1-model_v4,alphafold monomer v2.0 prediction for trypsin-3 (p35030)
+30,B57H B102D C195S,A74H A121D A224S,0.138,0,AF-P20231-F1-model_v4,alphafold monomer v2.0 prediction for tryptase beta-2 (p20231)
+31,B57H B102D C195S,A502H A557D A654S,0.14,0,AF-P00736-F1-model_v4,alphafold monomer v2.0 prediction for complement c1r subcomponent (p00 736)
+32,B57H B102D C195S,A85H A134D A238S,0.143,0,AF-Q16651-F1-model_v4,alphafold monomer v2.0 prediction for prostasin (q16651)
+33,B57H B102D C195S,A92H A142D A240S,0.144,0,AF-Q7RTZ1-F1-model_v4,alphafold monomer v2.0 prediction for ovochymase-2 (q7rtz1)
+34,B57H B102D C195S,A224H A275D A376S,0.146,0,AF-P00749-F1-model_v4,alphafold monomer v2.0 prediction for urokinase-type plasminogen activ ator (p00749)
+35,B57H B102D C195S,A75H A124D A229S,0.146,0,AF-Q9BQR3-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 27 (q9bqr3)
+36,B57H B102D C195S,A257H A304D A401S,0.146,0,AF-P57727-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 3 (p57727)
+37,B57H B102D C195S,A62H A108D A200S,0.146,0,AF-Q9UKR0-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-12 (q9ukr0)
+38,B57H B102D C195S,A78H A125D A222S,0.149,0,AF-Q9NRR2-F1-model_v4,alphafold monomer v2.0 prediction for tryptase gamma (q9nrr2)
+39,B57H B102D C195S,A230H A275D A371S,0.15,0,AF-Q6ZMR5-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 11 a (q6zmr5)
+40,B57H B102D C195S,A434H A483D A578S,0.151,0,AF-P03952-F1-model_v4,alphafold monomer v2.0 prediction for plasma kallikrein (p03952)
+41,B57H B102D C195S,A245H A290D A387S,0.151,0,AF-Q9NRS4-F1-model_v4,af-q9nrs4-f1
+42,B57H B102D C195S,A617H A668D A762S,0.151,0,AF-Q8IU80-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 6 (q8iu80)
+43,B57H B102D C195S,A73H A121D A216S,0.152,0,AF-P08217-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsin-like elastase famil y member 2a (p08217)
+44,B57H B102D C195S,A447H A497D A598S,0.153,0,AF-Q04756-F1-model_v4,alphafold monomer v2.0 prediction for hepatocyte growth factor activat or (q04756)
+45,B57H B102D C195S,A81H A128D A231S,0.154,0,AF-Q9BZJ3-F1-model_v4,alphafold monomer v2.0 prediction for tryptase delta (q9bzj3)
+46,B57H B102D C195S,A114H A161D A262S,0.156,0,AF-A6NIE9-F1-model_v4,alphafold monomer v2.0 prediction for putative serine protease 29 (a6n ie9)
+47,B57H B102D C195S,A483H A532D A633S,0.16,0,AF-O00187-F1-model_v4,alphafold monomer v2.0 prediction for mannan-binding lectin serine pro tease 2 (o00187)
+48,B57H B102D C195S,A341H A382D A478S,0.161,0,AF-Q2L4Q9-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 53 (q2l4q9)
+49,B57H B102D C195S,A145H A191D A286S,0.161,0,AF-P0CW18-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 56 (p0cw18)
+50,B57H B102D C195S,A431H A480D A575S,0.162,0,AF-P03951-F1-model_v4,alphafold monomer v2.0 prediction for coagulation factor xi (p03951)
+51,B57H B102D C195S,A544H A592D A687S,0.166,0,AF-Q7Z410-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 9 (q7z410)
+52,B57H B102D C195S,A88H A142D A240S,0.169,0,AF-P10323-F1-model_v4,alphafold monomer v2.0 prediction for acrosin (p10323)
+53,B57H B102D C195S,A74H A121D A216S,0.17,0,AF-Q99895-F1-model_v4,af-q99895-f1
+54,B57H B102D C195S,A406H A462D A568S,0.171,0,AF-P00734-F1-model_v4,alphafold monomer v2.0 prediction for prothrombin (p00734)
+55,B57H B102D C195S,A73H A123D A217S,0.174,0,AF-P08861-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsin-like elastase famil y member 3b (p08861)
+56,B57H B102D C195S,A203H A257D A353S,0.176,0,AF-P05981-F1-model_v4,alphafold monomer v2.0 prediction for serine protease hepsin (p05981)
+57,B57H B102D C195S,A63H A107D A200S,0.177,0,AF-Q8NHM4-F1-model_v4,af-q8nhm4-f1
+58,B57H B102D C195S,A95H A147D A249S,0.18,0,AF-Q7RTY9-F1-model_v4,af-q7rty9-f1
+59,B57H B102D C195S,A62H A106D A209S,0.184,0,AF-Q9H2R5-F1-model_v4,af-q9h2r5-f1
+60,B57H B102D C195S,A258H A308D A405S,0.185,0,AF-Q9H3S3-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 5 (q9h3s3)
+61,B57H B102D C195S,A71H A116D A207S,0.187,0,AF-Q9Y5K2-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-4 (q9y5k2)
+62,B57H B102D C195S,A276H A322D A419S,0.188,0,AF-P00742-F1-model_v4,alphafold monomer v2.0 prediction for coagulation factor x (p00742)
+63,B57H B102D C195S,A87H A139D A237S,0.189,0,AF-Q7RTY7-F1-model_v4,af-q7rty7-f1
+64,B57H B102D C195S,A66H A110D A203S,0.191,0,AF-P23946-F1-model_v4,alphafold monomer v2.0 prediction for chymase (p23946)
+65,B57H B102D C195S,A622H A665D A760S,0.193,0,AF-P00747-F1-model_v4,alphafold monomer v2.0 prediction for plasminogen (p00747)
+66,B57H B102D C195S,A253H A299D A402S,0.193,0,AF-P04070-F1-model_v4,af-p04070-f1
+67,B57H B102D C195S,A1169H A1212D A1298S,0.194,0,AF-P08519-F17-model_v4,alphafold monomer v2.0 prediction for apolipoprotein(a) (p08519)
+68,B57H B102D C195S,A73H A121D A216S,0.196,0,AF-P08218-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsin-like elastase famil y member 2b (p08218)
+69,B57H B102D C195S,A90H A141D A242S,0.197,0,AF-Q9GZN4-F1-model_v4,alphafold monomer v2.0 prediction for brain-specific serine protease 4 (q9gzn4)
+70,B57H B102D C195S,A73H A123D A217S,0.199,0,AF-P09093-F1-model_v4,alphafold monomer v2.0 prediction for chymotrypsin-like elastase famil y member 3a (p09093)
+71,B57H B102D C195S,A77H A126D A231S,0.199,0,AF-Q8NF86-F1-model_v4,af-q8nf86-f1
+72,B57H B102D C195S,A253H A302D A404S,0.2,0,AF-P08709-F1-model_v4,alphafold monomer v2.0 prediction for coagulation factor vii (p08709)
+73,B57H B102D C195S,A64H A108D A201S,0.203,0,AF-P08311-F1-model_v4,af-p08311-f1
+74,B57H B102D C195S,A267H A315D A411S,0.203,0,AF-P00740-F1-model_v4,af-p00740-f1
+75,B57H B102D C195S,A94H A142D A235S,0.213,0,AF-Q9UBX7-F1-model_v4,af-q9ubx7-f1
+76,B57H B102D C195S,A656H A711D A805S,0.215,0,AF-Q9Y5Y6-F1-model_v4,alphafold monomer v2.0 prediction for suppressor of tumorigenicity 14 protein (q9y5y6)
+77,B57H B102D C195S,A77H A128D A224S,0.218,0,AF-Q2L4Q9-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 53 (q2l4q9)
+78,B57H B102D C195S,A82H A137D A238S,0.219,0,AF-Q9Y6M0-F1-model_v4,alphafold monomer v2.0 prediction for testisin (q9y6m0)
+79,B57H B102D C195S,A475H A529D A632S,0.22,0,AF-P09871-F1-model_v4,alphafold monomer v2.0 prediction for complement c1s subcomponent (p09 871)
+80,B57H B102D C195S,A225H A270D A366S,0.22,0,AF-Q86T26-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 11 b (q86t26)
+81,B57H B102D C195S,A232H A277D A373S,0.22,0,AF-Q9UL52-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protease serine 11 e (q9ul52)
+82,B57H B102D C195S,A73H A120D A212S,0.22,0,AF-O60259-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-8 (o60259)
+83,B57H B102D C195S,A76H A124D A218S,0.229,0,AF-Q9UKR3-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-13 (q9ukr3)
+84,B57H B102D C195S,A70H A112D A205S,0.231,0,AF-P49862-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-7 (p49862)
+85,B57H B102D C195S,A86H A137D A229S,0.239,0,AF-O43240-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-10 (o43240)
+86,B57H B102D C195S,A64H A108D A203S,0.241,0,AF-P10144-F1-model_v4,alphafold monomer v2.0 prediction for granzyme b (p10144)
+87,B57H B102D C195S,A175H A246D A316S,0.247,0,AF-O95084-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 23 (o95084)
+88,B57H B102D C195S,A70H A117D A202S,0.249,0,AF-P08246-F1-model_v4,alphafold monomer v2.0 prediction for neutrophil elastase (p08246)
+89,B57H B102D C195S,A71H A118D A203S,0.252,0,AF-P24158-F1-model_v4,alphafold monomer v2.0 prediction for myeloblastin (p24158)
+90,B57H B102D C195S,A63H A111D A206S,0.253,0,AF-Q9UNI1-F1-model_v4,af-q9uni1-f1
+91,B57H B102D C195S,A83H A127D A220S,0.253,0,AF-Q9P0G3-F1-model_v4,af-q9p0g3-f1
+92,B57H B102D C195S,A63H A111D A204S,0.258,0,AF-Q9UKQ9-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-9 (q9ukq9)
+93,B57H B102D C195S,A357H A406D A513S,0.263,0,AF-P00750-F1-model_v4,alphafold monomer v2.0 prediction for tissue-type plasminogen activato r (p00750)
+94,B57H B102D C195S,A507H A561D A679S,0.272,0,AF-P06681-F1-model_v4,alphafold monomer v2.0 prediction for complement c2 (p06681)
+95,B57H B102D C195S,A65H A120D A213S,0.275,0,AF-P20151-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-2 (p20151)
+96,B57H B102D C195S,A490H A544D A650S,0.279,0,AF-Q6SJ93-F1-model_v4,alphafold monomer v2.0 prediction for serine protease fam111b (q6sj93)
+97,B57H B102D C195S,A65H A120D A213S,0.281,0,AF-P07288-F1-model_v4,alphafold monomer v2.0 prediction for prostate-specific antigen (p0728 8)
+98,B57H B102D C195S,A74H A122D A218S,0.283,0,AF-Q6UWY2-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 57 (q6uwy2)
+99,B57H B102D C195S,A66H A114D A208S,0.287,0,AF-P00746-F1-model_v4,af-p00746-f1
+100,B57H B102D C195S,A108H A156D A250S,0.291,0,AF-Q6UWB4-F1-model_v4,alphafold monomer v2.0 prediction for serine protease 55 (q6uwb4)
+101,B57H B102D C195S,A120H A166D A267S,0.293,0,AF-Q7Z5A4-F1-model_v4,alphafold monomer v2.0 prediction for putative serine protease 42 (q7z 5a4)
+102,B57H B102D C195S,A69H A114D A212S,0.307,0,AF-P12544-F1-model_v4,alphafold monomer v2.0 prediction for granzyme a (p12544)
+103,B57H B102D C195S,A64H A108D A202S,0.316,0,AF-P20718-F1-model_v4,alphafold monomer v2.0 prediction for granzyme h (p20718)
+104,B57H B102D C195S,A65H A120D A214S,0.32,0,AF-P06870-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-1 (p06870)
+105,B57H B102D C195S,A67H A116D A214S,0.331,0,AF-P49863-F1-model_v4,alphafold monomer v2.0 prediction for granzyme k (p49863)
+106,B57H B102D C195S,A362H A411D A509S,0.338,0,AF-Q14520-F1-model_v4,alphafold monomer v2.0 prediction for hyaluronan-binding protein 2 (q1 4520)
+107,B57H B102D C195S,A385H A439D A541S,0.345,0,AF-Q96PZ2-F1-model_v4,alphafold monomer v2.0 prediction for serine protease fam111a (q96pz2)
+108,B57H B102D C195S,A1174H A1332D A1088S,0.371,0,AF-Q8IYW2-F6-model_v4,alphafold monomer v2.0 prediction for cilia- and flagella-associated p rotein 46 (q8iyw2)
+109,B57H B102D C195S,A66H A111D A207S,0.387,0,AF-P51124-F1-model_v4,alphafold monomer v2.0 prediction for granzyme m (p51124)
+110,B57H B102D C195S,A974H A1132D A888S,0.416,0,AF-Q8IYW2-F7-model_v4,alphafold monomer v2.0 prediction for cilia- and flagella-associated p rotein 46 (q8iyw2)
+111,B57H B102D C195S,A774H A932D A688S,0.459,0,AF-Q8IYW2-F8-model_v4,alphafold monomer v2.0 prediction for cilia- and flagella-associated p rotein 46 (q8iyw2)
+112,B57H B102D C195S,A191H A227D A305S,0.46,0,AF-P83110-F1-model_v4,alphafold monomer v2.0 prediction for serine protease htra3 (p83110)
+113,B57H B102D C195S,A218H A248D A326S,0.535,0,AF-P83105-F1-model_v4,af-p83105-f1
+114,B57H B102D C195S,A21H A18D A74S,0.543,0,AF-P41218-F1-model_v4,alphafold monomer v2.0 prediction for myeloid cell nuclear differentia tion antigen (p41218)
+115,B57H B102D C195S,A198H A228D A306S,0.568,0,AF-O43464-F1-model_v4,"alphafold monomer v2.0 prediction for serine protease htra2, mitochond rial (o43464)"
+116,B57H B102D C195S,A220H A250D A328S,0.599,0,AF-Q92743-F1-model_v4,alphafold monomer v2.0 prediction for serine protease htra1 (q92743)
+117,B57H B102D C195S,A427H A364D A371S,0.649,0,AF-Q14765-F1-model_v4,alphafold monomer v2.0 prediction for signal transducer and activator of transcription 4 (q14765)
+118,B57H B102D C195S,A970H A967D A1029S,0.685,0,AF-Q149M9-F1-model_v4,alphafold monomer v2.0 prediction for nacht domain- and wd repeat- con taining protein 1 (q149m9)
+119,B57H B102D C195S,A214H A262D A249S,0.689,0,AF-Q9Y5B9-F1-model_v4,alphafold monomer v2.0 prediction for fact complex subunit spt16 (q9y5 b9)
+120,B57H B102D C195S,A148H A145D A114S,0.753,0,AF-Q9UHF3-F1-model_v4,alphafold monomer v2.0 prediction for putative n-acetyltransferase 8b (q9uhf3)
+121,B57H B102D C195S,A219H A223D A263S,0.789,0,AF-O15357-F1-model_v4,"alphafold monomer v2.0 prediction for phosphatidylinositol 3,4,5-trisp hosphate 5-phosphatase 2 (o15357)"
+122,B57H B102D C195S,A540H A568D A549S,0.848,0,AF-O43150-F1-model_v4,af-o43150-f1
+123,B57H B102D C195S,A1005H A1003D A953S,0.856,0,AF-Q8TEM1-F1-model_v4,alphafold monomer v2.0 prediction for nuclear pore membrane glycoprote in 210 (q8tem1)
+124,B57H B102D C195S,A148H A145D A114S,0.863,0,AF-Q9UHE5-F1-model_v4,alphafold monomer v2.0 prediction for n-acetyltransferase 8 (q9uhe5)
+125,B57H B102D C195S,A301H A47D A176S,0.866,0,AF-P51690-F1-model_v4,alphafold monomer v2.0 prediction for arylsulfatase l (p51690)
+126,B57H B102D C195S,A341H A338D A243S,0.868,0,AF-Q9Y5X4-F1-model_v4,alphafold monomer v2.0 prediction for photoreceptor-specific nuclear r eceptor (q9y5x4)
+127,B57H B102D C195S,A22H A19D A41S,0.89,0,AF-Q86WI1-F15-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+128,B57H B102D C195S,A510H A532D A528S,0.89,0,AF-Q5JSH3-F1-model_v4,alphafold monomer v2.0 prediction for wd repeat-containing protein 44 (q5jsh3)
+129,B57H B102D C195S,A229H A30D A150S,0.894,0,AF-P15289-F1-model_v4,alphafold monomer v2.0 prediction for arylsulfatase a (p15289)
+130,B57H B102D C195S,A86H A134D A229S,0.895,0,AF-O43240-F1-model_v4,alphafold monomer v2.0 prediction for kallikrein-10 (o43240)
+131,B57H B102D C195S,A822H A819D A841S,0.898,0,AF-Q86WI1-F11-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+132,B57H B102D C195S,A1022H A1019D A1041S,0.905,0,AF-Q86WI1-F10-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+133,B57H B102D C195S,A289H A311D A58S,0.913,0,AF-Q96M69-F1-model_v4,alphafold monomer v2.0 prediction for leucine-rich repeat and guanylat e kinase domain-containing protein (q96m69)
+134,B57H B102D C195S,A1222H A1219D A1241S,0.917,0,AF-Q86WI1-F9-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+135,B57H B102D C195S,A422H A419D A441S,0.92,0,AF-Q86WI1-F13-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+136,B57H B102D C195S,A622H A619D A641S,0.923,0,AF-Q86WI1-F12-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+137,B57H B102D C195S,A256H A253D A271S,0.934,0,AF-P25774-F1-model_v4,alphafold monomer v2.0 prediction for cathepsin s (p25774)
+138,B57H B102D C195S,A222H A219D A241S,0.946,0,AF-Q86WI1-F14-model_v4,alphafold monomer v2.0 prediction for fibrocystin-l (q86wi1)
+139,B57H B102D C195S,A198H A201D A149S,0.956,0,AF-Q6P2H8-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protein 53 (q6p2h8 )
+140,B57H B102D C195S,A260H A256D A276S,0.963,0,AF-Q9UKZ4-F8-model_v4,alphafold monomer v2.0 prediction for teneurin-1 (q9ukz4)
+141,B57H B102D C195S,A460H A456D A476S,0.975,0,AF-Q9UKZ4-F7-model_v4,alphafold monomer v2.0 prediction for teneurin-1 (q9ukz4)
+142,B57H B102D C195S,A345H A340D A609S,0.995,0,AF-Q5VST9-F24-model_v4,alphafold monomer v2.0 prediction for obscurin (q5vst9)
+143,B57H B102D C195S,A505H A502D A483S,1.02,0,AF-Q8TD43-F1-model_v4,alphafold monomer v2.0 prediction for transient receptor potential cat ion channel subfamily m member 4 (q8td43)
+144,B57H B102D C195S,A1433H A1475D A1472S,1.027,0,AF-O60449-F1-model_v4,alphafold monomer v2.0 prediction for lymphocyte antigen 75 (o60449)
+145,B57H B102D C195S,A657H A645D A639S,1.064,0,AF-O43164-F1-model_v4,alphafold monomer v2.0 prediction for e3 ubiquitin-protein ligase praj a-2 (o43164)
+146,B57H B102D C195S,A366H A462D A725S,1.083,0,AF-O60336-F1-model_v4,alphafold monomer v2.0 prediction for mitogen-activated protein kinase -binding protein 1 (o60336)
+147,B57H B102D C195S,A202H A241D A238S,1.084,0,AF-P06734-F1-model_v4,af-p06734-f1
+148,B57H B102D C195S,A244H A280D A113S,1.091,0,AF-Q8WZ04-F1-model_v4,af-q8wz04-f1
+149,B57H B102D C195S,A1987H A1984D A2308S,1.096,0,AF-Q6WRI0-F1-model_v4,alphafold monomer v2.0 prediction for immunoglobulin superfamily membe r 10 (q6wri0)
+150,B57H B102D C195S,A109H A112D A39S,1.099,0,AF-Q8NEG7-F1-model_v4,alphafold monomer v2.0 prediction for protein dennd6b (q8neg7)
+151,B57H B102D C195S,A1226H A1242D A1220S,1.125,0,AF-O15230-F12-model_v4,af-o15230-f12
+152,B57H B102D C195S,A869H A873D A895S,1.128,0,AF-Q9NPP4-F1-model_v4,alphafold monomer v2.0 prediction for nlr family card domain- containi ng protein 4 (q9npp4)
+153,B57H B102D C195S,A162H A159D A387S,1.137,0,AF-Q68CQ4-F1-model_v4,alphafold monomer v2.0 prediction for digestive organ expansion factor homolog (q68cq4)
+154,B57H B102D C195S,A1026H A1042D A1020S,1.139,0,AF-O15230-F13-model_v4,af-o15230-f13
+155,B57H B102D C195S,A305H A240D A312S,1.153,0,AF-Q96M86-F17-model_v4,alphafold monomer v2.0 prediction for dynein heavy chain domain- conta ining protein 1 (q96m86)
+156,B57H B102D C195S,A355H A352D A389S,1.187,0,AF-Q9Y3T6-F1-model_v4,alphafold monomer v2.0 prediction for r3h and coiled-coil domain- cont aining protein 1 (q9y3t6)
+157,B57H B102D C195S,A381H A474D A737S,1.195,0,AF-O43379-F1-model_v4,alphafold monomer v2.0 prediction for wd repeat-containing protein 62 (o43379)
+158,B57H B102D C195S,A244H A266D A261S,1.199,0,AF-Q9NRG9-F1-model_v4,alphafold monomer v2.0 prediction for aladin (q9nrg9)
+159,B57H B102D C195S,A183H A177D A211S,1.203,0,AF-Q68CL5-F1-model_v4,alphafold monomer v2.0 prediction for tubulin polyglutamylase complex subunit 2 (q68cl5)
+160,B57H B102D C195S,A905H A840D A912S,1.211,0,AF-Q96M86-F14-model_v4,alphafold monomer v2.0 prediction for dynein heavy chain domain- conta ining protein 1 (q96m86)
+161,B57H B102D C195S,A690H A645D A559S,1.237,0,AF-Q4J6C6-F1-model_v4,alphafold monomer v2.0 prediction for prolyl endopeptidase-like (q4j6c 6)
+162,B57H B102D C195S,A1070H A1085D A1004S,1.246,0,AF-Q9UKV3-F1-model_v4,alphafold monomer v2.0 prediction for apoptotic chromatin condensation inducer in the nucleus (q9ukv3)
+163,B57H B102D C195S,A107H A111D A88S,1.249,0,AF-Q969N4-F1-model_v4,af-q969n4-f1
+164,B57H B102D C195S,A102H A92D A124S,1.253,0,AF-Q96LD8-F1-model_v4,alphafold monomer v2.0 prediction for sentrin-specific protease 8 (q96 ld8)
+165,B57H B102D C195S,A639H A495D A443S,1.269,0,AF-Q8NCG7-F1-model_v4,af-q8ncg7-f1
+166,B57H B102D C195S,A578H A576D A1199S,1.278,0,AF-P52701-F1-model_v4,alphafold monomer v2.0 prediction for dna mismatch repair protein msh6 (p52701)
+167,B57H B102D C195S,A172H A174D A261S,1.284,0,AF-P52824-F1-model_v4,alphafold monomer v2.0 prediction for diacylglycerol kinase theta (p52 824)
+168,B57H B102D C195S,A230H A187D A257S,1.286,0,AF-Q9Y5Z9-F1-model_v4,alphafold monomer v2.0 prediction for ubia prenyltransferase domain- c ontaining protein 1 (q9y5z9)
+169,B57H B102D C195S,A315H A310D A385S,1.288,0,AF-P23258-F1-model_v4,alphafold monomer v2.0 prediction for tubulin gamma-1 chain (p23258)
+170,B57H B102D C195S,A734H A702D A624S,1.289,0,AF-Q12884-F1-model_v4,alphafold monomer v2.0 prediction for prolyl endopeptidase fap (q12884 )
+171,B57H B102D C195S,A108H A112D A89S,1.294,0,AF-Q96RI8-F1-model_v4,alphafold monomer v2.0 prediction for trace amine-associated receptor 6 (q96ri8)
+172,B57H B102D C195S,A187H A189D A346S,1.296,0,AF-Q6NYC1-F1-model_v4,alphafold monomer v2.0 prediction for bifunctional arginine demethylas e and lysyl-hydroxylase jmjd6 (q6nyc1)
+173,B57H B102D C195S,A470H A473D A486S,1.311,0,AF-Q92499-F1-model_v4,alphafold monomer v2.0 prediction for atp-dependent rna helicase ddx1 (q92499)
+174,B57H B102D C195S,A2449H A2451D A2444S,1.312,0,AF-A8TX70-F1-model_v4,alphafold monomer v2.0 prediction for collagen alpha-5(vi) chain (a8tx 70)
+175,B57H B102D C195S,A504H A463D A404S,1.316,0,AF-Q5TGY1-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane and coiled-coil do main-containing protein 4 (q5tgy1)
+176,B57H B102D C195S,A572H A587D A751S,1.327,0,AF-Q7Z5P9-F1-model_v4,alphafold monomer v2.0 prediction for mucin-19 (q7z5p9)
+177,B57H B102D C195S,A186H A183D A195S,1.341,0,AF-P56937-F1-model_v4,af-p56937-f1
+178,B57H B102D C195S,A708H A539D A764S,1.349,0,AF-Q2KJY2-F1-model_v4,alphafold monomer v2.0 prediction for kinesin-like protein kif26b (q2k jy2)
+179,B57H B102D C195S,A1806H A1802D A1559S,1.354,0,AF-Q9P273-F1-model_v4,alphafold monomer v2.0 prediction for teneurin-3 (q9p273)
+180,B57H B102D C195S,A304H A727D A344S,1.355,0,AF-Q6ZW05-F1-model_v4,alphafold monomer v2.0 prediction for patched domain-containing protei n 4 (q6zw05)
+181,B57H B102D C195S,A934H A931D A895S,1.356,0,AF-Q96RG2-F1-model_v4,alphafold monomer v2.0 prediction for pas domain-containing serine/thr eonine-protein kinase (q96rg2)
+182,B57H B102D C195S,A162H A159D A178S,1.359,0,AF-Q92854-F1-model_v4,alphafold monomer v2.0 prediction for semaphorin-4d (q92854)
+183,B57H B102D C195S,A584H A586D A600S,1.362,0,AF-P48506-F1-model_v4,alphafold monomer v2.0 prediction for glutamate--cysteine ligase catal ytic subunit (p48506)
+184,B57H B102D C195S,A631H A462D A688S,1.362,0,AF-Q9ULI4-F1-model_v4,alphafold monomer v2.0 prediction for kinesin-like protein kif26a (q9u li4)
+185,B57H B102D C195S,A375H A346D A220S,1.365,0,AF-Q8WU67-F1-model_v4,alphafold monomer v2.0 prediction for phospholipase abhd3 (q8wu67)
+186,B57H B102D C195S,A38H A17D A2S,1.369,0,AF-Q96SD1-F1-model_v4,alphafold monomer v2.0 prediction for protein artemis (q96sd1)
+187,B57H B102D C195S,A392H A360D A198S,1.392,0,AF-Q8NCC3-F1-model_v4,af-q8ncc3-f1
+188,B57H B102D C195S,A157H A251D A186S,1.397,0,AF-Q8N4L1-F1-model_v4,alphafold monomer v2.0 prediction for transmembrane protein 151a (q8n4 l1)
+189,B57H B102D C195S,A840H A808D A730S,1.401,0,AF-Q86TI2-F1-model_v4,alphafold monomer v2.0 prediction for dipeptidyl peptidase 9 (q86ti2)
+190,B57H B102D C195S,A128H A242D A279S,1.41,0,AF-Q7L8L6-F1-model_v4,af-q7l8l6-f1
+191,B57H B102D C195S,A240H A243D A173S,1.413,0,AF-Q9UKV5-F1-model_v4,af-q9ukv5-f1
+192,B57H B102D C195S,A401H A369D A205S,1.413,0,AF-P04180-F1-model_v4,af-p04180-f1
+193,B57H B102D C195S,A94H A124D A129S,1.413,0,AF-P54317-F1-model_v4,alphafold monomer v2.0 prediction for pancreatic lipase-related protei n 2 (p54317)
+194,B57H B102D C195S,A757H A790D A794S,1.423,0,AF-Q86XX4-F9-model_v4,af-q86xx4-f9
+195,B57H B102D C195S,A97H A145D A132S,1.425,0,AF-Q6ZQW0-F1-model_v4,"alphafold monomer v2.0 prediction for indoleamine 2,3-dioxygenase 2 (q 6zqw0)"
+196,B57H B102D C195S,A289H A233D A115S,1.426,0,AF-P50897-F1-model_v4,alphafold monomer v2.0 prediction for palmitoyl-protein thioesterase 1 (p50897)
+197,B57H B102D C195S,A376H A345D A207S,1.434,0,AF-P08910-F1-model_v4,af-p08910-f1
+198,B57H B102D C195S,A94H A124D A129S,1.435,0,AF-P54315-F1-model_v4,alphafold monomer v2.0 prediction for inactive pancreatic lipase- rela ted protein 1 (p54315)
+199,B57H B102D C195S,A557H A590D A594S,1.438,0,AF-Q86XX4-F10-model_v4,af-q86xx4-f10
+200,B57H B102D C195S,A1357H A1390D A1394S,1.442,0,AF-Q86XX4-F6-model_v4,af-q86xx4-f6
+201,B57H B102D C195S,A642H A640D A563S,1.445,0,AF-Q8IYQ7-F1-model_v4,alphafold monomer v2.0 prediction for threonine synthase-like 1 (q8iyq 7)
+202,B57H B102D C195S,A658H A655D A853S,1.45,0,AF-P48736-F1-model_v4,"alphafold monomer v2.0 prediction for phosphatidylinositol 4,5-bisphos phate 3-kinase catalytic subunit gamma isoform (p48736)"
+203,B57H B102D C195S,A458H A486D A490S,1.451,0,AF-Q5H8C1-F1-model_v4,alphafold monomer v2.0 prediction for fras1-related extracellular matr ix protein 1 (q5h8c1)
+204,B57H B102D C195S,A419H A417D A531S,1.454,0,AF-Q8WYK0-F1-model_v4,alphafold monomer v2.0 prediction for acetyl-coenzyme a thioesterase ( q8wyk0)
+205,B57H B102D C195S,A430H A433D A624S,1.456,0,AF-Q9UM54-F1-model_v4,alphafold monomer v2.0 prediction for unconventional myosin-vi (q9um54 )
+206,B57H B102D C195S,A443H A439D A186S,1.47,0,AF-O94915-F4-model_v4,alphafold monomer v2.0 prediction for protein furry homolog-like (o949 15)
+207,B57H B102D C195S,A325H A328D A322S,1.475,0,AF-Q9BYG0-F1-model_v4,af-q9byg0-f1
+208,B57H B102D C195S,A227H A230D A189S,1.482,0,AF-Q9H871-F1-model_v4,alphafold monomer v2.0 prediction for e3 ubiquitin-protein transferase rmnd5a (q9h871)
+209,B57H B102D C195S,A92H A122D A127S,1.483,0,AF-P16233-F1-model_v4,alphafold monomer v2.0 prediction for pancreatic triacylglycerol lipas e (p16233)
+210,B57H B102D C195S,A643H A639D A386S,1.491,0,AF-O94915-F3-model_v4,alphafold monomer v2.0 prediction for protein furry homolog-like (o949 15)
+211,B57H B102D C195S,A37H A15D A189S,1.492,0,AF-Q9BRB3-F1-model_v4,alphafold monomer v2.0 prediction for phosphatidylinositol n-acetylglu cosaminyltransferase subunit q (q9brb3)
+212,B57H B102D C195S,A556H A540D A586S,1.499,0,AF-P08195-F1-model_v4,alphafold monomer v2.0 prediction for 4f2 cell-surface antigen heavy c hain (p08195)
