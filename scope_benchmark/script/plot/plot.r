@@ -34,7 +34,7 @@ precision_plot
 
 precision_plot + recall_plot
 
-ggsave("recall_plot.pdf", plot = precision_plot + recall_plot, width = 10, height = 5, units = "in")
+ggsave("precision_recall_plot.pdf", plot = precision_plot + recall_plot, width = 10, height = 5, units = "in")
 
-# Print where recall is over 0.3
-data %>% filter(recall > 0.6) %>% print
+# # Print where recall is over 0.3
+# data %>% filter(recall > 0.6) %>% print
