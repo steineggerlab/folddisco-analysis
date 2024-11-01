@@ -37,12 +37,15 @@ for domain_file in domain_files:
             pdb_id = line.strip().split()[0]
             pdb_file = f"{pdb_dir}/{pdb_id[2:4]}/{pdb_id}.ent"
             # If pdb file contains multiple models, don't use it
+            single_model = True
             with open(pdb_file, 'r') as f:
                 for line in f:
                     if line.startswith("MODEL"):
                         print(f"Skipping {pdb_id} because it contains multiple models.")
+                        single_model = False
                         break
-            pdb_ids.append(pdb_id)
+            if single_model:
+                pdb_ids.append(pdb_id)
 
     # If len(pdb_ids) < 2, skip
     if len(pdb_ids) < 2:

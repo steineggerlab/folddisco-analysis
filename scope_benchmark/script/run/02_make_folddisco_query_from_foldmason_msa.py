@@ -45,11 +45,11 @@ def main():
 
     for fasta_file in fasta_files:
         # Load the MSA file in A3M format
-        msa = AlignIO.read(fasta_file, "fasta")
+        msa = AlignIO.read(f"{foldmason_fasta_dir}/{fasta_file}", "fasta")
         # Get the domain ID
         base = os.path.basename(fasta_file)
         # domain_id is before the extension
-        domain_id = os.path.splitext(base)[0]
+        domain_id = os.path.splitext(base)[0].split("_")[0]
         # Make a directory for the domain ID
         if not os.path.exists(f"{output_dir}/{domain_id}"):
             os.makedirs(f"{output_dir}/{domain_id}")
