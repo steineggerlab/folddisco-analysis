@@ -44,7 +44,7 @@ benchmark_result_file = sys.argv[5]
 
 # Run folddisco query
 print("Running FoldDisco query")
-os.system(f"{FOLDDISCO_BIN} query -q {query_file} -i {index_path} -d 0.5 -a 5 -t {QUERY_THREADS}")
+os.system(f"{FOLDDISCO_BIN} query -q {query_file} -i {index_path} -d 0.5 -a 5 --serial -t {QUERY_THREADS}")
 
 # Get the domain list. Domain list can be obtained by getting the text files in the answer_dir
 domain_list = os.listdir(answer_dir)
