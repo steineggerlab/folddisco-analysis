@@ -40,8 +40,9 @@ query_file = sys.argv[1]
 index_path = sys.argv[2]
 answer_dir = sys.argv[3]
 result_dir = sys.argv[4]
-benchmark_input_file = sys.argv[5]
-benchmark_result_file = sys.argv[6]
+superfamily_dir = sys.argv[5]
+benchmark_input_file = sys.argv[6]
+benchmark_result_file = sys.argv[7]
 
 
 # Run folddisco query
@@ -49,23 +50,24 @@ benchmark_result_file = sys.argv[6]
 # os.system(f"{FOLDDISCO_BIN} query -q {query_file} -i {index_path} -d 0.5 -a 5 --serial -t {QUERY_THREADS}")
 
 # Get the domain list. Domain list can be obtained by getting the text files in the answer_dir
-domain_list = os.listdir(answer_dir)
-domain_list = [d for d in domain_list if d.endswith(".txt")]
-domain_list = [os.path.splitext(d)[0] for d in domain_list]
+family_list = os.listdir(answer_dir)
+family_list = [d for d in family_list if d.endswith(".txt")]
+family_list = [os.path.splitext(d)[0] for d in family_list]
 
 benchmark_input = open(benchmark_input_file, 'w')
 
 # Run folddisco benchmark
-for domain in domain_list:
-    domain_answer = os.path.join(answer_dir, f"{domain}.txt")
-    domain_result_dir = os.path.join(result_dir, domain)
+for family in family_list:
+    family_answer = os.path.join(answer_dir, f"{family}.txt")
+    family_result_dir = os.path.join(result_dir, family)
+    family_split = family.split('.')
+    superfamily = '.'.join(family_split[:3])
+    superfamily_answer = os.path.join(superfamily_dir, f"{superfamily}.txt")
     # List all tsv files in the directory
-    tsv_files = os.listdir(domain_result_dir)
+    tsv_files = os.listdir(family_result_dir)
     for tsv_file in tsv_files:
-        tsv_file = os.path.join(domain_result_dir, tsv_file)
-        # os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} >> {benchmark_result_file}")
-        # os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} --fp 5 >> {benchmark_result_file_fp5}")
-        print(f"{tsv_file}\t{domain_answer}", file=benchmark_input)
+        tsv_file = os.path.join(family_result_dir, tsv_file)
+        print(f"{tsv_file}\t{family_answer}\t{superfamily_answer}", file=benchmark_input)
 benchmark_input.close()
 
 # Execute the benchmark

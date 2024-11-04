@@ -18,25 +18,38 @@ print(f"Preparing foldmason input from {scope_fasta}")
 output_dir = os.path.dirname(output_prefix)
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
+superfamily_output_dir = f"{output_dir}/superfamily"
+if not os.path.exists(superfamily_output_dir):
+    os.makedirs(superfamily_output_dir)
 
 # Just get the header. >id domain_id --> Return as tab-separated of id and domain_id
 # domain_id_dict: key - domain_id, value - ids (list)
-domain_id_dict = {}
+family_id_dict = {}
+superfamily_id_dict = {}
 with open(scope_fasta, 'r') as f:
     for line in f:
         if line.startswith('>'):
             entries = line[1:].strip().split()
             id = entries[0]
-            domain_id = entries[1]
-            if domain_id not in domain_id_dict:
-                domain_id_dict[domain_id] = []
-            domain_id_dict[domain_id].append(id)
-
+            family_id = entries[1]
+            family_id_split = entries[1].split('.')
+            superfamily_id = '.'.join(family_id_split[:3])
+            if family_id not in family_id_dict:
+                family_id_dict[family_id] = []
+            if superfamily_id not in superfamily_id_dict:
+                superfamily_id_dict[superfamily_id] = []
+            family_id_dict[family_id].append(id)
+            superfamily_id_dict[superfamily_id].append(id)
 # Write the domain_id_dict to each domain_id file in output_prefix
-for domain_id, ids in domain_id_dict.items():
-    with open(f"{output_prefix}/{domain_id}.txt", 'w') as f:
+for family_id, ids in family_id_dict.items():
+    with open(f"{output_prefix}/{family_id}.txt", 'w') as f:
         # TSV: id, domain_id
         for id in ids:
-            f.write(f"{id}\t{domain_id}\n")
-
+            f.write(f"{id}\t{family_id}\n")
+# Write the superfamily_id_dict to each superfamily_id file in output_prefix
+for superfamily_id, ids in superfamily_id_dict.items():
+    with open(f"{superfamily_output_dir}/{superfamily_id}.txt", 'w') as f:
+        # TSV: id, domain_id
+        for id in ids:
+            f.write(f"{id}\t{superfamily_id}\n")
 print(f"Done. Output files are in {output_prefix}")
