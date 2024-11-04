@@ -21,11 +21,13 @@ foldmason_fasta_dir = sys.argv[1]
 pdb_dir = sys.argv[2]
 output_dir = sys.argv[3]
 
-column_threshold = 0.8 
-residue_threshold = 0.8
+column_threshold = 0.66
+residue_threshold = 0.66
+minimum_columns = 10
 replicates = 3
 query_output_prefix = "/fast/hyunbin/motif/scop_benchmark/temp/"
 percentage_list = [0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
 # print(f"/fast/hyunbin/motif/scop_benchmark/pdb/pdbstyle-2.08/gk/d2gkma_.ent\t{random_indices}\t/fast/hyunbin/motif/scop_benchmark/temp/d2gkma_{percentage}_{i}.tsv")
 
 def choose_random_indices(indices, ratio, as_string=True):
@@ -88,19 +90,23 @@ def main():
                         positions.append(start)
                         residues.append(res)
                     start += 1
-            # Sample from the conserved columns
-            for percentage in percentage_list:
-                if percentage == 1.0:
-                    replicates_to_run = 1
-                else:
-                    replicates_to_run = replicates
-                for i in range(replicates_to_run):
-                    random_indices = choose_random_indices(positions, percentage)
-                    if random_indices is None:
-                        continue
-                    pdb_id = record.id
-                    pdb_file = f"{pdb_dir}/{pdb_id[2:4]}/{pdb_id}.ent"
-                    print(f"{pdb_file}\t{random_indices}\t{output_dir}/{domain_id}/{record.id}_{percentage}_{i+1}.tsv")
+            # If len(positions) < minimum_columns, skip
+            if len(positions) < minimum_columns:
+                continue
+            else:
+                # Sample from the conserved columns
+                for percentage in percentage_list:
+                    if percentage == 1.0:
+                        replicates_to_run = 1
+                    else:
+                        replicates_to_run = replicates
+                    for i in range(replicates_to_run):
+                        random_indices = choose_random_indices(positions, percentage)
+                        if random_indices is None:
+                            continue
+                        pdb_id = record.id
+                        pdb_file = f"{pdb_dir}/{pdb_id[2:4]}/{pdb_id}.ent"
+                        print(f"{pdb_file}\t{random_indices}\t{output_dir}/{domain_id}/{record.id}_{percentage}_{i+1}.tsv")
 
 if __name__ == "__main__":
     main()

@@ -32,16 +32,16 @@ import multiprocessing as mp
 
 # CONSTANTS
 FOLDDISCO_BIN = "~/Projects/06_Motifsearch/motifsearch/target/release/folddisco"
-QUERY_THREADS = 64
-BENCHMARK_THREADS = 16
+THREADS = 64
+# BENCHMARK_THREADS = 16
 
 # Get arguments
 query_file = sys.argv[1]
 index_path = sys.argv[2]
 answer_dir = sys.argv[3]
 result_dir = sys.argv[4]
-benchmark_result_file = sys.argv[5]
-benchmark_result_file_fp5 = sys.argv[6]
+benchmark_input_file = sys.argv[5]
+benchmark_result_file = sys.argv[6]
 
 
 # Run folddisco query
@@ -53,6 +53,8 @@ domain_list = os.listdir(answer_dir)
 domain_list = [d for d in domain_list if d.endswith(".txt")]
 domain_list = [os.path.splitext(d)[0] for d in domain_list]
 
+benchmark_input = open(benchmark_input_file, 'w')
+
 # Run folddisco benchmark
 for domain in domain_list:
     domain_answer = os.path.join(answer_dir, f"{domain}.txt")
@@ -61,5 +63,12 @@ for domain in domain_list:
     tsv_files = os.listdir(domain_result_dir)
     for tsv_file in tsv_files:
         tsv_file = os.path.join(domain_result_dir, tsv_file)
-        os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} >> {benchmark_result_file}")
-        os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} --fp 5 >> {benchmark_result_file_fp5}")
+        # os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} >> {benchmark_result_file}")
+        # os.system(f"{FOLDDISCO_BIN} benchmark -r {tsv_file} -a {domain_answer} -i {index_path} --fp 5 >> {benchmark_result_file_fp5}")
+        print(f"{tsv_file}\t{domain_answer}", file=benchmark_input)
+benchmark_input.close()
+
+# Execute the benchmark
+os.system(f"{FOLDDISCO_BIN} benchmark --input {benchmark_input_file} -i {index_path} -t {THREADS}> {benchmark_result_file}.tsv")
+os.system(f"{FOLDDISCO_BIN} benchmark --input {benchmark_input_file} -i {index_path} -t {THREADS} --fp 5 > {benchmark_result_file}_fp5.tsv")
+os.system(f"{FOLDDISCO_BIN} benchmark --input {benchmark_input_file} -i {index_path} -t {THREADS} --fp 1 > {benchmark_result_file}_fp1.tsv")

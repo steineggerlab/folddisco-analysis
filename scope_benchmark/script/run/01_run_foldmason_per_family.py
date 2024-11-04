@@ -25,7 +25,6 @@ domain_files = [f for f in domain_files if f.endswith(".txt")]
 print(f"Found {len(domain_files)} domain files.")
 print(f"Writing foldmason commands to {foldmason_command_file}")
 
-
 # Iterate over domain files
 for domain_file in domain_files:
     print(f"Processing {domain_file}")
@@ -36,15 +35,23 @@ for domain_file in domain_files:
         for line in f:
             pdb_id = line.strip().split()[0]
             pdb_file = f"{pdb_dir}/{pdb_id[2:4]}/{pdb_id}.ent"
-            # If pdb file contains multiple models, don't use it
-            single_model = True
+            single_model_single_chain = True
+            prev_chain = None
             with open(pdb_file, 'r') as f:
                 for line in f:
                     if line.startswith("MODEL"):
                         print(f"Skipping {pdb_id} because it contains multiple models.")
-                        single_model = False
+                        single_model_single_chain = False
                         break
-            if single_model:
+                    if line.startswith("ATOM"):
+                        chain = line[21]
+                        if prev_chain is None:
+                            prev_chain = chain
+                        if prev_chain != chain:
+                            print(f"Skipping {pdb_id} because it contains multiple chains.")
+                            single_model_single_chain = False
+                            break
+            if single_model_single_chain:
                 pdb_ids.append(pdb_id)
 
     # If len(pdb_ids) < 2, skip
