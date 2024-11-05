@@ -5,7 +5,8 @@ library(tidyr)
 # multi panel plot with patchwork
 library(patchwork)
 
-data <- read.csv("scope40_folddisco_benchmark_result_fp5.tsv.parsed.tsv", sep = "\t", header = TRUE)
+data <- read.csv("241105_scope40_folddisco_benchmark_result_fp5.tsv.parsed.tsv", sep = "\t", header = TRUE)
+data <- read.csv("241105_scope40_folddisco_benchmark_result_fp1.tsv.parsed.tsv", sep = "\t", header = TRUE)
 # data <- read.csv("scope40_folddisco_benchmark_result.tsv.parsed.tsv", sep = "\t", header = TRUE)
 
 
@@ -16,12 +17,13 @@ data <- read.csv("scope40_folddisco_benchmark_result_fp5.tsv.parsed.tsv", sep = 
 #                             ylab = "Precision",
 #                             xlab = "Ratio",
 #                             ggtheme = theme_pubr())
-recall_plot <- ggviolin(data[data$ratio %in% c(0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9), ], x = "ratio", y = "recall", fill = "darkorange",
+recall_plot <- ggviolin(data[data$ratio %in% c(0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0), ], x = "ratio", y = "recall", fill = "darkorange",
                         add = "mean_se",
-                            ylab = "Recall at 5th FP",
+                            ylab = "Sensitivity at 5th FP",
                             xlab = "Ratio",
                             ggtheme = theme_pubr(),
-                            ylim = c(0, 1))
+                            ylim = c(0, 1)) + 
+                        stat_summary(fun = mean, geom = "text", aes(label = round(..y.., 2)), vjust = -0.25, hjust=-0.7, color = "black")
 recall_plot
 
 data$tpratio <- data$TP / data$answer_length
@@ -38,7 +40,7 @@ precision_plot
 precision_plot + recall_plot
 
 ggsave("precision_recall_plot.pdf", plot = precision_plot + recall_plot, width = 10, height = 5, units = "in")
-ggsave("scope_benchmark/recall_plot.pdf", plot = recall_plot, width = 6, height =4.5, units = "in")
+ggsave("scope_benchmark/recall_plot_fp5.png", plot = recall_plot, width = 8, height = 6, units = "in")
 # # Print where recall is over 0.3
 # data %>% filter(recall > 0.6) %>% print
 
