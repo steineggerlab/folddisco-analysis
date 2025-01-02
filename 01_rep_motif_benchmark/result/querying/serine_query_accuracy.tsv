@@ -1,0 +1,4 @@
+rank	type	index	result	answer	index_len	result_len	answer_len	hash_type	dist_bin	angle_bin	TP	TN	FP	FN	precision	recall	accuracy	f1_score
+S01	Folddisco	index/h_sapiens_folddisco	result/serine_folddisco_filtered.tsv	result/serine_answer.tsv	23391	112	124	PDBTrRosetta	16	4	108	23391	4	16	0.9643	0.8710	0.9991	0.9153
+S01	pyScoMotif	index/h_sapiens_folddisco	result/serine_pyscomotif_filtered.tsv	result/serine_answer.tsv	23391	108	124	PDBTrRosetta	16	4	104	23391	4	20	0.9630	0.8387	0.9990	0.8966
+S01	PDB	index/h_sapiens_folddisco	result/serine_pdb_queried.csv	result/serine_answer.tsv	23391	129	124	PDBTrRosetta	16	4	105	23391	24	19	0.8140	0.8468	0.9982	0.8300
