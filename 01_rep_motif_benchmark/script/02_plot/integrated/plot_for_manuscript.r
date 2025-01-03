@@ -40,14 +40,34 @@ foldcomp_data <- foldcomp_data %>%
   mutate(total_size_in_gb = sum(size_in_gb))
 foldcomp_data.tool <- factor(foldcomp_data$tool, levels = c('Folddisco', 'pyScoMotif'))
 
+# query benchmark for Figure 1e - 1l? 
+query_benchmark_data <- read.csv("result/querying/query_folddisco.tsv", header = TRUE, sep = "\t")
+# Pivot data for easier plotting, excluding accuracy
+query_benchmark_data_long <- query_benchmark_data %>%
+  select(-accuracy) %>%
+  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
+
+# Split data for each figure
+serine_data <- query_benchmark_data %>% filter(rank == "S01")
+serine_data$type <- factor(serine_data$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_3 <- query_benchmark_data %>% filter(query_len == 3 & rank == "C2H2")
+zinc_data_3$type <- factor(zinc_data_3$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_4 <- query_benchmark_data %>% filter(query_len == 4 & rank == "C2H2")
+zinc_data_4$type <- factor(zinc_data_4$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+serine_data_long <- query_benchmark_data_long %>% filter(rank == "S01")
+serine_data_long$type <- factor(serine_data_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_3_long <- query_benchmark_data_long %>% filter(query_len == 3 & rank == "C2H2")
+zinc_data_3_long$type <- factor(zinc_data_3_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_4_long <- query_benchmark_data_long %>% filter(query_len == 4 & rank == "C2H2")
+zinc_data_4_long$type <- factor(zinc_data_4_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+
 
 # 01-2. Set fill colors for each tool
 tool_colors <- c('Folddisco' = "#FFA200", 'pyScoMotif' = "#D3D3D3", 'RCSB' = "#AAAAAA")
 font_size <- 7
 label_size <- 1.6
 
-# 02. Plot
-
+# 02. Plotting
 # Figure 1b
 # Create the plot for number of structures
 # ggtexttable
@@ -127,6 +147,119 @@ fig_1e_runtime <- ggbarplot(
     legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
   ) + coord_cartesian(clip = 'off')
 
+
+
+# Create the ggplot with a secondary y-axis for runtime
+
+fig_1f <- ggplot() + theme_void() + theme(plot.background = element_rect(fill = "gray", color = NA))
+
+fig_1g_serine_query_accuracy <- ggbarplot(
+    serine_data_long, x = "metric", y = "value",
+    fill = "type", palette = tool_colors,
+    label = TRUE, lab.pos = "out", lab.size = label_size,
+    position = position_dodge(0.8),
+    color = NA,  # Removes the bar borders
+    ylab = "Metric Value", xlab = "",
+    legend = "none" # No legend
+    # Re-label the x-axis: Folddisco, pyScoMotif, PDB
+) + theme(
+    text = element_text(size = font_size),
+    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+ 
+fig_1h_serine_query_runtime <- ggbarplot(
+    serine_data[!is.na(serine_data$runtime),], x = "type", y = "runtime",
+    fill = "type", palette = tool_colors,
+    label = TRUE, lab.pos = "out", lab.size = label_size,
+    color = NA,  # Removes bar borders
+    ylab = "Runtime (s)", xlab = "",
+    legend = "none" # No legend
+) + theme(
+    text = element_text(size = font_size),
+    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+
+# Create the metrics plot for query_len == 3 (Precision, Recall, F1-score)
+fig_1i <-  ggplot() + theme_void() + theme(plot.background = element_rect(fill = "gray", color = NA))
+fig_1j_zinc_query_3_accuracy <- ggbarplot(
+  zinc_data_3_long, x = "metric", y = "value", 
+  fill = "type", palette = tool_colors,
+  label = TRUE, lab.pos = "out", lab.size = label_size,
+  position = position_dodge(0.8),
+  color = NA,  # Removes the bar borders
+  ylab = "Metric Value", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+
+# Create runtime plot for query_len == 3
+fig_1k_zinc_query_3_runtime <- ggbarplot(
+  zinc_data_3[!is.na(zinc_data_3$runtime),], x = "type", y = "runtime",
+  fill = "type", palette = tool_colors,
+  label = TRUE, lab.pos = "out", lab.size = label_size,
+  color = NA,  # Removes bar borders
+  ylab = "Runtime (s)", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+
+
+# Create the metrics plot for query_len == 4 (Precision, Recall, F1-score)
+fig_1l <-  ggplot() + theme_void() + theme(plot.background = element_rect(fill = "gray", color = NA))
+fig_1m_zinc_query_4_accuracy <- ggbarplot(
+  zinc_data_4_long, x = "metric", y = "value", 
+  fill = "type", palette = tool_colors,
+  label = TRUE, lab.pos = "out", lab.size = label_size,
+  position = position_dodge(0.8),
+  color = NA,  # Removes the bar borders
+  ylab = "Metric Value", xlab = "",
+  legend = "bottom" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+
+# Create runtime plot for query_len == 4
+fig_1n_zinc_query_4_runtime <- ggbarplot(
+  zinc_data_4[!is.na(zinc_data_4$runtime),], x = "type", y = "runtime",
+  fill = "type", palette = tool_colors,
+  label = TRUE, lab.pos = "out", lab.size = label_size,
+  color = NA,  # Removes bar borders
+  ylab = "Runtime (s)", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + coord_cartesian(clip = 'off')
+
+# 03. Combine the plots
+
+# Figure 1a will be integrated later
+# Just put placeholders for now. fill gray box
+fig_1a <- ggplot() + theme_void() + theme(plot.background = element_rect(fill = "gray", color = NA))
+
 # Combine the plots into three panels
 fig_1_2nd_row <- fig_1b_num_structures + fig_1c_index_size + fig_1d_foldcomp + fig_1e_runtime + 
     plot_layout(ncol = 4, widths = c(1, 2, 1, 2))
@@ -137,154 +270,17 @@ fig_1_2nd_row <- fig_1b_num_structures + fig_1c_index_size + fig_1d_foldcomp + f
 # )
 
 
+fig_1_3rd_row <- fig_1f + fig_1g_serine_query_accuracy + fig_1h_serine_query_runtime + plot_layout(ncol = 3, widths = c(2, 3.5, 1))
+fig_1_4th_row <- fig_1i + fig_1j_zinc_query_3_accuracy + fig_1k_zinc_query_3_runtime + plot_layout(ncol = 3, widths = c(1.5, 3.5, 1))
+fig_1_5th_row <- fig_1l + fig_1m_zinc_query_4_accuracy + fig_1n_zinc_query_4_runtime + plot_layout(ncol = 3, widths = c(1.5, 3.5, 1))
+
+fig_1 <- fig_1a / fig_1_2nd_row / fig_1_3rd_row / fig_1_4th_row / fig_1_5th_row + 
+  plot_layout(ncol = 1, heights = c(50, 40, 25, 25, 25))
+
+
 # Testing
-ggsave("result/img/fig_1_2nd_row.pdf", fig_1_2nd_row, width = 180, height = 40, unit = "mm", bg = "transparent")
+ggsave("result/img/fig_1.pdf", fig_1, width = 180, height = 170, unit = "mm", bg = "transparent")
 
-
-
-
-
-benchmark_data <- read.csv("result/time/serine_query_accuracy.tsv", header = TRUE, sep = "\t")
-benchmark_data$runtime <- c(0.529, 5.02, NA)
-
-# Pivot data for easier plotting, excluding accuracy
-benchmark_data_long <- benchmark_data %>%
-  select(-accuracy) %>%
-  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-
-# Specify order for the methods on the x-axis
-benchmark_data_long$type <- factor(benchmark_data_long$type, levels = c("Folddisco", "pyScoMotif", "PDB"))
-
-# Create the ggplot with a secondary y-axis for runtime
-serine_query_accuracy <- ggbarplot(
-    benchmark_data_long, x = "metric", y = "value",
-    fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-    label = TRUE, lab.pos = "in", 
-    position = position_dodge(0.8),
-    color = NA,  # Removes the bar borders
-    ylab = "Metric Value", xlab = "",
-    legend = "none" # No legend
-    # Re-label the x-axis: Folddisco, pyScoMotif, PDB
-) + theme(
-    text = element_text(size = 18),
-    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
- 
-serine_query_runtime <- ggbarplot(
-    benchmark_data[!is.na(benchmark_data$runtime),], x = "type", y = "runtime",
-    fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-    label = TRUE, lab.pos = "in", 
-    color = NA,  # Removes bar borders
-    ylab = "Runtime (s)", xlab = "",
-    legend = "none" # No legend
-) + theme(
-    text = element_text(size = 18), # Set all font size to 24
-    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
-
-merged <- serine_query_accuracy + serine_query_runtime + plot_layout(ncol = 2, widths = c(2, 1))
-
-
-
-zinc_data <- read.csv("result/time/zinc_query_accuracy.tsv", header = TRUE, sep = "\t")
-zinc_data$type <- factor(zinc_data$type, levels = c("Folddisco", "pyScoMotif", "PDB"))
-
-
-# Filter data for query_len == 3
-zinc_data_3 <- zinc_data %>% filter(query_len == 3)
-
-# Filter data for query_len == 4
-zinc_data_4 <- zinc_data %>% filter(query_len == 4)
-
-# Pivot data for metrics plot (precision, recall, f1_score) for query_len == 3
-zinc_data_long_3 <- zinc_data_3 %>%
-  select(-accuracy) %>%
-  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-
-# Pivot data for metrics plot (precision, recall, f1_score) for query_len == 4
-zinc_data_long_4 <- zinc_data_4 %>%
-  select(-accuracy) %>%
-  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-
-# zinc_data_long_3$type <- factor(zinc_data_long_3$type, levels = c("Folddisco", "pyScoMotif", "PDB"))
-# zinc_data_long_4$type <- factor(zinc_data_long_4$type, levels = c("Folddisco", "pyScoMotif", "PDB"))
-# Create the metrics plot for query_len == 3 (Precision, Recall, F1-score)
-zinc_plot_3_metrics <- ggbarplot(
-  zinc_data_long_3, x = "metric", y = "value", 
-  fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-  label = TRUE, lab.pos = "in", 
-  position = position_dodge(0.8),
-  color = NA,  # Removes the bar borders
-  ylab = "Metric Value", xlab = "",
-  legend = "none" # No legend
-) + theme(
-  text = element_text(size = 18),
-  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
-
-# Create the metrics plot for query_len == 4 (Precision, Recall, F1-score)
-zinc_plot_4_metrics <- ggbarplot(
-  zinc_data_long_4, x = "metric", y = "value", 
-  fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-  label = TRUE, lab.pos = "in", 
-  position = position_dodge(0.8),
-  color = NA,  # Removes the bar borders
-  ylab = "Metric Value", xlab = "",
-  legend = "none" # No legend
-) + theme(
-  text = element_text(size = 18),
-  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
-
-# Create runtime plot for query_len == 3
-zinc_plot_3_runtime <- ggbarplot(
-  zinc_data_3[!is.na(zinc_data_3$runtime),], x = "type", y = "runtime",
-  fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-  label = TRUE, lab.pos = "in", 
-  color = NA,  # Removes bar borders
-  ylab = "Runtime (s)", xlab = "",
-  legend = "none" # No legend
-) + theme(
-  text = element_text(size = 18),
-  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
-
-# Create runtime plot for query_len == 4
-zinc_plot_4_runtime <- ggbarplot(
-  zinc_data_4[!is.na(zinc_data_4$runtime),], x = "type", y = "runtime",
-  fill = "type", palette = c("#FFA200", "#D3D3D3", "#BEBEBE"), 
-  label = TRUE, lab.pos = "in", 
-  color = NA,  # Removes bar borders
-  ylab = "Runtime (s)", xlab = "",
-  legend = "none" # No legend
-) + theme(
-  text = element_text(size = 18),
-  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-)
-
-# Combine plots for query_len == 3
-merged_3 <- zinc_plot_3_metrics + zinc_plot_3_runtime + plot_layout(ncol = 2, widths = c(2, 1))
-
-# Combine plots for query_len == 4
-merged_4 <- zinc_plot_4_metrics + zinc_plot_4_runtime + plot_layout(ncol = 2, widths = c(2, 1))
 
 
 
