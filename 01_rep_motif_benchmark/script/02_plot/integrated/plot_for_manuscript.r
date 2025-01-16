@@ -81,13 +81,11 @@ fig_1b_num_structures <- ggtexttable(
 
 # Figure 1c
 # Create the plot for Index Size
-fig_1c_index_size <- ggbarplot(
-  filtered_data, x = "data", y = "total_index_size_in_gb", fill = "tool",
+fig_1c_index_size <- ggline(
+  filtered_data, x = "data", y = "total_index_size_in_gb", color = "tool",
   palette = tool_colors,  # Set color for normal and big mode
   label = TRUE, lab.pos = "out", lab.size = label_size,  # Move annotations to the top of bars
   label.nb.digits = 1,
-  position = position_dodge(),  # Dodge the bars
-  color = NA  # Removes bar borders
 ) +
   labs(
     y = "Index Size (GB)", x = ""
@@ -125,13 +123,11 @@ fig_1d_foldcomp <- ggplot(foldcomp_data, aes(x = tool, y = size_in_gb, fill = to
 fig_1d_foldcomp <- fig_1d_foldcomp + scale_x_discrete(labels = c("Ours", "pyScoMotif"))
 
 # Create the plot for Runtime
-fig_1e_runtime <- ggbarplot(
+fig_1e_runtime <- ggline(
   filtered_data %>% mutate(runtime_in_sec = round(runtime_in_sec, 0)),
-  x = "data", y = "runtime_in_sec", fill = "tool", 
+  x = "data", y = "runtime_in_sec", color = "tool", 
   palette = tool_colors,  # Set color for normal and big mode
   label = TRUE, lab.pos = "out", lab.size = label_size,  # Move annotations to the top of bars
-  position = position_dodge(),  # Dodge the bars
-  color = NA, # Removes bar borders
 ) + labs(
     y = "Runtime (s)", x = ""
   ) + theme_pubr() + scale_y_sqrt(
