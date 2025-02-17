@@ -1,0 +1,42 @@
+HEADER                                            18-OCT-22                     
+TITLE     ESMFOLD V1 PREDICTION FOR INPUT
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,
+REMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,
+REMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,
+REMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,
+REMARK   1  AUTH 5 ALEXANDER RIVES
+REMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN
+REMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL
+REMARK   1  REF                                                                 
+REMARK   1  REFN                                                                
+REMARK   1  PMID                                                                
+REMARK   1  DOI    10.1101/2022.07.20.500902                                    
+REMARK   1                                                                      
+REMARK   1 LICENSE AND DISCLAIMERS                
+REMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER
+REMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.
+REMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.
+REMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT
+REMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.
+ATOM      1  N   GLY A   1      -2.274   5.824   6.490  1.00  0.83           N  
+ATOM      2  CA  GLY A   1      -2.789   4.490   6.226  1.00  0.89           C  
+ATOM      3  C   GLY A   1      -1.968   3.724   5.206  1.00  0.87           C  
+ATOM      4  O   GLY A   1      -1.221   4.321   4.429  1.00  0.77           O  
+ATOM      5  N   GLY A   2      -1.670   2.761   5.568  1.00  0.87           N  
+ATOM      6  CA  GLY A   2      -0.905   2.077   4.538  1.00  0.85           C  
+ATOM      7  C   GLY A   2      -1.655   1.947   3.225  1.00  0.87           C  
+ATOM      8  O   GLY A   2      -2.873   2.134   3.179  1.00  0.79           O  
+ATOM      9  N   GLY A   3      -1.155   2.091   1.906  1.00  0.94           N  
+ATOM     10  CA  GLY A   3      -1.742   1.914   0.587  1.00  0.91           C  
+ATOM     11  C   GLY A   3      -2.235   0.501   0.339  1.00  0.91           C  
+ATOM     12  O   GLY A   3      -1.818  -0.437   1.021  1.00  0.81           O  
+ATOM     13  N   GLY A   4      -3.552   0.178  -0.231  1.00  0.89           N  
+ATOM     14  CA  GLY A   4      -3.961  -1.122  -0.741  1.00  0.86           C  
+ATOM     15  C   GLY A   4      -2.861  -1.837  -1.503  1.00  0.85           C  
+ATOM     16  O   GLY A   4      -1.988  -1.196  -2.091  1.00  0.82           O  
+ATOM     17  N   GLY A   5      -2.237  -3.198  -0.749  1.00  0.80           N  
+ATOM     18  CA  GLY A   5      -1.103  -3.725  -1.492  1.00  0.77           C  
+ATOM     19  C   GLY A   5      -0.836  -2.974  -2.783  1.00  0.75           C  
+ATOM     20  O   GLY A   5      -1.736  -2.339  -3.336  1.00  0.71           O  

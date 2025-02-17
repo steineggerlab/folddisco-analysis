@@ -1,6 +1,0 @@
-data	num_structures	total_index_size_in_gb	runtime_in_sec	tool
-h_sapiens	23391	6.4	3840	pyScoMotif
-e_coli	4363	1.7	375.89	pyScoMotif
-s_cerevisiae	6039	2.2	775.77	pyScoMotif
-pdb	209564	73	73800	pyScoMotif
-pdb	209564	55	298800	RCSB

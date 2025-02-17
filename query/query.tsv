@@ -1,4 +1,0 @@
-query/4CHA.pdb	B57,B102,C195	result/folddisco/serine_protease.tsv
-query/1G2F.pdb	F207,F212,F225,F229	result/folddisco/zinc_finger.tsv
-query/1LAP.pdb	250,255,273,332,334	result/folddisco/aminopeptidase.tsv
-query/betaturn.pdb		result/folddisco/betaturn.tsv

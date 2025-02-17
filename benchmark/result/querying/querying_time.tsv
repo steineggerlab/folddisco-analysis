@@ -1,0 +1,17 @@
+rank	tool	result_len	num_structures	data	use_match	runtime_in_sec	description
+C2H2	Folddisco	49	4363	e_coli	TRUE	0.08	default
+C2H2	Folddisco	7436	23391	h_sapiens	TRUE	0.83	default
+C2H2	Folddisco	11303	542378	swissprot	TRUE	3.65	default
+C2H2	Folddisco	69408	2266735	afdb_cluster_rep	TRUE	12.01	default
+C2H2	Folddisco	749674	53665860	afdb50	TRUE	209.08	default
+C2H2	pyScoMotif	9	4363	e_coli	TRUE	5.43	default
+C2H2	pyScoMotif	21238	23391	h_sapiens	TRUE	5.66	default
+C2H2	pyScoMotif	43223	542378	swissprot	TRUE	11.07	default
+C2H2	pyScoMotif_ext	43223	542378	swissprot	TRUE	11.07	extrapolated
+C2H2	pyScoMotif_ext	NA	2266735	afdb_cluster_rep	TRUE	29.19	extrapolated
+C2H2	pyScoMotif_ext	NA	53665860	afdb50	TRUE	568.88	extrapolated
+C2H2	Folddisco_skip	49	4363	e_coli	FALSE	0.01	default
+C2H2	Folddisco_skip	7436	23391	h_sapiens	FALSE	0.04	default
+C2H2	Folddisco_skip	11303	542378	swissprot	FALSE	0.23	default
+C2H2	Folddisco_skip	69408	2266735	afdb_cluster_rep	FALSE	0.88	default
+C2H2	Folddisco_skip	749674	53665860	afdb50	FALSE	13.42	default

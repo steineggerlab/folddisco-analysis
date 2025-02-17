@@ -12,6 +12,7 @@ foldcomp
 folddisco*
 # Ignore temporary files
 temp
+.archive
 .DS_Store
 *.txt
 *.zip

@@ -1,0 +1,7 @@
+rank	type	query_len	index	result	answer	index_len	result_len	answer_len	hash_type	dist_bin	angle_bin	TP	TN	FP	FN	precision	recall	accuracy	f1_score	runtime
+C2H2	Folddisco	4	index/h_sapiens_folddisco	result/zinc_folddisco_filtered.tsv	result/zinc_answer.tsv	20504	831	761	PDBTrRosetta	16	4	732	19681	62	29	0.9219	0.9619	0.9956	0.9415	0.877
+C2H2	Folddisco	3	index/h_sapiens_folddisco	result/filtered/zinc_three_filtered.tsv	result/zinc_answer.tsv	20504	855	761	PDBTrRosetta	16	4	736	19665	78	25	0.9042	0.9671	0.995	0.9346	0.88
+C2H2	pyScoMotif	4	index/h_sapiens_folddisco	result/zinc_pyscomotif.tsv	result/zinc_answer.tsv	20504	304	761	PDBTrRosetta	16	4	243	19682	61	518	0.7993	0.3193	0.9718	0.4563	5.64
+C2H2	pyScoMotif	3	index/h_sapiens_folddisco	result/zinc_pyscomotif_3.tsv	result/zinc_answer.tsv	20504	788	761	PDBTrRosetta	16	4	739	19694	49	22	0.9378	0.9711	0.9965	0.9542	6.4
+C2H2	PDB	3	index/h_sapiens_folddisco	result/zinc_pdb_queried3.tsv	result/zinc_answer.tsv	20504	897	761	PDBTrRosetta	16	4	740	19702	157	21	0.825	0.9724	0.9914	0.8926	NA
+C2H2	PDB	4	index/h_sapiens_folddisco	result/zinc_pdb_queried4.tsv	result/zinc_answer.tsv	20504	114	761	PDBTrRosetta	16	4	91	19731	23	670	0.7982	0.1196	0.9662	0.208	NA

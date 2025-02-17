@@ -1,0 +1,13 @@
+data	num_structures	total_index_size_in_gb	runtime_in_sec	tool	description
+h_sapiens	23391	6.4	3840	pyScoMotif	default
+e_coli	4363	1.7	375.89	pyScoMotif	default
+pdb	209564	73	73800	pyScoMotif	default
+pdb	209564	55	298800	RCSB	default
+swissprot	542378	79	71443	pyScoMotif	default
+pdb	209564	55	298800	RCSB_ext	extrapolated
+swissprot	542378	79	71443	pyScoMotif_ext	extrapolated
+afdb_cluster_rep	2266735	330.1610039	298578.3874	pyScoMotif_ext	extrapolated
+afdb50	53665860	7816.694151	7068963.04	pyScoMotif_ext	extrapolated
+swissprot	542378	142.3469203	773331.996	RCSB_ext	extrapolated
+afdb_cluster_rep	2266735	594.9038241	3231950.23	RCSB_ext	extrapolated
+afdb50	53665860	14084.58657	76517717.59	RCSB_ext	extrapolated
