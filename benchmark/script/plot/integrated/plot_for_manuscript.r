@@ -32,14 +32,14 @@ index_benchmark_data_parsed$data <- factor(index_benchmark_data_parsed$data,
                              labels = c('E. coli', 'Human', 'PDB', 'SwissProt', 'AFDB.FS', 'AFDB50'))
 
 index_benchmark_data_parsed_wopdb <- index_benchmark_data_parsed[!index_benchmark_data_parsed$data %in% c("PDB"),]
-index_benchmark_data_parsed_wopdb
+
 # foldcomp data for Figure 1d
 foldcomp_data <- read.csv("result/indexing/foldcomp_comparison.tsv", header = TRUE, sep = "\t")
 # Calculate the total index size in GB
-foldcomp_data <- foldcomp_data %>%
-  group_by(data) %>%
-  mutate(total_size_in_gb = sum(size_in_gb))
-foldcomp_data.tool <- factor(foldcomp_data$tool, levels = c('Folddisco', 'pyScoMotif'))
+# foldcomp_data <- foldcomp_data %>%
+#   group_by(data) %>%
+#   mutate(total_size_in_gb = sum(size_in_gb))
+foldcomp_data$tool <- factor(foldcomp_data$tool, levels = c('Folddisco', 'pyScoMotif', 'MASTER'))
 
 # SCOPe result
 pyscomotif_fp1_data <- read.csv("result/SCOPe/250124_scope40_pyscomotif_benchmark_fp1.tsv.parsed.tsv", sep = "\t", header = TRUE)
@@ -59,16 +59,23 @@ querying_time_data <- read.csv("result/querying/querying_time.tsv", header = TRU
 # Yellow
 # tool_colors <- c('Folddisco' = "#FFA200", 'pyScoMotif' = "#AAAAAA", 'RCSB' = "#666666", 'pyScoMotif_ext' = "#AAAAAA", 'Folddisco_skip' = "#FFA20088")
 # Neon pink
+# tool_colors <- c(
+#   'Folddisco' = "#F9025B", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB", 
+#   'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#F69EC5",
+#   'MASTER' = "#444444" 
+# )
+# Manet
 tool_colors <- c(
-  'Folddisco' = "#F9025B", 'pyScoMotif' = "#AAAAAA", 'RCSB' = "#666666", 
-  'pyScoMotif_ext' = "#AAAAAA", 'Folddisco_skip' = "#F9025B88",
-  'MASTER' = "#222222"
+  'Folddisco' = "#D29C44", 'pyScoMotif' = "#4585B7", 'RCSB' = "#225E92", 
+  'pyScoMotif_ext' = "#4585B7", 'Folddisco_prefilter' = "#EBC174",
+  'MASTER' = "#2F2976" 
 )
 # Disco palette from pinterest
 # tool_colors <- c('Folddisco' = "#EE227D", 'pyScoMotif' = "#FD8083", 'RCSB' = "#498099", 'pyScoMotif_ext' = "#FD8083", 'Folddisco_skip' = "#EE227D88")
-tool_linetypes <- c('Folddisco' = "solid", 'pyScoMotif' = "solid", 'RCSB' = "solid", 'pyScoMotif_ext' = "dashed", 'Folddisco_skip' = "solid")
-tool_shapes <- c('Folddisco' = 20, 'pyScoMotif' = 20, 'RCSB' = 20, 'pyScoMotif_ext' = 1, 'Folddisco_skip' = 20)
-tool_alpha <- c('Folddisco' = 1, 'pyScoMotif' = 1, 'RCSB' = 1, 'pyScoMotif_ext' = 1, 'Folddisco_skip' = 0.5)
+tool_linetypes <- c('Folddisco' = "solid", 'pyScoMotif' = "solid", 'RCSB' = "solid", 'pyScoMotif_ext' = "dashed", 'Folddisco_prefilter' = "solid")
+tool_shapes <- c('Folddisco' = 20, 'pyScoMotif' = 20, 'RCSB' = 20, 'pyScoMotif_ext' = 1, 'Folddisco_prefilter' = 20)
+tool_alpha <- c('Folddisco' = 1, 'pyScoMotif' = 1, 'RCSB' = 1, 'pyScoMotif_ext' = 1, 'Folddisco_prefilter' = 1)
+type_alpha <- c('structure' = 0.5, 'index' = 1)
 font_size <- 7
 label_size <- 1.6
 axis_line_weight <- 0.3
@@ -190,10 +197,11 @@ querying_time <- ggline(
 
 # Figure 1d
 # Create the plot as stacked bar plot
-foldcomp_plot<- ggplot(foldcomp_data, aes(x = tool, y = size_in_gb, fill = tool, alpha = type)) +
-  geom_bar(stat = "identity", position = "stack", width = 0.5) +
+# foldcomp_plot<- ggplot(foldcomp_data, aes(x = data, y = size_in_gb, fill = tool, alpha = type)) +
+#   geom_bar(stat = "identity", position = "stack", width = 0.5) +
+foldcomp_plot <- ggbarplot(foldcomp_data[foldcomp_data$data == "swissprot",], x = "tool", y = "size_in_gb", fill = "tool", alpha = "type", color=NA) +
   scale_fill_manual(values = tool_colors) +
-  scale_alpha_manual(values = c(0.5, 1)) +
+  scale_alpha_manual(values = type_alpha) +
   labs(y = "Size in GB", x = "") +
   theme_pubr() +
   theme(
@@ -206,9 +214,11 @@ foldcomp_plot<- ggplot(foldcomp_data, aes(x = tool, y = size_in_gb, fill = tool,
     panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
     plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
     legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+    legend.box.background = element_rect(fill = "transparent", color = NA),  # Transparent legend box
+    strip.background = element_blank(), strip.text.x = element_blank() # No facet labels
   ) # Change the x-axis labels
-foldcomp_plot<- foldcomp_plot+ scale_x_discrete(labels = c("Ours", "pyScoMotif"))
+foldcomp_plot
+foldcomp_plot<- foldcomp_plot+ scale_x_discrete(labels = c("Ours", "pSM", "MASTER"))
 
 # query benchmark for Figure 1e - 1l? 
 query_benchmark_data <- read.csv("result/querying/query_folddisco.tsv", header = TRUE, sep = "\t")
@@ -219,23 +229,23 @@ query_benchmark_data_long <- query_benchmark_data %>%
 
 # Split data for each figure
 serine_data <- query_benchmark_data %>% filter(rank == "S01")
-serine_data$type <- factor(serine_data$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+serine_data$type <- factor(serine_data$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
 zinc_data_3 <- query_benchmark_data %>% filter(query_len == 3 & rank == "C2H2")
-zinc_data_3$type <- factor(zinc_data_3$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_3$type <- factor(zinc_data_3$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
 zinc_data_4 <- query_benchmark_data %>% filter(query_len == 4 & rank == "C2H2")
-zinc_data_4$type <- factor(zinc_data_4$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_4$type <- factor(zinc_data_4$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
 serine_data_long <- query_benchmark_data_long %>% filter(rank == "S01")
-serine_data_long$type <- factor(serine_data_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+serine_data_long$type <- factor(serine_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
 zinc_data_3_long <- query_benchmark_data_long %>% filter(query_len == 3 & rank == "C2H2")
-zinc_data_3_long$type <- factor(zinc_data_3_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_3_long$type <- factor(zinc_data_3_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
 zinc_data_4_long <- query_benchmark_data_long %>% filter(query_len == 4 & rank == "C2H2")
-zinc_data_4_long$type <- factor(zinc_data_4_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB"))
+zinc_data_4_long$type <- factor(zinc_data_4_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
 
 master_benchmark_data <- read.csv("result/querying/zinc_finger.vs_master.tsv", header = TRUE, sep = "\t")
 master_benchmark_data_long <- master_benchmark_data %>%
   select(-accuracy) %>%
   pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-master_benchmark_data_long$type <- factor(master_benchmark_data_long$type, levels = c("Folddisco", "pyScoMotif", "RCSB", "MASTER"))
+master_benchmark_data_long$type <- factor(master_benchmark_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
 
 
 # Create the ggplot with a secondary y-axis for runtime
@@ -399,7 +409,8 @@ master_accuracy <- ggbarplot(
   color = NA,  # Removes the bar borders
   ylab = "Metric Value", xlab = "",
   legend = "none" # No legend
-) + theme(
+) + scale_y_continuous(limits = c(0, 1)) +
+theme(
   text = element_text(size = font_size),
   axis.line = element_line(linewidth = axis_line_weight),
   axis.ticks = element_line(size = axis_line_weight),
@@ -418,7 +429,7 @@ master_accuracy <- ggbarplot(
 # Combine the plots into three panels
 
 layout_design <- "AA#BBBCCCDDD
-                  EEEFFFFFF###
+                  EEEFFFFFFFFF
                   ##GGGG##HHHH
                   ##IIII##JJJJ"
 
@@ -442,10 +453,12 @@ fig2 <- num_structures_table + index_size + indexing_time + querying_time +
           heights = c(1, 1, 1, 1, 1)
         )
 
+fig2
+
 # Testing
 ggsave("result/img/fig2.pdf", fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
 
-
+ggsave("result/img/fig2_manet.pdf", fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
 
 
 
