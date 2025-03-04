@@ -20,7 +20,7 @@ pdb	big	no	pdbtr	16	4	12	181	209564	22.99	34.14	5565	yes	database
 pdb	big	no	pdbtr	16	4	64	181	209564	22.99	34.14	2748	no	database
 swissprot	big	yes	pdbtr	16	4	12	3.08	542378	31.53	44.23	3306.5	yes	database
 swissprot	big	yes	pdbtr	16	4	32	3.08	542378	31.53	47.34	1985.3	no	num_threads
-swissprot	big	yes	pdbtr	16	4	64	3.08	542378	31.53	52.01	1805.3	no	num_threads
+swissprot	big	yes	pdbtr	16	4	64	3.08	542378	31.53	52.01	1687.13	no	num_threads
 afdb_cluster_rep	big	yes	pdbtr	16	4	128	10.42	2266735	66	94.82	3124.65	no	database
 afdb_cluster_rep	big	yes	pdbtr	16	4	12	10.42	2266735	66	84.65	12219	no	default
 afdb50	big	yes	pdbtr	16	4	128	230	53665860	1379.42	NA	NA	yes	database

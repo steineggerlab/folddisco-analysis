@@ -1,4 +1,4 @@
 rank	type	index	result	answer	index_len	result_len	answer_len	hash_type	dist_bin	angle_bin	TP	TN	FP	FN	precision	recall	accuracy	f1_score	runtime	filter
-C2H2	MASTER	index/h_sapiens_folddisco	zinc.master.2.5.tsv	result/zinc_answer.tsv	20504	965	761	PDBTrRosetta	16	4	712	19529	214	49	0.7689	0.9356	0.9872	0.8441	70.21	rmsdCut=2.5
-C2H2	Folddisco_prefilter	index/h_sapiens_folddisco	result/zinc.patch.top1000.tsv	result/zinc_answer.tsv	20504	1000	761	PDBTrRosetta	16	4	681	19525	218	80	0.7575	0.8949	0.9855	0.8205	0.26	top=1000
-C2H2	Folddisco	index/h_sapiens_folddisco	result/zinc.patch.top1000.maxnode18.rmsd3.5.tsv	result/zinc_answer.tsv	20504	715	761	PDBTrRosetta	16	4	625	19681	62	136	0.9098	0.8213	0.9903	0.8633	13.31	top=1000;max-node=18;rmsd=3.5
+C2H2	MASTER	index/h_sapiens_folddisco	zinc.master.2.5.tsv	result/zinc_answer.tsv	20504	965	761	PDBTrRosetta	16	4	712	19529	214	49	0.7689	0.9356	0.9872	0.8441	259.53	rmsdCut=2.5
+C2H2	Folddisco_prefilter	index/h_sapiens_folddisco	result/zinc.patch.top1000.tsv	result/zinc_answer.tsv	20504	1000	761	PDBTrRosetta	16	4	681	19525	218	80	0.7575	0.8949	0.9855	0.8205	0.64	top=1000
+C2H2	Folddisco	index/h_sapiens_folddisco	result/zinc.patch.top1000.maxnode18.rmsd3.5.tsv	result/zinc_answer.tsv	20504	715	761	PDBTrRosetta	16	4	625	19681	62	136	0.9098	0.8213	0.9903	0.8633	56.47	top=1000;max-node=18;rmsd=3.5

@@ -31,7 +31,12 @@ index_benchmark_data_parsed$data <- factor(index_benchmark_data_parsed$data,
                              levels = c('e_coli', 'h_sapiens', 'pdb', 'swissprot', 'afdb_cluster_rep', 'afdb50'),
                              labels = c('E. coli', 'Human', 'PDB', 'SwissProt', 'AFDB.FS', 'AFDB50'))
 
+index_benchmark_data <- read.csv("result/indexing/index_pyscomotif_folddisco_t64.tsv", header = TRUE, sep = "\t")
 index_benchmark_data_parsed_wopdb <- index_benchmark_data_parsed[!index_benchmark_data_parsed$data %in% c("PDB"),]
+
+index_runtime_data <- read.csv("result/indexing/index_pyscomotif_folddisco_t64.tsv", header = TRUE, sep = "\t")
+index_runtime_data$tool <- factor(index_runtime_data$tool, levels = c('Folddisco', 'pyScoMotif', 'pyScoMotif_ext'))
+
 
 # foldcomp data for Figure 1d
 foldcomp_data <- read.csv("result/indexing/foldcomp_comparison.tsv", header = TRUE, sep = "\t")
@@ -54,24 +59,88 @@ data <- rbind(pyscomotif_fp1_data, folddisco_fp1_data)
 # Querying time
 querying_time_data <- read.csv("result/querying/querying_time.tsv", header = TRUE, sep = "\t")
 
+# query benchmark for Figure 1e - 1l? 
+query_benchmark_data <- read.csv("result/querying/query_folddisco.tsv", header = TRUE, sep = "\t")
+# Pivot data for easier plotting, excluding accuracy
+query_benchmark_data_long <- query_benchmark_data %>%
+  select(-accuracy) %>%
+  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
+
+# Split data for each figure
+serine_data <- query_benchmark_data %>% filter(rank == "S01")
+serine_data$type <- factor(serine_data$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
+zinc_data_3 <- query_benchmark_data %>% filter(query_len == 3 & rank == "C2H2")
+zinc_data_3$type <- factor(zinc_data_3$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
+zinc_data_4 <- query_benchmark_data %>% filter(query_len == 4 & rank == "C2H2")
+zinc_data_4$type <- factor(zinc_data_4$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
+serine_data_long <- query_benchmark_data_long %>% filter(rank == "S01")
+serine_data_long$type <- factor(serine_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
+zinc_data_3_long <- query_benchmark_data_long %>% filter(query_len == 3 & rank == "C2H2")
+zinc_data_3_long$type <- factor(zinc_data_3_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
+zinc_data_4_long <- query_benchmark_data_long %>% filter(query_len == 4 & rank == "C2H2")
+zinc_data_4_long$type <- factor(zinc_data_4_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
+
+master_benchmark_data <- read.csv("result/querying/zinc_finger.vs_master.tsv", header = TRUE, sep = "\t")
+master_benchmark_data$type <- factor(master_benchmark_data$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
+master_benchmark_data_long <- master_benchmark_data %>%
+  select(-accuracy) %>%
+  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
+master_benchmark_data_long$type <- factor(master_benchmark_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
 
 # 01-2. Set fill colors for each tool
-# Yellow
-# tool_colors <- c('Folddisco' = "#FFA200", 'pyScoMotif' = "#AAAAAA", 'RCSB' = "#666666", 'pyScoMotif_ext' = "#AAAAAA", 'Folddisco_skip' = "#FFA20088")
-# Neon pink
-# tool_colors <- c(
-#   'Folddisco' = "#F9025B", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB", 
-#   'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#F69EC5",
-#   'MASTER' = "#444444" 
-# )
-# Manet
-tool_colors <- c(
-  'Folddisco' = "#D29C44", 'pyScoMotif' = "#4585B7", 'RCSB' = "#225E92", 
-  'pyScoMotif_ext' = "#4585B7", 'Folddisco_prefilter' = "#EBC174",
-  'MASTER' = "#2F2976" 
+palettes_list <- list(
+  ora =  c(
+    'Folddisco' = "#F0426B", 'pyScoMotif' = "#5A4FCF", 'RCSB' = "#06D6A0", 
+    'pyScoMotif_ext' = "#5A4FCF", 'Folddisco_prefilter' = "#F68EA6",
+    'MASTER' = "#FFC43D" 
+  ),
+  neon_pink = c(
+    'Folddisco' = "#F9025B", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB", 
+    'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#F69EC5",
+    'MASTER' = "#444444" 
+  ),
+  yellow_gray = c(
+    'Folddisco' = "#FFA200", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB",
+    'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#FFA20088",
+    'MASTER' = "#444444"
+  ),
+  manet = c(
+    'Folddisco' = "#D29C44", 'pyScoMotif' = "#4585B7", 'RCSB' = "#225E92", 
+    'pyScoMotif_ext' = "#4585B7", 'Folddisco_prefilter' = "#EBC174",
+    'MASTER' = "#2F2976"
+  ),
+  neon_hongkong = c(
+    'Folddisco' = "#CB0C59", 'pyScoMotif' = "#22A0B6", 'RCSB' = "#0B4383", 
+    'pyScoMotif_ext' = "#22A0B6", 'Folddisco_prefilter' = "#EB64A0",
+    'MASTER' = "#06394C" 
+  ),
+  palette1 = c(
+    'Folddisco' = "#E81D52", 'pyScoMotif' = "#043D80", 'RCSB' = "#88BBF0", 
+    'pyScoMotif_ext' = "#043D80", 'Folddisco_prefilter' = "#FD9D12",
+    'MASTER' = "#02124E"
+  ),
+  palette2 = c(
+    'Folddisco' = "#CF152D", 'pyScoMotif' = "#0881C6", 'RCSB' = "#203B7E", 
+    'pyScoMotif_ext' = "#0881C6", 'Folddisco_prefilter' = "#DF4826",
+    'MASTER' = "#FEA30C"
+  ),
+  palette3 = c(
+    'Folddisco' = "#B0016B", 'pyScoMotif' = "#88BBF0", 'RCSB' = "#130959", 
+    'pyScoMotif_ext' = "#88BBF0", 'Folddisco_prefilter' = "#510346",
+    'MASTER' = "#F59300"
+  ),
+  palette4 = c(
+    'Folddisco' = "#B41E6D", 'pyScoMotif' = "#FEB600", 'RCSB' = "#3FA0B3", 
+    'pyScoMotif_ext' = "#FEB600", 'Folddisco_prefilter' = "#CE968A",
+    'MASTER' = "#0363A8"
+  ),
+  palette5 = c(
+    'Folddisco' = "#BB4B51", 'pyScoMotif' = "#13717D", 'RCSB' = "#964D82", 
+    'pyScoMotif_ext' = "#13717D", 'Folddisco_prefilter' = "#E47236",
+    'MASTER' = "#9D7F41"
+  )
 )
-# Disco palette from pinterest
-# tool_colors <- c('Folddisco' = "#EE227D", 'pyScoMotif' = "#FD8083", 'RCSB' = "#498099", 'pyScoMotif_ext' = "#FD8083", 'Folddisco_skip' = "#EE227D88")
+
 tool_linetypes <- c('Folddisco' = "solid", 'pyScoMotif' = "solid", 'RCSB' = "solid", 'pyScoMotif_ext' = "dashed", 'Folddisco_prefilter' = "solid")
 tool_shapes <- c('Folddisco' = 20, 'pyScoMotif' = 20, 'RCSB' = 20, 'pyScoMotif_ext' = 1, 'Folddisco_prefilter' = 20)
 tool_alpha <- c('Folddisco' = 1, 'pyScoMotif' = 1, 'RCSB' = 1, 'pyScoMotif_ext' = 1, 'Folddisco_prefilter' = 1)
@@ -79,6 +148,10 @@ type_alpha <- c('structure' = 0.5, 'index' = 1)
 font_size <- 7
 label_size <- 1.6
 axis_line_weight <- 0.3
+
+for (pal_name in names(palettes_list)) {
+
+tool_colors <- palettes_list[[pal_name]]
 
 # 02. Plotting
 # Figure 1a
@@ -130,9 +203,8 @@ index_size <- ggline(
 
 # Create the plot for Runtime
 indexing_time <- ggline(
-  index_benchmark_data_parsed_wopdb %>% 
-  mutate(runtime_in_sec = round(runtime_in_sec, 0)) %>%
-  filter(data != "AFDB50"),
+  index_runtime_data %>% 
+  mutate(runtime_in_sec = round(runtime_in_sec, 0)),
   x = "num_structures", y = "runtime_in_sec", color = "tool", shape = "tool", linetype = "tool",
   palette = tool_colors,  # Set color for normal and big mode
 ) + labs(
@@ -143,9 +215,9 @@ indexing_time <- ggline(
     labels = c("20K", "500K", "2M")
   ) +
   scale_y_sqrt(
-    breaks = c(60, 3600, 28800, 86400, 259200),
-    labels = c("1m", "1h", "8h", "1d", "3d"),
-    limit = c(0, 300000)
+    breaks = c(60, 3600, 28800, 86400),
+    labels = c("1m", "1h", "8h", "1d"),
+    limit = c(0, 86400)
   ) +
   scale_linetype_manual(values = tool_linetypes) + scale_shape_manual(values = tool_shapes) +
   theme(
@@ -217,39 +289,9 @@ foldcomp_plot <- ggbarplot(foldcomp_data[foldcomp_data$data == "swissprot",], x 
     legend.box.background = element_rect(fill = "transparent", color = NA),  # Transparent legend box
     strip.background = element_blank(), strip.text.x = element_blank() # No facet labels
   ) # Change the x-axis labels
-foldcomp_plot
 foldcomp_plot<- foldcomp_plot+ scale_x_discrete(labels = c("Ours", "pSM", "MASTER"))
 
-# query benchmark for Figure 1e - 1l? 
-query_benchmark_data <- read.csv("result/querying/query_folddisco.tsv", header = TRUE, sep = "\t")
-# Pivot data for easier plotting, excluding accuracy
-query_benchmark_data_long <- query_benchmark_data %>%
-  select(-accuracy) %>%
-  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-
-# Split data for each figure
-serine_data <- query_benchmark_data %>% filter(rank == "S01")
-serine_data$type <- factor(serine_data$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
-zinc_data_3 <- query_benchmark_data %>% filter(query_len == 3 & rank == "C2H2")
-zinc_data_3$type <- factor(zinc_data_3$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
-zinc_data_4 <- query_benchmark_data %>% filter(query_len == 4 & rank == "C2H2")
-zinc_data_4$type <- factor(zinc_data_4$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
-serine_data_long <- query_benchmark_data_long %>% filter(rank == "S01")
-serine_data_long$type <- factor(serine_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
-zinc_data_3_long <- query_benchmark_data_long %>% filter(query_len == 3 & rank == "C2H2")
-zinc_data_3_long$type <- factor(zinc_data_3_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
-zinc_data_4_long <- query_benchmark_data_long %>% filter(query_len == 4 & rank == "C2H2")
-zinc_data_4_long$type <- factor(zinc_data_4_long$type, levels = c("Folddisco", "Folddisco_prefilter","pyScoMotif", "RCSB", "MASTER"))
-
-master_benchmark_data <- read.csv("result/querying/zinc_finger.vs_master.tsv", header = TRUE, sep = "\t")
-master_benchmark_data_long <- master_benchmark_data %>%
-  select(-accuracy) %>%
-  pivot_longer(cols = precision:f1_score, names_to = "metric", values_to = "value")
-master_benchmark_data_long$type <- factor(master_benchmark_data_long$type, levels = c("Folddisco","Folddisco_prefilter", "pyScoMotif", "RCSB", "MASTER"))
-
-
 # Create the ggplot with a secondary y-axis for runtime
-
 
 scope_recall_fp1_plot <- ggviolin(
     data[data$ratio %in% c(0.2,0.4,0.6,0.8,1.0), ], x = "ratio", y = "recall", fill = "method", 
@@ -301,25 +343,26 @@ serine_query_accuracy <- ggbarplot(
 ) + coord_cartesian(clip = 'off') + scale_x_discrete(labels = c("Precision", "Recall", "F1-score"))
 
  
-# serine_query_runtime <- ggbarplot(
-#     serine_data[!is.na(serine_data$runtime),], x = "type", y = "runtime",
-#     fill = "type", palette = tool_colors,
-#     # label = TRUE, lab.pos = "out", lab.size = label_size,
-#     color = NA,  # Removes bar borders
-#     ylab = "Runtime (s)", xlab = "",
-#     legend = "none" # No legend
-# ) + theme(
-#     text = element_text(size = font_size),
-#     axis.line = element_line(linewidth = axis_line_weight),
-#     axis.ticks.y = element_line(size = axis_line_weight),
-#     axis.ticks.x = element_blank(),
-#     panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-#     plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-#     legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-#     legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-# ) + scale_x_discrete(labels = element_blank()
-# ) + scale_y_continuous(limit = c(0, 6.5)
-# ) + coord_cartesian(clip = 'off')
+serine_query_runtime <- ggbarplot(
+    serine_data[!is.na(serine_data$runtime),], x = "type", y = "runtime",
+    fill = "type", palette = tool_colors,
+    # label = TRUE, lab.pos = "out", lab.size = label_size,
+    color = NA,  # Removes bar borders
+    ylab = "Runtime (s)", xlab = "",
+    legend = "none" # No legend
+) + theme(
+    text = element_text(size = font_size),
+    axis.line = element_line(linewidth = axis_line_weight),
+    axis.ticks.y = element_line(size = axis_line_weight),
+    axis.ticks.x = element_blank(),
+    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + scale_x_discrete(labels = element_blank()
+) + scale_y_continuous(limit = c(0, 6.5)
+) + coord_cartesian(clip = 'off')
+
 # serine_query_runtime
 # Create the metrics plot for query_len == 3 (Precision, Recall, F1-score)
 zinc_query_3_accuracy  <- ggbarplot(
@@ -341,24 +384,24 @@ zinc_query_3_accuracy  <- ggbarplot(
 ) + coord_cartesian(clip = 'off') + scale_x_discrete(labels = c("Precision", "Recall", "F1-score"))
 
 # # Create runtime plot for query_len == 3
-# zinc_query_3_runtime  <- ggbarplot(
-#   zinc_data_3[!is.na(zinc_data_3$runtime),], x = "type", y = "runtime",
-#   fill = "type", palette = tool_colors,
-#   # label = TRUE, lab.pos = "out", lab.size = label_size,
-#   color = NA,  # Removes bar borders
-#   ylab = "Runtime (s)", xlab = "",
-#   legend = "none" # No legend
-# ) + theme(
-#   text = element_text(size = font_size),
-#   axis.line = element_line(linewidth = axis_line_weight),
-#   axis.ticks = element_line(size = axis_line_weight),
-#   panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-#   plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-#   legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-#   legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-# ) + scale_x_discrete(labels = element_blank()
-# ) + scale_y_continuous(limit = c(0, 6.5)
-# ) + coord_cartesian(clip = 'off')
+zinc_query_3_runtime  <- ggbarplot(
+  zinc_data_3[!is.na(zinc_data_3$runtime),], x = "type", y = "runtime",
+  fill = "type", palette = tool_colors,
+  # label = TRUE, lab.pos = "out", lab.size = label_size,
+  color = NA,  # Removes bar borders
+  ylab = "Runtime (s)", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  axis.line = element_line(linewidth = axis_line_weight),
+  axis.ticks = element_line(size = axis_line_weight),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + scale_x_discrete(labels = element_blank()
+) + scale_y_continuous(limit = c(0, 6.5)
+) + coord_cartesian(clip = 'off')
 
 
 # Create the metrics plot for query_len == 4 (Precision, Recall, F1-score)
@@ -381,25 +424,25 @@ zinc_query_4_accuracy <- ggbarplot(
 ) + coord_cartesian(clip = 'off')  + scale_x_discrete(labels = c("Precision", "Recall", "F1-score"))
 
 # # Create runtime plot for query_len == 4
-# zinc_query_4_runtime <- ggbarplot(
-#   zinc_data_4[!is.na(zinc_data_4$runtime),], x = "type", y = "runtime",
-#   fill = "type", palette = tool_colors,
-#   # label = TRUE, lab.pos = "out", lab.size = label_size,
-#   color = NA,  # Removes bar borders
-#   ylab = "Runtime (s)", xlab = "",
-#   legend = "none" # No legend
-# ) + theme(
-#   text = element_text(size = font_size),
-#   axis.line = element_line(linewidth = axis_line_weight),
-#   axis.ticks = element_line(size = axis_line_weight),
-#   panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-#   plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-#   legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-#   legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-# ) + scale_x_discrete(
-#   labels  = element_blank()
-# ) + scale_y_continuous(limit = c(0, 6.5)
-# ) + coord_cartesian(clip = 'off')
+zinc_query_4_runtime <- ggbarplot(
+  zinc_data_4[!is.na(zinc_data_4$runtime),], x = "type", y = "runtime",
+  fill = "type", palette = tool_colors,
+  # label = TRUE, lab.pos = "out", lab.size = label_size,
+  color = NA,  # Removes bar borders
+  ylab = "Runtime (s)", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  axis.line = element_line(linewidth = axis_line_weight),
+  axis.ticks = element_line(size = axis_line_weight),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + scale_x_discrete(
+  labels  = element_blank()
+) + scale_y_continuous(limit = c(0, 6.5)
+) + coord_cartesian(clip = 'off')
 
 master_accuracy <- ggbarplot(
   master_benchmark_data_long, x = "metric", y = "value", 
@@ -420,6 +463,26 @@ theme(
   legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
 ) + coord_cartesian(clip = 'off') + scale_x_discrete(labels = c("Precision", "Recall", "F1-score"))
 
+master_runtime <- ggbarplot(
+  master_benchmark_data[!is.na(master_benchmark_data$runtime),], x = "type", y = "runtime",
+  fill = "type", palette = tool_colors,
+  # label = TRUE, lab.pos = "out", lab.size = label_size,
+  color = NA,  # Removes bar borders
+  ylab = "Runtime (s)", xlab = "",
+  legend = "none" # No legend
+) + theme(
+  text = element_text(size = font_size),
+  axis.line = element_line(linewidth = axis_line_weight),
+  axis.ticks = element_line(size = axis_line_weight),
+  panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+  plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+  legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+  legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+) + scale_x_discrete(
+  labels  = element_blank()
+) + scale_y_continuous(limit = c(0, 300)
+) + coord_cartesian(clip = 'off')
+
 # 03. Combine the plots
 
 # Figure 1a will be integrated later
@@ -430,8 +493,8 @@ theme(
 
 layout_design <- "AA#BBBCCCDDD
                   EEEFFFFFFFFF
-                  ##GGGG##HHHH
-                  ##IIII##JJJJ"
+                  ##GGGH##IIIJ
+                  ##KKKL##MMMN"
 
 ## Current panels
 # 1st row: 1a:num_structures_table, 1b:index_size, 1c:indexing_time, 1d: query_time
@@ -445,62 +508,60 @@ layout_design <- "AA#BBBCCCDDD
 # TODO: need alignment
 fig2 <- num_structures_table + index_size + indexing_time + querying_time +
          foldcomp_plot+ scope_recall_fp1_plot +
-         serine_query_accuracy + zinc_query_3_accuracy +
-         zinc_query_4_accuracy + master_accuracy +
+         serine_query_accuracy + serine_query_runtime + zinc_query_3_accuracy + zinc_query_3_runtime +
+         zinc_query_4_accuracy + zinc_query_4_runtime + master_accuracy + master_runtime +
          plot_layout(
           design = layout_design, 
           widths = c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
           heights = c(1, 1, 1, 1, 1)
         )
 
-fig2
-
 # Testing
-ggsave("result/img/fig2.pdf", fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
+ggsave(sprintf("result/img/fig2_%s.pdf", pal_name), fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
 
-ggsave("result/img/fig2_manet.pdf", fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
+ggsave(sprintf("result/img/fig2_%s.png", pal_name), fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
 
-
+}
 
 ################################################################################
 
 
-## 99. Supplementary Figures
-# Filter the data for h_sapiens, swissprot, pdb, and afdb_cluster_rep with multiple threads
-line_plot_data <- index_benchmark_data %>%
-  filter(data %in% c('e_coli', 'h_sapiens', 'swissprot', 'pdb', 'afdb_cluster_rep', 'afdb50')) %>%
-  filter (description %in% c('default', 'num_threads', 'database'))
+# ## 99. Supplementary Figures
+# # Filter the data for h_sapiens, swissprot, pdb, and afdb_cluster_rep with multiple threads
+# line_plot_data <- index_benchmark_data %>%
+#   filter(data %in% c('e_coli', 'h_sapiens', 'swissprot', 'pdb', 'afdb_cluster_rep', 'afdb50')) %>%
+#   filter (description %in% c('default', 'num_threads', 'database'))
 
-# Create the line plot for num_threads vs runtime with gray color scales
-line_plot <- ggplot(line_plot_data, aes(x = num_threads, y = runtime_in_sec, group = data, color = data)) +
-  geom_line(size = 1.2) +
-  geom_point(size = 3) +
-  geom_text(aes(label = round(runtime_in_sec, 2)), vjust = -0.5, size = 4) +
-  scale_color_grey(start = 0.2, end = 0.8) +  # Apply gray color scale
-  geom_text(
-    aes(label = data),
-    data = line_plot_data %>% group_by(data) %>% filter(num_threads == max(num_threads)), 
-    hjust = -0.2, vjust = 0.5, size = 5) + 
-  labs(
-    x = "Number of Threads",
-    y = "Runtime (s)",
-  ) +
-  scale_x_continuous(breaks = c(1, 4, 8, 12, 16, 32, 64, 128)) +
-  # Make y-axis breaks more dense
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 5)) +
-  theme_pubr() +
-  theme(
-    legend.title = element_blank(),
-    legend.position = "none",  # Removes the legend
-    plot.title = element_blank(),  # Removes the title
-    text = element_text(size = 18), # Set all font size to 24
-    panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
-    plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
-    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
-    legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
-  )
+# # Create the line plot for num_threads vs runtime with gray color scales
+# line_plot <- ggplot(line_plot_data, aes(x = num_threads, y = runtime_in_sec, group = data, color = data)) +
+#   geom_line(size = 1.2) +
+#   geom_point(size = 3) +
+#   geom_text(aes(label = round(runtime_in_sec, 2)), vjust = -0.5, size = 4) +
+#   scale_color_grey(start = 0.2, end = 0.8) +  # Apply gray color scale
+#   geom_text(
+#     aes(label = data),
+#     data = line_plot_data %>% group_by(data) %>% filter(num_threads == max(num_threads)), 
+#     hjust = -0.2, vjust = 0.5, size = 5) + 
+#   labs(
+#     x = "Number of Threads",
+#     y = "Runtime (s)",
+#   ) +
+#   scale_x_continuous(breaks = c(1, 4, 8, 12, 16, 32, 64, 128)) +
+#   # Make y-axis breaks more dense
+#   scale_y_continuous(breaks = scales::pretty_breaks(n = 5)) +
+#   theme_pubr() +
+#   theme(
+#     legend.title = element_blank(),
+#     legend.position = "none",  # Removes the legend
+#     plot.title = element_blank(),  # Removes the title
+#     text = element_text(size = 18), # Set all font size to 24
+#     panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
+#     plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
+#     legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+#     legend.box.background = element_rect(fill = "transparent", color = NA)  # Transparent legend box
+#   )
 
-# Print the line plot
-print(line_plot)
-# Save the plot
-ggsave("result/img/num_threads_indexing.pdf", line_plot, width = 9, height = 4, bg = "transparent")
+# # Print the line plot
+# print(line_plot)
+# # Save the plot
+# ggsave("result/img/num_threads_indexing.pdf", line_plot, width = 9, height = 4, bg = "transparent")
