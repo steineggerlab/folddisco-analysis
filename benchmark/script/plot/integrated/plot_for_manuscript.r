@@ -89,6 +89,21 @@ master_benchmark_data_long$type <- factor(master_benchmark_data_long$type, level
 
 # 01-2. Set fill colors for each tool
 palettes_list <- list(
+  apple =  c(
+    'Folddisco' = "#E94B8B", 'pyScoMotif' = "#655AD0", 'RCSB' = "#4FBDF2", 
+    'pyScoMotif_ext' = "#655AD0", 'Folddisco_prefilter' = "#F7B4A7",
+    'MASTER' = "#B04BB6" 
+  ),
+  apple2 =  c(
+    'Folddisco' = "#E94B8B", 'pyScoMotif' = "#655AD0", 'RCSB' = "#4FBDF2", 
+    'pyScoMotif_ext' = "#655AD0", 'Folddisco_prefilter' = "#F7B4A7",
+    'MASTER' = "#87B3D7" 
+  ),
+  dark_apple =  c(
+    'Folddisco' = "#AA5066", 'pyScoMotif' = "#4443A0", 'RCSB' = "#6E89B1", 
+    'pyScoMotif_ext' = "#4443A0", 'Folddisco_prefilter' = "#D69E55",
+    'MASTER' = "#5F94D4" 
+  ),
   ora =  c(
     'Folddisco' = "#F0426B", 'pyScoMotif' = "#5A4FCF", 'RCSB' = "#06D6A0", 
     'pyScoMotif_ext' = "#5A4FCF", 'Folddisco_prefilter' = "#F68EA6",
@@ -394,7 +409,8 @@ zinc_query_3_runtime  <- ggbarplot(
 ) + theme(
   text = element_text(size = font_size),
   axis.line = element_line(linewidth = axis_line_weight),
-  axis.ticks = element_line(size = axis_line_weight),
+  axis.ticks.y = element_line(size = axis_line_weight),
+  axis.ticks.x = element_blank(),
   panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
   plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
   legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
@@ -434,7 +450,8 @@ zinc_query_4_runtime <- ggbarplot(
 ) + theme(
   text = element_text(size = font_size),
   axis.line = element_line(linewidth = axis_line_weight),
-  axis.ticks = element_line(size = axis_line_weight),
+  axis.ticks.y = element_line(size = axis_line_weight),
+  axis.ticks.x = element_blank(),
   panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
   plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
   legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
@@ -473,7 +490,8 @@ master_runtime <- ggbarplot(
 ) + theme(
   text = element_text(size = font_size),
   axis.line = element_line(linewidth = axis_line_weight),
-  axis.ticks = element_line(size = axis_line_weight),
+  axis.ticks.y = element_line(size = axis_line_weight),
+  axis.ticks.x = element_blank(),
   panel.background = element_rect(fill = "transparent", color = NA),  # Transparent panel
   plot.background = element_rect(fill = "transparent", color = NA),   # Transparent plot area
   legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend

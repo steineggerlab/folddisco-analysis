@@ -15,7 +15,7 @@ Scripts to benchmark folddisco
 5.
 
 ### Figures
-1. [ ] PDB feature & Folddisco feature IDF, pairwise map, density ---> Idea needed
+1. [ ] PDB feature & Folddisco feature IDF, pairwise map, density ---> Idea needed; Halt
 2. [x] ESM3 benchmark
 3. [ ] Length penalty
 4. [ ] 
