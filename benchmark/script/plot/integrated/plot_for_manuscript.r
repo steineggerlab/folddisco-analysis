@@ -1,3 +1,4 @@
+
 # 00. Libraries
 # Load necessary libraries
 library(ggpubr)
@@ -93,67 +94,67 @@ palettes_list <- list(
     'Folddisco' = "#E94B8B", 'pyScoMotif' = "#655AD0", 'RCSB' = "#4FBDF2", 
     'pyScoMotif_ext' = "#655AD0", 'Folddisco_prefilter' = "#F7B4A7",
     'MASTER' = "#B04BB6" 
-  ),
-  apple2 =  c(
-    'Folddisco' = "#E94B8B", 'pyScoMotif' = "#655AD0", 'RCSB' = "#4FBDF2", 
-    'pyScoMotif_ext' = "#655AD0", 'Folddisco_prefilter' = "#F7B4A7",
-    'MASTER' = "#87B3D7" 
-  ),
-  dark_apple =  c(
-    'Folddisco' = "#AA5066", 'pyScoMotif' = "#4443A0", 'RCSB' = "#6E89B1", 
-    'pyScoMotif_ext' = "#4443A0", 'Folddisco_prefilter' = "#D69E55",
-    'MASTER' = "#5F94D4" 
-  ),
-  ora =  c(
-    'Folddisco' = "#F0426B", 'pyScoMotif' = "#5A4FCF", 'RCSB' = "#06D6A0", 
-    'pyScoMotif_ext' = "#5A4FCF", 'Folddisco_prefilter' = "#F68EA6",
-    'MASTER' = "#FFC43D" 
-  ),
-  neon_pink = c(
-    'Folddisco' = "#F9025B", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB", 
-    'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#F69EC5",
-    'MASTER' = "#444444" 
-  ),
-  yellow_gray = c(
-    'Folddisco' = "#FFA200", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB",
-    'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#FFA20088",
-    'MASTER' = "#444444"
-  ),
-  manet = c(
-    'Folddisco' = "#D29C44", 'pyScoMotif' = "#4585B7", 'RCSB' = "#225E92", 
-    'pyScoMotif_ext' = "#4585B7", 'Folddisco_prefilter' = "#EBC174",
-    'MASTER' = "#2F2976"
-  ),
-  neon_hongkong = c(
-    'Folddisco' = "#CB0C59", 'pyScoMotif' = "#22A0B6", 'RCSB' = "#0B4383", 
-    'pyScoMotif_ext' = "#22A0B6", 'Folddisco_prefilter' = "#EB64A0",
-    'MASTER' = "#06394C" 
-  ),
-  palette1 = c(
-    'Folddisco' = "#E81D52", 'pyScoMotif' = "#043D80", 'RCSB' = "#88BBF0", 
-    'pyScoMotif_ext' = "#043D80", 'Folddisco_prefilter' = "#FD9D12",
-    'MASTER' = "#02124E"
-  ),
-  palette2 = c(
-    'Folddisco' = "#CF152D", 'pyScoMotif' = "#0881C6", 'RCSB' = "#203B7E", 
-    'pyScoMotif_ext' = "#0881C6", 'Folddisco_prefilter' = "#DF4826",
-    'MASTER' = "#FEA30C"
-  ),
-  palette3 = c(
-    'Folddisco' = "#B0016B", 'pyScoMotif' = "#88BBF0", 'RCSB' = "#130959", 
-    'pyScoMotif_ext' = "#88BBF0", 'Folddisco_prefilter' = "#510346",
-    'MASTER' = "#F59300"
-  ),
-  palette4 = c(
-    'Folddisco' = "#B41E6D", 'pyScoMotif' = "#FEB600", 'RCSB' = "#3FA0B3", 
-    'pyScoMotif_ext' = "#FEB600", 'Folddisco_prefilter' = "#CE968A",
-    'MASTER' = "#0363A8"
-  ),
-  palette5 = c(
-    'Folddisco' = "#BB4B51", 'pyScoMotif' = "#13717D", 'RCSB' = "#964D82", 
-    'pyScoMotif_ext' = "#13717D", 'Folddisco_prefilter' = "#E47236",
-    'MASTER' = "#9D7F41"
   )
+  # apple2 =  c(
+  #   'Folddisco' = "#E94B8B", 'pyScoMotif' = "#655AD0", 'RCSB' = "#4FBDF2", 
+  #   'pyScoMotif_ext' = "#655AD0", 'Folddisco_prefilter' = "#F7B4A7",
+  #   'MASTER' = "#87B3D7" 
+  # ),
+  # dark_apple =  c(
+  #   'Folddisco' = "#AA5066", 'pyScoMotif' = "#4443A0", 'RCSB' = "#6E89B1", 
+  #   'pyScoMotif_ext' = "#4443A0", 'Folddisco_prefilter' = "#D69E55",
+  #   'MASTER' = "#5F94D4" 
+  # ),
+  # ora =  c(
+  #   'Folddisco' = "#F0426B", 'pyScoMotif' = "#5A4FCF", 'RCSB' = "#06D6A0", 
+  #   'pyScoMotif_ext' = "#5A4FCF", 'Folddisco_prefilter' = "#F68EA6",
+  #   'MASTER' = "#FFC43D" 
+  # ),
+  # neon_pink = c(
+  #   'Folddisco' = "#F9025B", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB", 
+  #   'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#F69EC5",
+  #   'MASTER' = "#444444" 
+  # ),
+  # yellow_gray = c(
+  #   'Folddisco' = "#FFA200", 'pyScoMotif' = "#888888", 'RCSB' = "#BBBBBB",
+  #   'pyScoMotif_ext' = "#888888", 'Folddisco_prefilter' = "#FFA20088",
+  #   'MASTER' = "#444444"
+  # ),
+  # manet = c(
+  #   'Folddisco' = "#D29C44", 'pyScoMotif' = "#4585B7", 'RCSB' = "#225E92", 
+  #   'pyScoMotif_ext' = "#4585B7", 'Folddisco_prefilter' = "#EBC174",
+  #   'MASTER' = "#2F2976"
+  # ),
+  # neon_hongkong = c(
+  #   'Folddisco' = "#CB0C59", 'pyScoMotif' = "#22A0B6", 'RCSB' = "#0B4383", 
+  #   'pyScoMotif_ext' = "#22A0B6", 'Folddisco_prefilter' = "#EB64A0",
+  #   'MASTER' = "#06394C" 
+  # ),
+  # palette1 = c(
+  #   'Folddisco' = "#E81D52", 'pyScoMotif' = "#043D80", 'RCSB' = "#88BBF0", 
+  #   'pyScoMotif_ext' = "#043D80", 'Folddisco_prefilter' = "#FD9D12",
+  #   'MASTER' = "#02124E"
+  # ),
+  # palette2 = c(
+  #   'Folddisco' = "#CF152D", 'pyScoMotif' = "#0881C6", 'RCSB' = "#203B7E", 
+  #   'pyScoMotif_ext' = "#0881C6", 'Folddisco_prefilter' = "#DF4826",
+  #   'MASTER' = "#FEA30C"
+  # ),
+  # palette3 = c(
+  #   'Folddisco' = "#B0016B", 'pyScoMotif' = "#88BBF0", 'RCSB' = "#130959", 
+  #   'pyScoMotif_ext' = "#88BBF0", 'Folddisco_prefilter' = "#510346",
+  #   'MASTER' = "#F59300"
+  # ),
+  # palette4 = c(
+  #   'Folddisco' = "#B41E6D", 'pyScoMotif' = "#FEB600", 'RCSB' = "#3FA0B3", 
+  #   'pyScoMotif_ext' = "#FEB600", 'Folddisco_prefilter' = "#CE968A",
+  #   'MASTER' = "#0363A8"
+  # ),
+  # palette5 = c(
+  #   'Folddisco' = "#BB4B51", 'pyScoMotif' = "#13717D", 'RCSB' = "#964D82", 
+  #   'pyScoMotif_ext' = "#13717D", 'Folddisco_prefilter' = "#E47236",
+  #   'MASTER' = "#9D7F41"
+  # )
 )
 
 tool_linetypes <- c('Folddisco' = "solid", 'pyScoMotif' = "solid", 'RCSB' = "solid", 'pyScoMotif_ext' = "dashed", 'Folddisco_prefilter' = "solid")
@@ -509,10 +510,14 @@ master_runtime <- ggbarplot(
 
 # Combine the plots into three panels
 
-layout_design <- "AA#BBBCCCDDD
-                  EEEFFFFFFFFF
-                  ##GGGH##IIIJ
-                  ##KKKL##MMMN"
+# layout_design <- "############
+#                   AA#BBBCCCDDD
+#                   EEE###FFFFFF
+#                   ##GGGH##IIIJ"
+layout_design <- "############
+                  AA#BBBCCCDDD
+                  ##EEEF##GGGH
+                  III###JJJJJJ"
 
 ## Current panels
 # 1st row: 1a:num_structures_table, 1b:index_size, 1c:indexing_time, 1d: query_time
@@ -525,19 +530,32 @@ layout_design <- "AA#BBBCCCDDD
 
 # TODO: need alignment
 fig2 <- num_structures_table + index_size + indexing_time + querying_time +
-         foldcomp_plot+ scope_recall_fp1_plot +
-         serine_query_accuracy + serine_query_runtime + zinc_query_3_accuracy + zinc_query_3_runtime +
-         zinc_query_4_accuracy + zinc_query_4_runtime + master_accuracy + master_runtime +
+        zinc_query_4_accuracy + zinc_query_4_runtime + master_accuracy + master_runtime +
+        foldcomp_plot + scope_recall_fp1_plot +
          plot_layout(
           design = layout_design, 
           widths = c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
-          heights = c(1, 1, 1, 1, 1)
+          heights = c(1, 1, 1, 1)
         )
 
 # Testing
 ggsave(sprintf("result/img/fig2_%s.pdf", pal_name), fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
 
 ggsave(sprintf("result/img/fig2_%s.png", pal_name), fig2, width = 180, height = 160, unit = "mm", bg = "transparent")
+
+# Suppl. fig
+suppl_layout <- "##AAAB
+                 ##CCCD"
+
+suppl_fig1 <- serine_query_accuracy + serine_query_runtime + zinc_query_3_accuracy + zinc_query_3_runtime +
+              plot_layout(
+                design = suppl_layout,
+                widths = c(1, 1, 1, 1),
+                heights = c(1, 1)
+              )
+ggsave(sprintf("result/img/suppl_fig1_%s.pdf", pal_name), suppl_fig1, width = 90, height = 80, unit = "mm", bg = "transparent")
+ggsave(sprintf("result/img/suppl_fig1_%s.png", pal_name), suppl_fig1, width = 90, height = 80, unit = "mm", bg = "transparent")
+
 
 }
 

@@ -367,3 +367,35 @@ python script/04_measure.py query/scope40_folddisco_subsample_lp_match.txt /mnt/
 Folddisco
 single thread  - 0:56.59
 MASTER - 4:19.53; 1:45.03
+
+--------------------------------------------------------------------------------
+[INFO] folddisco.add_entries: 32140.815124273s
+[INFO] folddisco.fold_disco_index.finish_index: 15430.373535265s
+[INFO] folddisco.fold_disco_index.save_offset_to_file: 90.270996205s
+[INFO] Hash sorted (Allocated 22436.71MB)
+[INFO] save_lookup_to_file: 41.807965403s
+[DONE] Indexing done for chunk 0 - esmatlas_clust30_folddisco
+[DONE] Done.
+        Command being timed: "/home/hyunbin/Tools/folddisco-master/target/release/folddisco index -t 40 -p highquality_clust30 -i esmatlas_clust30_folddisco -v -m big"
+        User time (seconds): 1672107.60
+        System time (seconds): 15272.66
+        Percent of CPU this job got: 2154%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 21:45:36
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 1047554056
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 822821
+        Minor (reclaiming a frame) page faults: 5597136925
+        Voluntary context switches: 21544814
+        Involuntary context switches: 21474156
+        Swaps: 0
+        File system inputs: 2054112000
+        File system outputs: 1821352832
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
