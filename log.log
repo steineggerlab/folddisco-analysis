@@ -1,0 +1,401 @@
+(base) hyunbin@hulk:/mnt/scratch/hyunbin$ \time -v ./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i /fast/hyunbin/folddisco/index/afdb50/afdb50_folddisco -t 12 -d 0.5 -a 5 --covered-node 0.4 --covered-edge 0.1 --connected-node-ratio 0.8 --rmsd 0.5 > ./temp.tsv
+	Command being timed: "./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i /fast/hyunbin/folddisco/index/afdb50/afdb50_folddisco -t 12 -d 0.5 -a 5 --covered-node 0.4 --covered-edge 0.1 --connected-node-ratio 0.8 --rmsd 0.5"
+	User time (seconds): 3087.41
+	System time (seconds): 97.27
+	Percent of CPU this job got: 818%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:29.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 59673944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 697416
+	Minor (reclaiming a frame) page faults: 8146690
+	Voluntary context switches: 680509
+	Involuntary context switches: 6000
+	Swaps: 0
+	File system inputs: 164576448
+	File system outputs: 118192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin$ \time -v ./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i /fast/hyunbin/folddisco/index/afdb50/afdb50_folddisco -t 12 -d 0.5 -a 5 --skip-match > ./zinc.afdb50.nomatch.tsv
+	Command being timed: "./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i /fast/hyunbin/folddisco/index/afdb50/afdb50_folddisco -t 12 -d 0.5 -a 5 --skip-match"
+	User time (seconds): 77.00
+	System time (seconds): 7.18
+	Percent of CPU this job got: 626%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9197916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258764
+	Voluntary context switches: 34057
+	Involuntary context switches: 161
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 138936
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin$ \time -v ./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i swissprot_folddisco -t 12 -d 0.5 -a 5 --covered-node 0.4 --covered-edge 0.1 --connected-node-ratio 0.8 --rmsd 0.5 > ./temp.tsv
+	Command being timed: "./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i swissprot_folddisco -t 12 -d 0.5 -a 5 --covered-node 0.4 --covered-edge 0.1 --connected-node-ratio 0.8 --rmsd 0.5"
+	User time (seconds): 39.64
+	System time (seconds): 0.55
+	Percent of CPU this job got: 1108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 839080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 196929
+	Voluntary context switches: 1568
+	Involuntary context switches: 57
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+10986 temp.tsv
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin$ \time -v ./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i swissprot_folddisco -t 12 -d 0.5 -a 5 --skip-match > ./zinc.swissprot.nomatch.tsv
+	Command being timed: "./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i swissprot_folddisco -t 12 -d 0.5 -a 5 --skip-match"
+	User time (seconds): 0.77
+	System time (seconds): 0.19
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21633
+	Voluntary context switches: 2126
+	Involuntary context switches: 261
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin$ \time -v ./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i human/index/h_sapiens_folddisco -t 12 -d 0.5 -a 5 --skip-match > ./zinc.human.nomatch.tsv
+	Command being timed: "./human/bin/folddisco query -q ./human/query/zinc_finger.txt -i human/index/h_sapiens_folddisco -t 12 -d 0.5 -a 5 --skip-match"
+	User time (seconds): 0.07
+	System time (seconds): 0.03
+	Percent of CPU this job got: 242%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1797
+	Voluntary context switches: 550
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+
+
+
+Command exited with non-zero status 1
+        Command being timed: "parallel -j 32 -a query/scope40_folddisco_subsample_lp_match.txt --colsep \t /fast/hyunbin/folddisco/bin/folddisco query -t 4 -d 0.5 -a 5 --top 1400 -p {1} -q {2} -o {3} --sort-by-score -i /mnt/scratch/hyunbin/scope_db/scope40_folddisco"
+        User time (seconds): 2227071.70
+        System time (seconds): 15265.86
+        Percent of CPU this job got: 12480%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 4:59:26
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 2023304
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 2108
+        Minor (reclaiming a frame) page faults: 2571633442
+        Voluntary context switches: 87320624
+        Involuntary context switches: 149106457
+        Swaps: 0
+        File system inputs: 111480
+        File system outputs: 31552520
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 1
+		
+python script/04_measure.py query/scope40_folddisco_subsample_lp_match.txt /mnt/scratch/hyunbin/scope_db/scope40_folddisco answer_for_benchmark /mnt/scratch/hyunbin/scop_with_length_penalty_and_match fold 250216_scope_benchmark_with_lp_and_match_input.txt 250216_scope_benchmark_with_lp_and_match
+
+        Command being timed: "/home/hyunbin/Tools/master/bin/createPDS --pdbList swissprot_pdb_list --pdsList swissprot_pds_list --type target"
+        User time (seconds): 22118.44
+        System time (seconds): 1085.46
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 6:28:15
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 392764
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 2
+        Minor (reclaiming a frame) page faults: 184046390
+        Voluntary context switches: 550147
+        Involuntary context switches: 83338
+        Swaps: 0
+        File system inputs: 239101648
+        File system outputs: 487032448
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+		
+		
+(base) hyunbin@hulk:/mnt/scratch/hyunbin/human$ \time -v pyscomotif create-index pdb/ --index_path pyScoHuman64 --n_cores 64
+        Command being timed: "pyscomotif create-index pdb/ --index_path pyScoHuman64 --n_cores 64"
+        User time (seconds): 61365.00
+        System time (seconds): 1704.80
+        Percent of CPU this job got: 5358%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 19:36.94
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 316196
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 4575
+        Minor (reclaiming a frame) page faults: 102367757
+        Voluntary context switches: 1171007
+        Involuntary context switches: 955752
+        Swaps: 0
+        File system inputs: 18507640
+        File system outputs: 78746224
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin/swissprot_pyscomotif$ \time -v pyscomotif create-index afdb_swissprot_v4_pdb --index_path pyScoSwiss64 --n_cores 64                       
+        Command being timed: "pyscomotif create-index afdb_swissprot_v4_pdb --index_path pyScoSwiss64 --n_cores 64"
+        User time (seconds): 659302.34
+        System time (seconds): 26306.13
+        Percent of CPU this job got: 3903%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 4:52:43
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 730872
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 372
+        Minor (reclaiming a frame) page faults: 4230777745
+        Voluntary context switches: 5331190
+        Involuntary context switches: 15598389
+        Swaps: 0
+        File system inputs: 239847448
+        File system outputs: 1234096928
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+(base) hyunbin@hulk:/mnt/scratch/hyunbin/human$ \time -v pyscomotif create-index e_coli_pdb --index_path pyScoEcoli64 --n_cores 64
+                                                                      
+        Command being timed: "pyscomotif create-index e_coli_pdb --index_path pyScoEcoli64 --n_cores 64"
+        User time (seconds): 5460.95
+        System time (seconds): 477.81
+        Percent of CPU this job got: 5006%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 1:58.62
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 286472
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 898
+        Minor (reclaiming a frame) page faults: 32903661
+        Voluntary context switches: 1421501
+        Involuntary context switches: 1199494
+        Swaps: 0
+        File system inputs: 1704448
+        File system outputs: 10831040
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+	Command being timed: "/home/hyunbin/Tools/master/bin/createPDS --pdbList e_coli_pdb.list --pdsList e_coli_pds.list --type target"
+	User time (seconds): 126.28
+	System time (seconds): 15.24
+	Percent of CPU this job got: 89%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:38.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 186084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 4902342
+	Voluntary context switches: 139276
+	Involuntary context switches: 6127
+	Swaps: 0
+	File system inputs: 36896
+	File system outputs: 3536168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+
+
+
+35:58.05
+26:45.41
+
+
+        Command being timed: "/fast/hyunbin/folddisco/repo/folddisco/target/release/folddisco index -p afdb_swissprot_v4 -i temp/swissprot_test -t 64 -v -m big"
+        User time (seconds): 49878.24
+        System time (seconds): 5613.41
+        Percent of CPU this job got: 3456%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 26:45.41
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 69235100
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 5594651
+        Minor (reclaiming a frame) page faults: 519173297
+        Voluntary context switches: 743471
+        Involuntary context switches: 318274
+        Swaps: 0
+        File system inputs: 7912
+        File system outputs: 61578344
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+\time -v /fast/hyunbin/folddisco/repo/folddisco/target/release/folddisco index -p h_sapiens -i h_sapiens_folddisco -t 128 -m big -v
+
+░█▀▀░█▀█░█░░░█▀▄░█▀▄░▀█▀░█▀▀░█▀▀░█▀█
+░█▀▀░█░█░█░░░█░█░█░█░░█░░▀▀█░█░░░█░█
+░▀░░░▀▀▀░▀▀▀░▀▀░░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀
+
+[INFO] Indexing in Big mode.
+[INFO] Indexing h_sapiens with 128 threads and 1 chunks
+[INFO] Hash type: PDBTrRosetta
+[INFO] Indexing all PDB files in one chunk
+[INFO] Before initializing (Allocated 3.0706253MB)
+[INFO] Collecting ids of the structures
+[INFO] Processing chunk 0/3
+[INFO] Processing chunk 1/3
+[INFO] Processing chunk 2/3
+[INFO] folddisco.collect_and_count: 68.785619576s
+[INFO] Hashes collected (Allocated 16394.63MB)
+[INFO] folddisco.fold_disco_index.allocate_entries: 1.527188791s
+[INFO] Processing chunk 0/3
+[INFO] Processing chunk 1/3
+[INFO] Processing chunk 2/3
+[INFO] folddisco.add_entries: 78.12952922s
+[INFO] folddisco.fold_disco_index.finish_index: 1.295932392s
+[INFO] folddisco.fold_disco_index.save_offset_to_file: 12.057800424s
+[INFO] Hash sorted (Allocated 16394.422MB)
+[INFO] save_lookup_to_file: 23.002022ms
+[DONE] Indexing done for chunk 0 - h_sapiens_folddisco
+[DONE] Done.
+	Command being timed: "/fast/hyunbin/folddisco/repo/folddisco/target/release/folddisco index -p h_sapiens -i h_sapiens_folddisco -t 128 -m big -v"
+	User time (seconds): 14697.55
+	System time (seconds): 160.03
+	Percent of CPU this job got: 8854%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:47.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 42601636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 775
+	Minor (reclaiming a frame) page faults: 4051418
+	Voluntary context switches: 377733
+	Involuntary context switches: 31236
+	Swaps: 0
+	File system inputs: 7632
+	File system outputs: 28561600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+Folddisco
+single thread  - 0:56.59
+MASTER - 4:19.53; 1:45.03
+
+--------------------------------------------------------------------------------
+[INFO] folddisco.add_entries: 32140.815124273s
+[INFO] folddisco.fold_disco_index.finish_index: 15430.373535265s
+[INFO] folddisco.fold_disco_index.save_offset_to_file: 90.270996205s
+[INFO] Hash sorted (Allocated 22436.71MB)
+[INFO] save_lookup_to_file: 41.807965403s
+[DONE] Indexing done for chunk 0 - esmatlas_clust30_folddisco
+[DONE] Done.
+        Command being timed: "/home/hyunbin/Tools/folddisco-master/target/release/folddisco index -t 40 -p highquality_clust30 -i esmatlas_clust30_folddisco -v -m big"
+        User time (seconds): 1672107.60
+        System time (seconds): 15272.66
+        Percent of CPU this job got: 2154%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 21:45:36
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 1047554056
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 822821
+        Minor (reclaiming a frame) page faults: 5597136925
+        Voluntary context switches: 21544814
+        Involuntary context switches: 21474156
+        Swaps: 0
+        File system inputs: 2054112000
+        File system outputs: 1821352832
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0

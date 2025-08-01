@@ -1,0 +1,5 @@
+rank	type	query_len	index	result	answer	index_len	result_len	answer_len	hash_type	dist_bin	angle_bin	TP	TN	FP	FN	precision	recall	accuracy	f1_score	runtime	filter
+S01	Folddisco	3	index/h_sapiens_folddisco	result/250218_result/serine.motif.rmsd0.5.tsv	result/serine_answer.tsv	20504	113	124	PDBTrRosetta	16	4	108	20375	5	16	0.9558	0.871	0.999	0.9114	0.46	max-node=3;rmsd=0.5
+S01	Folddisco_prefilter	3	index/h_sapiens_folddisco	result/250218_result/serine.motif.skip.tsv	result/serine_answer.tsv	20504	107	124	PDBTrRosetta	16	4	102	20375	5	22	0.9533	0.8226	0.9987	0.8831	0.1	covered-node=3
+S01	pyScoMotif	3	index/h_sapiens_folddisco	result/serine_pyscomotif_filtered.tsv	result/serine_answer.tsv	20504	108	124	PDBTrRosetta	16	4	104	20376	4	20	0.963	0.8387	0.9988	0.8966	5.02	default
+S01	PDB	3	index/h_sapiens_folddisco	result/serine_pdb_queried.csv	result/serine_answer.tsv	20504	129	124	PDBTrRosetta	16	4	105	20378	24	19	0.814	0.8468	0.9979	0.83	NA	default

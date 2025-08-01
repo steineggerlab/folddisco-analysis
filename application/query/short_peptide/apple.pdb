@@ -1,0 +1,58 @@
+HEADER                                            18-OCT-22                     
+TITLE     ESMFOLD V1 PREDICTION FOR INPUT
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,
+REMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,
+REMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,
+REMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,
+REMARK   1  AUTH 5 ALEXANDER RIVES
+REMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN
+REMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL
+REMARK   1  REF                                                                 
+REMARK   1  REFN                                                                
+REMARK   1  PMID                                                                
+REMARK   1  DOI    10.1101/2022.07.20.500902                                    
+REMARK   1                                                                      
+REMARK   1 LICENSE AND DISCLAIMERS                
+REMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER
+REMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.
+REMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.
+REMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT
+REMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.
+ATOM      1  N   ALA A   1      -9.267   7.514  -4.199  1.00  0.64           N  
+ATOM      2  CA  ALA A   1      -9.247   6.944  -5.544  1.00  0.67           C  
+ATOM      3  C   ALA A   1     -10.662   6.776  -6.090  1.00  0.66           C  
+ATOM      4  CB  ALA A   1      -8.518   5.602  -5.542  1.00  0.59           C  
+ATOM      5  O   ALA A   1     -11.573   6.380  -5.359  1.00  0.62           O  
+ATOM      6  N   PRO A   2     -11.618   7.081  -6.559  1.00  0.89           N  
+ATOM      7  CA  PRO A   2     -12.960   7.032  -7.144  1.00  0.89           C  
+ATOM      8  C   PRO A   2     -13.175   5.805  -8.027  1.00  0.88           C  
+ATOM      9  CB  PRO A   2     -13.032   8.319  -7.970  1.00  0.83           C  
+ATOM     10  O   PRO A   2     -12.210   5.238  -8.547  1.00  0.79           O  
+ATOM     11  CG  PRO A   2     -11.615   8.781  -8.082  1.00  0.76           C  
+ATOM     12  CD  PRO A   2     -10.788   8.032  -7.076  1.00  0.77           C  
+ATOM     13  N   PRO A   3     -14.184   5.135  -8.094  1.00  0.78           N  
+ATOM     14  CA  PRO A   3     -14.129   4.062  -9.090  1.00  0.75           C  
+ATOM     15  C   PRO A   3     -13.385   4.473 -10.359  1.00  0.75           C  
+ATOM     16  CB  PRO A   3     -15.604   3.782  -9.388  1.00  0.74           C  
+ATOM     17  O   PRO A   3     -13.491   5.621 -10.797  1.00  0.70           O  
+ATOM     18  CG  PRO A   3     -16.356   4.531  -8.336  1.00  0.71           C  
+ATOM     19  CD  PRO A   3     -15.484   5.642  -7.827  1.00  0.75           C  
+ATOM     20  N   LEU A   4     -12.404   3.599 -10.701  1.00  0.79           N  
+ATOM     21  CA  LEU A   4     -11.951   3.922 -12.050  1.00  0.78           C  
+ATOM     22  C   LEU A   4     -13.093   3.794 -13.052  1.00  0.70           C  
+ATOM     23  CB  LEU A   4     -10.792   3.010 -12.459  1.00  0.70           C  
+ATOM     24  O   LEU A   4     -13.711   2.732 -13.164  1.00  0.66           O  
+ATOM     25  CG  LEU A   4      -9.497   3.158 -11.659  1.00  0.68           C  
+ATOM     26  CD1 LEU A   4      -8.576   1.971 -11.917  1.00  0.64           C  
+ATOM     27  CD2 LEU A   4      -8.800   4.469 -12.007  1.00  0.65           C  
+ATOM     28  N   GLU A   5     -13.745   4.667 -13.240  1.00  0.85           N  
+ATOM     29  CA  GLU A   5     -14.941   4.530 -14.067  1.00  0.82           C  
+ATOM     30  C   GLU A   5     -15.081   3.108 -14.603  1.00  0.79           C  
+ATOM     31  CB  GLU A   5     -14.910   5.529 -15.226  1.00  0.72           C  
+ATOM     32  O   GLU A   5     -14.101   2.508 -15.051  1.00  0.71           O  
+ATOM     33  CG  GLU A   5     -16.181   6.356 -15.359  1.00  0.68           C  
+ATOM     34  CD  GLU A   5     -15.966   7.674 -16.085  1.00  0.67           C  
+ATOM     35  OE1 GLU A   5     -16.414   7.808 -17.246  1.00  0.69           O  
+ATOM     36  OE2 GLU A   5     -15.344   8.581 -15.487  1.00  0.68           O  
