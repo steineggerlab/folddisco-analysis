@@ -1,0 +1,13 @@
+rank	type	query_len	index	result	answer	index_len	result_len	answer_len	hash_type	dist_bin	angle_bin	TP	TN	FP	FN	precision	recall	accuracy	f1_score	runtime	filter
+S01	Folddisco	3	index/h_sapiens_folddisco	result/250218_result/serine.motif.rmsd0.5.tsv	result/serine_answer.tsv	20504	121	124	PDBTrRosetta	16	4	107	20375	5	17	0.9554	0.8629	0.9989	0.9068	0.39	max-node=3;rmsd=1.0
+S01	Folddisco_prefilter	3	index/h_sapiens_folddisco	result/250218_result/serine.motif.skip.tsv	result/serine_answer.tsv	20504	107	124	PDBTrRosetta	16	4	102	20375	5	22	0.9533	0.8226	0.9987	0.8831	0.01	covered-node=3
+S01	pyScoMotif	3	index/h_sapiens_folddisco	result/serine_pyscomotif_filtered.tsv	result/serine_answer.tsv	20504	108	124	PDBTrRosetta	16	4	104	20376	4	20	0.963	0.8387	0.9988	0.8966	5.02	default
+S01	RCSB	3	index/h_sapiens_folddisco	result/serine_pdb_queried.csv	result/serine_answer.tsv	20504	129	124	PDBTrRosetta	16	4	105	20378	24	19	0.814	0.8468	0.9979	0.83	NA	default
+C2H2	Folddisco	4	index/h_sapiens_folddisco	result/250218_result/zinc.motif4.rmsd0.5.tsv	result/zinc_answer.tsv	20504	742	761	PDBTrRosetta	16	4	697	19716	27	64	0.9627	0.9159	0.9956	0.9387	0.36	max-node=4;covered-node=3;rmsd=1.0
+C2H2	Folddisco	3	index/h_sapiens_folddisco	result/250218_result/zinc.motif3.rmsd0.5.tsv	result/zinc_answer.tsv	20504	756	761	PDBTrRosetta	16	4	704	19713	30	57	0.9591	0.9251	0.9958	0.9418	0.36	max-node=3;covered-node=3;rmsd=1.0
+C2H2	Folddisco_prefilter	4	index/h_sapiens_folddisco	result/250218_result/zinc.motif4.skip.tsv	result/zinc_answer.tsv	20504	814	761	PDBTrRosetta	16	4	718	19672	71	43	0.91	0.9435	0.9944	0.9265	0.02	covered-node=3
+C2H2	Folddisco_prefilter	3	index/h_sapiens_folddisco	result/250218_result/zinc.motif3.skip.tsv	result/zinc_answer.tsv	20504	767	761	PDBTrRosetta	16	4	706	19705	38	55	0.9489	0.9277	0.9955	0.9382	0.02	covered-node=3
+C2H2	pyScoMotif	4	index/h_sapiens_folddisco	result/zinc_pyscomotif.tsv	result/zinc_answer.tsv	20504	304	761	PDBTrRosetta	16	4	243	19682	61	518	0.7993	0.3193	0.9718	0.4563	5.64	default
+C2H2	pyScoMotif	3	index/h_sapiens_folddisco	result/zinc_pyscomotif_3.tsv	result/zinc_answer.tsv	20504	788	761	PDBTrRosetta	16	4	739	19694	49	22	0.9378	0.9711	0.9965	0.9542	6.4	default
+C2H2	RCSB	3	index/h_sapiens_folddisco	result/zinc_pdb_queried3.tsv	result/zinc_answer.tsv	20504	897	761	PDBTrRosetta	16	4	740	19702	157	21	0.825	0.9724	0.9914	0.8926	NA	default
+C2H2	RCSB	4	index/h_sapiens_folddisco	result/zinc_pdb_queried4.tsv	result/zinc_answer.tsv	20504	114	761	PDBTrRosetta	16	4	91	19731	23	670	0.7982	0.1196	0.9662	0.208	NA	default
