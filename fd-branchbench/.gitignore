@@ -1,0 +1,33 @@
+# Re-included: the folddisco-analysis root ignores *.txt, and these are results
+!/selection/*.txt
+
+# Host-specific paths (see scripts/lib.sh)
+/scripts/config.local.sh
+
+# Local environment, caches, logs
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# Binaries and worktrees
+/build/
+
+# Benchmark inputs: indices, structures, answer sets (fetched, not versioned)
+/data/
+/index_expansion/build/
+/defaults/build/
+/defaults/raw/
+/defaults/raw_heldout/
+*.pdb
+*.pdb.gz
+*.cif
+*.cif.gz
+
+# Per-query output dumps; the summary tables next to them are versioned
+/result/confident_250/
+/result/mcsa_250/
+/result/motif/
+/result/mutant_250/
+/index_expansion/result/raw/

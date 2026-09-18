@@ -1,0 +1,14 @@
+# Copy to config.local.sh (untracked) and edit. lib.sh sources it before applying its own
+# defaults; `: "${VAR:=...}"` keeps an exported environment variable winning over this file.
+: "${FOLDDISCO_REPO:=$HOME/folddisco}"                  # folddisco checkout to build
+: "${FOLDDISCO_BENCH_DATA:=$HOME/folddisco-bench-data}" # root of the inputs below
+
+# Only needed when a path sits outside the default layout under $FOLDDISCO_BENCH_DATA:
+# : "${IDX_HSAPIENS:=$FOLDDISCO_REPO/index/h_sapiens_folddisco}"
+# : "${MCSA_DIR:=$FOLDDISCO_BENCH_DATA/mcsa_rebuild}"
+# : "${ANS_MCSA:=$FOLDDISCO_BENCH_DATA/mcsa/mcsa_answers}"
+# : "${ANS_ZINC:=$FOLDDISCO_BENCH_DATA/answers/zincfinger_answer.tsv}"
+# : "${ANS_SERINE:=$FOLDDISCO_BENCH_DATA/answers/serinepeptidase_answer.tsv}"
+# : "${MCSA_HOMOLOGUES:=$FOLDDISCO_BENCH_DATA/mcsa/metadata/catalytic_residues_homologues_parsed.tsv}"
+# : "${MCSA_STORE:=$MCSA_DIR/store}"
+# export MCSA_HOMOLOGUES MCSA_STORE

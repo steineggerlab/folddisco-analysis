@@ -1,0 +1,6 @@
+config	mean	runtime
+orig	0.4961	2.6501
+mut	0.3020	2.7846
+mut_star	0.4794	3.3683
+mut_blosum62	0.4546	5.7554
+mut_sens_star	0.4830	3.8285

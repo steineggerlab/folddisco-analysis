@@ -1,0 +1,6 @@
+index	flags	build_s	peak_kb	bytes_postings	bytes_offset
+I0		8.75	16792416	844456	899596
+I1	--expand-radius 1	9.31	16802776	2972434	2676412
+I2	--expand-radius 2	10.03	16809984	5055796	4300504
+I3	--aa-subst blosum62	10.59	16822224	7759517	7074316
+I4	--expand-radius 1 --aa-subst blosum62	11.73	16908912	27036679	18870760

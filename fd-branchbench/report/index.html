@@ -1,0 +1,517 @@
+<title>Folddisco 3.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --ground: #f3f4f2;
+    --surface: #fbfbfa;
+    --ink: #14171a;
+    --ink-2: #565a5e;
+    --ink-3: #7c8186;
+    --line: #dcdcd6;
+    --line-2: #eceae4;
+    --accent: #c2286b;
+    --accent-soft: #fbe8f0;
+    --pink: #e94b8b;
+    --good: #1a7f56;
+    --warn: #8a6100;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; padding-block: 0 72px; }
+  .measure { max-width: 66ch; }
+
+  header.top { border-bottom: 1px solid var(--line); padding-block: 40px 26px; margin-bottom: 30px; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--pink); margin: 0 0 12px;
+  }
+  h1 {
+    font-family: var(--sans); font-weight: 600; font-size: clamp(2.1rem, 5.5vw, 3rem);
+    line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 14px; text-wrap: balance;
+  }
+  .lede { font-size: 1.12rem; color: var(--ink-2); margin: 0 0 20px; }
+  .meta { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 6px 20px; }
+  .meta b { font-weight: 500; color: var(--ink-2); }
+
+  h2 {
+    font-family: var(--sans); font-weight: 600; font-size: 1.42rem; letter-spacing: -0.01em;
+    margin: 52px 0 6px; padding-top: 18px; border-top: 1px solid var(--line); text-wrap: balance;
+  }
+  h3 { font-family: var(--sans); font-weight: 600; font-size: 1.06rem; margin: 30px 0 4px; }
+  p { margin: 12px 0; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  strong { font-weight: 600; }
+  code, .num { font-family: var(--mono); font-size: 0.88em; font-variant-numeric: tabular-nums; }
+  code { background: var(--line-2); padding: 1px 5px; border-radius: 3px; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 26px 0 8px; }
+  .tile { background: var(--surface); padding: 18px 18px 16px; }
+  .tile .k { font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+  .tile .v { font-family: var(--sans); font-size: 1.85rem; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.2; margin-top: 6px; }
+  .tile .v em { font-style: normal; color: var(--ink-3); font-size: 1.1rem; font-weight: 500; }
+  .tile .s { font-size: 0.86rem; color: var(--ink-2); margin-top: 4px; line-height: 1.45; }
+  .up { color: var(--good); }
+
+  .tablewrap { overflow-x: auto; margin: 18px 0; border: 1px solid var(--line); background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 14px; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
+  thead th { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; background: var(--ground); }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.n, th.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  tr.best td { background: var(--accent-soft); }
+  tr.best td:first-child { font-weight: 600; }
+  td.wrap-ok { white-space: normal; min-width: 240px; }
+  caption { caption-side: bottom; text-align: left; padding: 10px 14px; font-size: 13px; color: var(--ink-3); font-family: var(--sans); }
+
+  figure { margin: 26px 0; }
+  figure img { display: block; width: 100%; border: 1px solid var(--line); background: #fff; }
+  .swatches { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--sans); font-size: 12.5px; color: var(--ink-2); margin: 10px 0 0; padding: 0; list-style: none; }
+  .swatches li { display: flex; align-items: center; gap: 7px; margin: 0; }
+  .swatches i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  figcaption { font-family: var(--sans); font-size: 13px; color: var(--ink-3); margin-top: 8px; }
+  figcaption b { color: var(--ink-2); font-weight: 600; }
+
+  ul { padding-left: 20px; margin: 12px 0; }
+  li { margin: 6px 0; }
+  .note { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; color: var(--ink-2); margin: 20px 0; }
+  footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-3); font-family: var(--sans); }
+  pre { background: var(--surface); border: 1px solid var(--line); padding: 14px 16px; overflow-x: auto; font-family: var(--mono); font-size: 13px; line-height: 1.5; }
+  @media (max-width: 640px) { body { font-size: 16px; } .tile .v { font-size: 1.6rem; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">Release report · 18 September 2026</p>
+    <h1>Folddisco 3.0</h1>
+    <p class="lede measure">Discontinuous motif search across the protein universe. This release adds a
+      sensitivity preset, amino-acid substitution, a confident-hits filter, and new default ranking —
+      measured on 742 M-CSA catalytic sites and the published zinc-finger and serine-peptidase protocols.</p>
+    <p class="meta">
+      <span><b>branch</b> feature-integration b907df5</span>
+      <span><b>baseline</b> origin/master 2a756d9</span>
+      <span><b>host</b> 20 cores, NVMe, warm cache</span>
+      <span><b>indices</b> 2.x compatible</span>
+    </p>
+  </header>
+
+  <section>
+    <div class="tiles">
+      <div class="tile">
+        <div class="k">M-CSA sensitivity @ 1st FP</div>
+        <div class="v">0.4961 <em>↑ from 0.4475</em></div>
+        <div class="s">Default search, 250 catalytic sites. 133 queries improve, 42 lose.</div>
+      </div>
+      <div class="tile">
+        <div class="k">Query time</div>
+        <div class="v">2.65 s <em>↓ from 5.35 s</em></div>
+        <div class="s">Mean per M-CSA query against the 62,122-entry PDB index.</div>
+      </div>
+      <div class="tile">
+        <div class="k">Confident hit list</div>
+        <div class="v">0.76 <em>precision</em></div>
+        <div class="s">Up from 0.06 unfiltered; median list 1,804 → 21 structures.</div>
+      </div>
+      <div class="tile">
+        <div class="k">Mutated query recovery</div>
+        <div class="v">+0.177 <em>Sens@1FP</em></div>
+        <div class="s">One catalytic residue renamed; <code>:*</code> wins back most of the loss.</div>
+      </div>
+    </div>
+    <p class="measure">Every number on this page comes from a single rerun of the benchmark suite at
+      commit <code>b907df5</code>; the scripts and raw tables are listed at the end.</p>
+  </section>
+
+  <h2>What 3.0 adds</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Feature</th><th>Flag</th><th class="wrap-ok">What it does</th></tr></thead>
+      <tbody>
+        <tr><td>Sensitive search</td><td><code>--sensitive</code></td><td class="wrap-ok">A residue pair may fall in neighbouring distance/angle bins, several features at once</td></tr>
+        <tr><td>Amino-acid substitution</td><td><code>--aa-subst</code>, <code>:*</code></td><td class="wrap-ok">Matches chemically similar residues, scored below exact ones</td></tr>
+        <tr><td>Confident hits</td><td><code>--confident</code></td><td class="wrap-ok">Keeps only full, low-RMSD matches instead of every partial one</td></tr>
+        <tr><td>Index-time expansion</td><td><code>index --expand-radius</code></td><td class="wrap-ok">Stores the neighbourhood in the index instead of expanding the query</td></tr>
+        <tr><td>Novelty screening</td><td><code>--novelty-mode</code></td><td class="wrap-ok">One KNOWN / PARTIAL / NOVEL row per query, with its evidence and the best hit's residues</td></tr>
+        <tr><td>Multi-character chains</td><td><code>-q AA_250</code>, <code>--chain-sep</code></td><td class="wrap-ok">mmCIF chain IDs that are not a single letter; 2.x crashed on these files</td></tr>
+        <tr><td>Deformation metrics</td><td><code>drmsd</code></td><td class="wrap-ok">Superposition-free deviation, as column, sort key and filter</td></tr>
+        <tr><td>Mapped lookup caches</td><td>automatic</td><td class="wrap-ok">53.7 M-entry lookup loads in 17.5 ms instead of 2.98 s</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Catalytic-site search</h2>
+  <p class="measure">M-CSA: 250 catalytic sites of 3–21 residues searched against a 62,122-entry PDB
+    index, scored against the M-CSA homologues of each site. Sensitivity at the first false positive
+    is a k=1 metric, so paired win/loss counts are given alongside.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Config</th><th class="n">Sens@1FP</th><th class="n">Δ master</th><th class="n">win / loss</th><th class="n">no TP</th><th class="n">s / query</th></tr></thead>
+      <tbody>
+        <tr><td>master (2.x)</td><td class="n">0.4475</td><td class="n">—</td><td class="n">—</td><td class="n">10</td><td class="n">5.35</td></tr>
+        <tr class="best"><td>3.0 default</td><td class="n">0.4961</td><td class="n up">+0.0486</td><td class="n">133 / 42</td><td class="n">1</td><td class="n">2.65</td></tr>
+        <tr><td><code>--sensitive</code></td><td class="n">0.5015</td><td class="n up">+0.0540</td><td class="n">134 / 42</td><td class="n">1</td><td class="n">3.02</td></tr>
+        <tr><td><code>--aa-subst blosum62</code></td><td class="n">0.4764</td><td class="n up">+0.0289</td><td class="n">124 / 56</td><td class="n">1</td><td class="n">5.69</td></tr>
+        <tr><td><code>--aa-subst group</code></td><td class="n">0.4734</td><td class="n up">+0.0259</td><td class="n">120 / 60</td><td class="n">1</td><td class="n">6.54</td></tr>
+        <tr><td><code>--aa-subst size</code></td><td class="n">0.4662</td><td class="n up">+0.0188</td><td class="n">105 / 67</td><td class="n">3</td><td class="n">6.79</td></tr>
+        <tr><td><code>--sensitive --aa-subst</code></td><td class="n">0.4807</td><td class="n up">+0.0333</td><td class="n">120 / 61</td><td class="n">2</td><td class="n">5.55</td></tr>
+      </tbody>
+      <caption>Queries that returned no true positive at all fall from 10 to 1.</caption>
+    </table>
+  </div>
+  <figure>
+    <img src="fig3_mcsa_sens_at_1fp_250.png" alt="Reverse ECDF of sensitivity at the first false positive, summary bars, and paired delta histogram for master, branch default and sensitive search.">
+    <figcaption><b>M-CSA sensitivity.</b> Reverse ECDF over 250 queries, summary means and the paired difference against master.
+      <ul class="swatches">
+        <li><i style="background:#8E8E93"></i>2.x master</li>
+        <li><i style="background:#E94B8B"></i>3.0 default</li>
+        <li><i style="background:#655AD0"></i><code>--sensitive</code></li>
+        <li><i style="background:#4FBDF2"></i><code>--aa-subst blosum62</code></li>
+        <li><i style="background:#B04BB6"></i><code>group</code></li>
+        <li><i style="background:#F7B4A7"></i><code>size</code></li>
+      </ul>
+      Colour follows the configuration in every figure that follows.</figcaption>
+  </figure>
+  <figure>
+    <img src="fig4_gain_vs_master_250.png" alt="Per-query deltas in precision, recall, F1 and sensitivity against master, runtime ratios, and the mean M-CSA delta with confidence intervals.">
+    <figcaption><b>Gain over 2.x</b> on the eight motif commands and on M-CSA, with 95% confidence intervals.</figcaption>
+  </figure>
+
+  <h2>Sensitive search: what it does</h2>
+  <p class="measure">Folddisco turns each residue pair into a hash by quantising its geometry — two
+    distances and three angles — into bins. Lookup is exact on that hash, so a pair whose distance sits
+    a tenth of an Ångström from a bin edge in the query, and just across it in the target, produces a
+    different hash and the pair is missed. Motifs deform; boundaries do not move with them.</p>
+  <figure>
+    <svg viewBox="0 0 600 300" role="img" aria-label="A grid of distance and angle bins: the default search covers the query bin and its single-feature neighbours, while sensitive search also covers the diagonal bin where a deformed target pair falls." style="max-width:100%;height:auto;color:var(--ink)">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"></path>
+        </marker>
+      </defs>
+      <!-- grid: 5 distance bins (x) by 5 angle bins (y) -->
+      <g transform="translate(70,40)">
+        <rect x="120" y="120" width="60" height="60" fill="var(--accent-soft)" stroke="none"></rect>
+        <rect x="60" y="120" width="60" height="60" fill="currentColor" opacity="0.08"></rect>
+        <rect x="180" y="120" width="60" height="60" fill="currentColor" opacity="0.08"></rect>
+        <rect x="120" y="60" width="60" height="60" fill="currentColor" opacity="0.08"></rect>
+        <rect x="120" y="180" width="60" height="60" fill="currentColor" opacity="0.08"></rect>
+        <rect x="180" y="60" width="60" height="60" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="5 4"></rect>
+        <g stroke="currentColor" stroke-width="1" opacity="0.35">
+          <line x1="0" y1="0" x2="300" y2="0"></line><line x1="0" y1="60" x2="300" y2="60"></line>
+          <line x1="0" y1="120" x2="300" y2="120"></line><line x1="0" y1="180" x2="300" y2="180"></line>
+          <line x1="0" y1="240" x2="300" y2="240"></line>
+          <line x1="0" y1="0" x2="0" y2="240"></line><line x1="60" y1="0" x2="60" y2="240"></line>
+          <line x1="120" y1="0" x2="120" y2="240"></line><line x1="180" y1="0" x2="180" y2="240"></line>
+          <line x1="240" y1="0" x2="240" y2="240"></line><line x1="300" y1="0" x2="300" y2="240"></line>
+        </g>
+        <circle cx="150" cy="150" r="6" fill="var(--accent)"></circle>
+        <text x="150" y="172" text-anchor="middle" font-size="12" fill="currentColor">query pair</text>
+        <circle cx="212" cy="88" r="6" fill="currentColor"></circle>
+        <text x="212" y="110" text-anchor="middle" font-size="12" fill="currentColor">deformed target</text>
+        <text x="150" y="272" text-anchor="middle" font-size="12" fill="currentColor">Cα–Cβ distance bin</text>
+        <line x1="0" y1="255" x2="300" y2="255" stroke="currentColor" stroke-width="1" marker-end="url(#ar)"></line>
+        <text x="-14" y="120" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90,-14,120)">torsion angle bin</text>
+        <line x1="-30" y1="240" x2="-30" y2="0" stroke="currentColor" stroke-width="1" marker-end="url(#ar)"></line>
+      </g>
+      <g font-size="12" fill="currentColor">
+        <rect x="400" y="52" width="16" height="16" fill="var(--accent-soft)"></rect>
+        <text x="424" y="65">exact hash — what 2.x looks up</text>
+        <rect x="400" y="82" width="16" height="16" fill="currentColor" opacity="0.08"></rect>
+        <text x="424" y="95">one feature off — default radius 1</text>
+        <rect x="400" y="112" width="16" height="16" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="5 4"></rect>
+        <text x="424" y="125">two at once — <tspan font-weight="600">--sensitive</tspan></text>
+      </g>
+    </svg>
+    <figcaption><b>Why a match is missed.</b> Two of the five quantised features are drawn. The default
+      search already covers each single-feature neighbour; a pair that drifts across two boundaries at
+      once needs the diagonal bin, which is what <code>--sensitive</code> (<code>--expand-radius 2</code>)
+      adds.</figcaption>
+  </figure>
+  <p class="measure">The radius is the number of features allowed to sit in a neighbouring bin
+    simultaneously, not how far a feature may move — <code>-d</code> and <code>-a</code> set the distance
+    each feature may travel, and wide tolerances are sub-stepped so no bin in between is skipped. Cost on
+    M-CSA: 3.02 s per query against 2.65 s, for +0.0054 sensitivity over the default and +0.054 over 2.x.
+    It is worth pairing with <code>--max-node</code>: the extra recall costs precision otherwise.</p>
+
+  <h2>Motif search on a proteome</h2>
+  <p class="measure">Four motifs (3–23 residues) searched against 23,391 human AlphaFold structures
+    under the published protocol: zinc fingers against 761 accessions, the Ser-His-Asp triad against
+    124 MEROPS S01 accessions. The branch returns <em>the same structures</em> as 2.x on all eight
+    commands; F1 is therefore unchanged, and only the order differs.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Command</th><th class="n">F1, master</th><th class="n">F1, <code>--sensitive</code></th><th class="n">Δ</th></tr></thead>
+      <tbody>
+        <tr><td>Zinc finger, 4 residues, matched</td><td class="n">0.9421</td><td class="n">0.9641</td><td class="n up">+0.022</td></tr>
+        <tr><td>Zinc finger, 3 residues, matched</td><td class="n">0.9418</td><td class="n">0.9577</td><td class="n up">+0.016</td></tr>
+        <tr><td>Ser-His-Asp triad, prefilter</td><td class="n">0.8831</td><td class="n">0.9160</td><td class="n up">+0.033</td></tr>
+        <tr><td>Two-segment zinc, 23 residues, matched</td><td class="n">0.9204</td><td class="n">0.9117</td><td class="n">−0.009</td></tr>
+      </tbody>
+      <caption>Sensitive search helps short motifs and costs a little on long segment queries.</caption>
+    </table>
+  </div>
+  <figure>
+    <img src="fig1_motif_accuracy.png" alt="Precision, recall and F1 as connected dots on a zoomed scale for each motif family and mode, comparing master, branch default and sensitive search.">
+    <figcaption><b>Motif accuracy</b> per family and mode. Every value sits between 0.82 and 0.98, so the panels are connected dots on an axis starting at 0.80; master and the branch default coincide.</figcaption>
+  </figure>
+
+  <h2>Ranking: how results are ordered</h2>
+  <p class="measure">2.x ranked matches by IDF, then RMSD — a heuristic. We searched 281 lexicographic
+    orders over every implemented metric and 69 composite scores of the form
+    <em>evidence × quality</em>, scoring each on M-CSA and the motif set, then validated the winners on
+    492 M-CSA queries never used for selection.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Per-match order</th><th class="n">Sens@1FP</th><th class="n">Avg precision</th><th class="n">Motif Sens@1FP</th></tr></thead>
+      <tbody>
+        <tr><td><code>idf, rmsd</code> (2.x)</td><td class="n">0.4518</td><td class="n">0.5951</td><td class="n">0.1817</td></tr>
+        <tr><td>best plain alternative</td><td class="n">0.4523</td><td class="n">0.5951</td><td class="n">0.1837</td></tr>
+        <tr><td><code>node_count, idf, rmsd</code></td><td class="n">0.4078</td><td class="n">0.5645</td><td class="n">0.1958</td></tr>
+        <tr><td>idf × coverage, rmsd</td><td class="n">0.4583</td><td class="n">0.6024</td><td class="n">0.2172</td></tr>
+        <tr class="best"><td><code>match_score</code> = idf × coverage² × TM-score</td><td class="n">0.4883</td><td class="n">0.6308</td><td class="n">0.2300</td></tr>
+      </tbody>
+      <caption>Means over four M-CSA configurations on the 250-query selection set.</caption>
+    </table>
+  </div>
+  <p class="measure">On the held-out 492 queries the new order beats 2.x by <span class="num">+0.028</span> to
+    <span class="num">+0.054</span> Sens@1FP and <span class="num">+0.034</span> to <span class="num">+0.050</span>
+    average precision, every 95% interval excluding zero, at roughly 2.5 wins per loss. Per structure the
+    same shape wins: <code>structure_score</code> = matched² × √idf / (1 + RMSD), at 0.4863 against 0.4321
+    for coverage-first and 0.3699 for 2.x.</p>
+  <figure>
+    <img src="fig_sort.png" alt="Bar charts comparing candidate sort orders by sensitivity and average precision, per match and per structure.">
+    <figcaption><b>Ranking selection.</b> The winners are products of evidence and geometric quality, not key orders; dots on a zoomed axis, since the candidates differ by 0.02–0.08.</figcaption>
+  </figure>
+  <div class="note measure">
+    The motif set disagrees on one metric: with a coverage filter already applied, coverage is constant and
+    <code>structure_score</code> reduces to √idf/(1+RMSD), which ranks two of four queries worse at the very
+    first false positive (average precision is unchanged at 0.878). For family-level searches with a coverage
+    filter, <code>--sort-by max_node_count,min_rmsd</code> restores the coverage-first order.
+  </div>
+
+  <h2>Confident hits</h2>
+  <p class="measure">By default a query returns every structure sharing part of the motif — a median of
+    1,804 structures per M-CSA query, 6% of them correct. <code>--confident</code> keeps matches covering
+    at least 80% of the query residues (all of them for a 3–4 residue motif) within 1 Å RMSD; past 12
+    residues, where matches are assembled from several parts, coverage alone decides.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>M-CSA q250</th><th class="n">Precision</th><th class="n">Recall</th><th class="n">F1</th><th class="n">Median hits</th><th class="n">Queries with a hit</th></tr></thead>
+      <tbody>
+        <tr><td>default output</td><td class="n">0.058</td><td class="n">0.751</td><td class="n">0.084</td><td class="n">6,000</td><td class="n">100%</td></tr>
+        <tr class="best"><td><code>--confident</code></td><td class="n">0.757</td><td class="n">0.475</td><td class="n">0.508</td><td class="n">55</td><td class="n">92%</td></tr>
+        <tr><td><code>--confident --sensitive</code></td><td class="n">0.750</td><td class="n">0.484</td><td class="n">0.510</td><td class="n">63</td><td class="n">92%</td></tr>
+      </tbody>
+      <caption>Hit counts are output rows; the 55 rows are about 21 distinct structures. Runtime is unchanged.</caption>
+    </table>
+  </div>
+  <p class="measure">On the zinc-finger and serine-peptidase protocols one flag reproduces filters that
+    were tuned per query by hand — <code>--covered-node 3 --max-node 4 --rmsd 1.0</code> and friends:</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Motif (human proteome)</th><th>Filter</th><th class="n">Precision</th><th class="n">Recall</th><th class="n">F1</th><th class="n">Hits</th></tr></thead>
+      <tbody>
+        <tr><td rowspan="3">Zinc finger, 4 residues<br><span class="num">1G2F F207,F212,F225,F229</span></td><td>none</td><td class="n">0.492</td><td class="n">0.974</td><td class="n">0.654</td><td class="n">7,425</td></tr>
+        <tr><td>protocol, by hand</td><td class="n">0.966</td><td class="n">0.920</td><td class="n">0.942</td><td class="n">746</td></tr>
+        <tr class="best"><td><code>--confident</code></td><td class="n">0.961</td><td class="n">0.928</td><td class="n">0.944</td><td class="n">4,304</td></tr>
+        <tr><td rowspan="3">Zinc finger, 3 residues<br><span class="num">1G2F F207,F225,F229</span></td><td>none</td><td class="n">0.551</td><td class="n">0.972</td><td class="n">0.703</td><td class="n">7,171</td></tr>
+        <tr><td>protocol, by hand</td><td class="n">0.959</td><td class="n">0.925</td><td class="n">0.942</td><td class="n">756</td></tr>
+        <tr class="best"><td><code>--confident</code></td><td class="n">0.903</td><td class="n">0.958</td><td class="n">0.930</td><td class="n">5,744</td></tr>
+        <tr><td rowspan="3">Serine peptidase triad<br><span class="num">4CHA B57,B102,C195</span></td><td>none</td><td class="n">0.245</td><td class="n">0.919</td><td class="n">0.387</td><td class="n">556</td></tr>
+        <tr><td>protocol, by hand</td><td class="n">0.964</td><td class="n">0.863</td><td class="n">0.911</td><td class="n">113</td></tr>
+        <tr class="best"><td><code>--confident</code></td><td class="n">0.964</td><td class="n">0.863</td><td class="n">0.911</td><td class="n">116</td></tr>
+        <tr><td rowspan="3">Zinc finger, 23-residue segments<br><span class="num">1G2F F204-215,F222-232</span></td><td>none</td><td class="n">0.038</td><td class="n">1.000</td><td class="n">0.072</td><td class="n">404,416</td></tr>
+        <tr><td>protocol, by hand</td><td class="n">0.972</td><td class="n">0.874</td><td class="n">0.920</td><td class="n">697</td></tr>
+        <tr class="best"><td><code>--confident</code></td><td class="n">0.996</td><td class="n">0.356</td><td class="n">0.525</td><td class="n">407</td></tr>
+      </tbody>
+      <caption>Answer sets: 761 zinc-finger and 124 MEROPS S01 accessions. Hits are output rows.</caption>
+    </table>
+  </div>
+  <p class="measure">The triad case is exact — same precision, same recall, 116 rows against 113 — and the
+    4-residue zinc finger beats the hand-tuned filter on F1. On the 23-residue segment query
+    <code>--confident</code> is deliberately precision-first: 0.996 precision at 0.356 recall, where the
+    hand-tuned <code>--max-node 15</code> reaches 0.972 at 0.874. Lower the bar with
+    <code>--confident --max-node-ratio 0.65</code> when recall matters more.</p>
+  <figure>
+    <img src="fig_confident.png" alt="Precision, recall and hit-list size for candidate coverage and RMSD cutoffs on M-CSA.">
+    <figcaption><b>Cutoff selection.</b> Coverage ≥ 0.8 with RMSD ≤ 1 Å was chosen on 250 queries and confirmed on 492 held-out ones.</figcaption>
+  </figure>
+
+  <h2>Amino-acid substitution</h2>
+  <p class="measure">Substituted residues are scored below exact ones — weight 0.75 per substituted
+    residue, IDF capped at the query's own pair, one substituted hit per residue pair — so exact matches
+    keep the top of the list. Without that weighting, substitution ranked noise from common residues above
+    exact matches and cost 0.11 Sens@1FP.</p>
+  <p class="measure">To measure what substitution buys, each M-CSA query had one catalytic residue renamed
+    to its closest BLOSUM62 alternative (His→Tyr, Asp→Glu, …), leaving the answer sets untouched.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Mutated query, 250 sites</th><th class="n">Sens@1FP</th><th class="n">Δ vs exact search</th><th class="n">win / loss</th><th class="n">s / query</th></tr></thead>
+      <tbody>
+        <tr><td>original query (reference)</td><td class="n">0.4961</td><td class="n">—</td><td class="n">—</td><td class="n">2.65</td></tr>
+        <tr><td>mutated, exact search</td><td class="n">0.3020</td><td class="n">—</td><td class="n">—</td><td class="n">2.78</td></tr>
+        <tr class="best"><td>mutated, <code>:*</code> on that residue</td><td class="n">0.4794</td><td class="n up">+0.177</td><td class="n">172 / 22</td><td class="n">3.37</td></tr>
+        <tr><td>mutated, <code>--aa-subst blosum62</code></td><td class="n">0.4546</td><td class="n up">+0.153</td><td class="n">158 / 36</td><td class="n">5.76</td></tr>
+        <tr><td>mutated, <code>:*</code> + <code>--sensitive</code></td><td class="n">0.4830</td><td class="n up">+0.181</td><td class="n">176 / 23</td><td class="n">3.83</td></tr>
+      </tbody>
+      <caption>All intervals exclude zero; renaming one residue costs 0.194 and substitution wins back most of it.</caption>
+    </table>
+  </div>
+  <figure>
+    <img src="fig6_mutant_250.png" alt="Sensitivity, paired gain with confidence intervals, and runtime for mutated M-CSA queries.">
+    <figcaption><b>Mutated queries.</b> The gain is paired per query, with 95% confidence intervals.</figcaption>
+  </figure>
+  <figure>
+    <img src="fig5_aa_substitution_250.png" alt="Precision, recall, F1, hit counts, runtime and M-CSA sensitivity for the three substitution schemes.">
+    <figcaption><b>Substitution schemes</b> on the motif protocol and M-CSA. Wider schemes cost precision and time.</figcaption>
+  </figure>
+  <p class="measure">On answer sets defined by exact residue identity, substitution is neutral at best —
+    which is what the M-CSA table above shows. It is worth its cost when the residues may differ.</p>
+
+  <h2>Speed</h2>
+  <p class="measure">Matching now pre-selects target residues by amino-acid code for large queries, with
+    byte-identical output. Default M-CSA queries run in half the time of 2.x, and sensitive search costs
+    3.0 s where the first implementation cost 9.6 s.</p>
+  <figure>
+    <img src="fig2_runtime_250.png" alt="Median motif query runtimes on a log scale and the distribution of M-CSA query runtimes.">
+    <figcaption><b>Runtime.</b> Motif queries (log scale) and the M-CSA distribution across 250 queries.</figcaption>
+  </figure>
+
+  <h2>Index-time expansion</h2>
+  <p class="measure">Expansion can also be baked into an index. On a motif-only index built from 24,762
+    annotated M-CSA sites, index-side expansion is <em>not</em> a substitute for expanding the query: it
+    scores 0.025–0.037 lower, no query returns the same ranking, and the returned motifs overlap only
+    43–58%. Shifting the query and shifting the targets reach different residue pairs near bin edges.
+    The index also grows 3.5× at radius 1 and 32× with substitution.</p>
+  <figure>
+    <img src="index_expansion.png" alt="Sensitivity and runtime for query-side versus index-side expansion on a motif-only index.">
+    <figcaption><b>Motif-only index.</b> Query-side expansion (left bars) against indices built with expansion.</figcaption>
+  </figure>
+
+  <h2>Multi-character chain IDs</h2>
+  <p class="measure">Large mmCIF assemblies label chains <code>AR</code>, <code>AW</code> or
+    <code>10</code>, not <code>A</code>. 2.x read the wrong field for these files and crashed on them;
+    3.0 keeps the author chain ID, up to eight characters, and accepts it in a query. Because
+    <code>AR119</code> is ambiguous, multi-character and numeric chains take a separator:</p>
+<pre>$ folddisco query -i complexdir_folddisco -p 4V8S-assembly1.cif.gz \
+    -q AR_119,AR_364,AR_392 --format-output tid,node_count,match_score,rmsd,matching_residues
+
+4V8S-assembly1.cif.gz   3   21.2189   0.0000   AR_119,AR_364,AR_392
+4AYB-assembly1.cif.gz   3   15.4677   0.1150   B119,B364,B392
+1TWG-assembly1.cif.gz   2    1.4679   0.4712   _,A219,A214</pre>
+  <p class="measure">The motif — Ile119, Phe364, Ile392 of the two-letter chain <code>AR</code> — finds its
+    own assembly at 0 Å and the same three residues on the single-letter chain <code>B</code> of a
+    homologous assembly at 0.115 Å, then a partial two-residue match. Each hit is spelled in its own
+    convention: <code>AR_119</code> keeps the separator because the chain needs it, <code>B119</code> does
+    not, and <code>_</code> marks a query residue with no match. <code>--chain-sep</code> forces the
+    explicit form everywhere (<code>A_81,A_128,A_231</code>), which is what you want when a downstream
+    parser expects one shape.</p>
+  <p class="measure">The same query on 2.x ends in
+    <span class="num">panicked at src/structure/io/cif.rs: Chain name should be provided</span>. Leaving
+    the separator out is now a diagnostic rather than a wrong answer:
+    <span class="num">Query 'AR119' names chain 'A' and chain 'R' in 'R119'. A range stays in one chain,
+    and a multi-character or numeric chain needs the separator, as in 'AA_250'</span>.</p>
+  <p class="measure">Default output and index files are unchanged for single-letter chains, so existing
+    pipelines and indices keep working. A related fix: the residue that ends a chain used to be filed
+    under the next chain, so 4CHA <code>A11</code> was reported as <code>B11</code>; matched-residue
+    labels on multi-chain entries change accordingly.</p>
+
+  <h2>Also in 3.0</h2>
+  <p class="measure">Shorter items, for completeness.</p>
+  <h3>Novelty screening: KNOWN, PARTIAL, NOVEL</h3>
+  <p class="measure"><code>--novelty-mode</code> prints one verdict row per query instead of a hit list,
+    with the evidence behind it and the residues the best hit matched:</p>
+<pre>$ folddisco query -q designs.txt -i index/mcsa_subset_folddisco --novelty-mode --novelty-rmsd 0.5 --header
+
+query_id         verdict    candidates  hits  index_coverage  best_hit                        best_coverage  best_rmsd  best_residues
+query/4CHA.pdb   KNOWN      11656       10925  1.0000         mcsa_subset/M0387/pdb4cha.pdb   1.0000         0.0000     B57,B102,C195
+query/1G2F.pdb   KNOWN      2291        2250   1.0000         mcsa_subset/M0035/pdb6zr5.pdb   1.0000         0.4608     D27,D32,D45,D49
+query/2N6N.pdb   PARTIAL    2326        2324   1.0000         mcsa_subset/M0251/pdb6rla.pdb   1.0000         0.6540     B4234,B4298,B4225
+query/1SU6.pdb   NO_HASHES  0           0      0.0000         NA                              NA             NA         NA</pre>
+  <p class="measure"><b>KNOWN</b> needs both enough coverage (<code>--novelty-coverage</code>, 0.8) and a
+    close enough best hit (<code>--novelty-rmsd</code>, 2.0 Å) — the same residues in another arrangement
+    cover everything and are still a different motif. Covered but failing either is <b>PARTIAL</b>, nothing
+    covered is <b>NOVEL</b>, and a query whose residues are too far apart to hash is <b>NO_HASHES</b> rather
+    than a discovery. <code>best_residues</code> writes <code>_</code> where the hit missed a query residue,
+    so a 2-of-3 match reads <code>C1145,_,C1128</code>.</p>
+  <p class="measure">The evidence columns come from the index before filters: <code>candidates</code> and
+    <code>index_coverage</code> show what was there to match, so a NOVEL verdict caused by strict filters is
+    visible in the row (and warned on stderr). Short motifs cover 1.0 against something almost anywhere, so
+    tighten <code>--novelty-rmsd</code> when screening 3–4 residue designs — the 2N6N row above is KNOWN at
+    the 2.0 Å default and PARTIAL at 0.5 Å.</p>
+  <h3>Deformation metrics</h3>
+  <p class="measure"><code>drmsd</code> and <code>max_dist_deviation</code> compare internal distances
+    without superposition, which suits hinged motifs; both work as output columns, sort keys and filters.
+    On a synthetic 20° hinge the default search returns a 3-residue mis-assignment at 2.81 Å while
+    <code>--sensitive</code> recovers all 8 residues at 1.31 Å.</p>
+  <h3>Lookup caches</h3>
+  <p class="measure">Index and Foldcomp lookup tables are memory-mapped caches built on first use, so a
+    large database stops re-parsing its lookup on every query.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Table</th><th class="n">2.x load</th><th class="n">3.0 load</th><th class="n">Memory</th></tr></thead>
+      <tbody>
+        <tr><td>AFDB50 v4 index lookup, 53.7 M entries</td><td class="n">2.98 s</td><td class="n">17.5 ms</td><td class="n">8.55 GB → 2.10 GB</td></tr>
+        <tr><td>AFDB v6 Foldcomp lookup, 241 M entries</td><td class="n">6.14 s</td><td class="n">45.8 ms</td><td class="n">27.9 GB → 5.66 GB</td></tr>
+      </tbody>
+      <caption>Caches are regenerable and validated against the source file's size and mtime.</caption>
+    </table>
+  </div>
+  <h3>Fixes and removals</h3>
+  <ul class="measure">
+    <li>Substituted residues (<code>164:H</code>) passed the index lookup and were then dropped at
+      matching — they now match.</li>
+    <li>A mistyped residue range (<code>A204-2150000000</code>) is reported instead of being killed by the
+      out-of-memory reaper; a range may repeat its chain (<code>F204-F215</code>).</li>
+    <li>Building without the <code>foldcomp</code> feature works again.</li>
+    <li>Removed after measurement: torsion-ENM conformer sampling, the rare-hash IDF filter and
+      <code>--dist-ratio</code>, none of which beat the simpler path.</li>
+  </ul>
+
+  <h2>Compatibility</h2>
+  <ul class="measure">
+    <li>Indices built with 2.x are read unchanged; no rebuild.</li>
+    <li><code>--nonrigid</code> is now <code>--sensitive</code>.</li>
+    <li>Hit lists come back in a new order. On the eight motif commands the branch returns exactly the
+      same structures as 2.x; four commands return them reordered.</li>
+    <li>A residue ending a chain is no longer labelled with the next chain's ID, changing matched-residue
+      labels on multi-chain entries.</li>
+    <li><code>-d</code>/<code>-a</code> with several values now use only the widest.</li>
+  </ul>
+
+  <h2>Limits</h2>
+  <ul class="measure">
+    <li>Sensitivity at the first false positive moves on single accessions; paired counts and average
+      precision are reported with it.</li>
+    <li>M-CSA answers are homologous entries, so a partial match can be correct; the zinc and serine sets
+      are defined by exact residue identity.</li>
+    <li>The coverage-only rule past 12 residues rests on four queries.</li>
+    <li>Index-time expansion was measured on one motif-only index.</li>
+    <li>One machine, one hash type (<code>PDBTrRosetta</code>, default binning).</li>
+  </ul>
+
+  <h2>Reproduce</h2>
+<pre>cd fd-branchbench
+REPEATS=5 WARMUP=1 ./scripts/run_all.sh 250    # motif, M-CSA, mutant, --confident, figures
+defaults/scripts/collect.sh &lt;binary&gt;           # raw output for ranking and filter selection
+defaults/scripts/analyze.py; defaults/scripts/composite2.py; defaults/scripts/plot.py
+index_expansion/scripts/run_queries.sh         # motif-only index study</pre>
+  <p class="measure">Tables: <code>fd-branchbench/result/</code> (motif, M-CSA, mutant, confident, answer
+    classes, provenance), <code>defaults/result/</code> (ranking and filter grids),
+    <code>index_expansion/result/</code>. Measurement detail lives in
+    <code>folddisco/docs/feature_evaluation.md</code>, branch state in <code>docs/UPDATE_REPORT.md</code>.</p>
+
+  <footer>Folddisco 3.0 · benchmark rerun at commit b907df5, 18 September 2026 · 20 cores, local NVMe, warm cache.</footer>
+</div>

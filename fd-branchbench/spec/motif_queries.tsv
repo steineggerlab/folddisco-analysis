@@ -1,0 +1,8 @@
+A1	zinc4_prefilter	zinc	prefilter	query/1G2F.pdb	F207,F212,F225,F229	12	--covered-node 3 --skip-match
+A2	zinc4_matched	zinc	matched	query/1G2F.pdb	F207,F212,F225,F229	12	--covered-node 3 --max-node 4 --rmsd 1.0 --per-structure
+B1	zinc3_prefilter	zinc	prefilter	query/1G2F.pdb	F207,F225,F229	12	--covered-node 3 --skip-match
+B2	zinc3_matched	zinc	matched	query/1G2F.pdb	F207,F225,F229	12	--covered-node 3 --max-node 3 --rmsd 1.0 --per-structure
+C1	serine_prefilter	serine	prefilter	query/4CHA.pdb	B57,B102,C195	12	--covered-node 3 --skip-match
+C2	serine_matched	serine	matched	query/4CHA.pdb	B57,B102,C195	12	--max-node 3 --rmsd 1.0 --per-structure
+D1	zincseg_prefilter	zinc	prefilter	query/1G2F.pdb	F204-215,F222-232	1	--top 800 --skip-match
+D2	zincseg_matched	zinc	matched	query/1G2F.pdb	F204-215,F222-232	1	--top 800 --per-structure --max-node 15

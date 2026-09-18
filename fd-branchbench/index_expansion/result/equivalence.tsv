@@ -1,0 +1,7 @@
+index_side	query_side	n	identical_ranking	mean_jaccard
+orig_I1	orig_I0	250	0.0000	0.5803
+orig_I2	orig_I0_sens	250	0.0000	0.4374
+mut_I1	mut_I0	250	0.0000	0.5785
+mut_I2	mut_I0_sens	250	0.0000	0.4245
+orig_I3	orig_I0_aa	250	0.0000	0.6180
+mut_I3	mut_I0_aa	250	0.0000	0.6189
