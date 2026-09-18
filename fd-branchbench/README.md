@@ -4,9 +4,6 @@ Query runtime, motif precision/recall/F1, and M-CSA Sens@1FP for the branch agai
 master, plus the amino-acid substitution axis. Plots follow ggpubr `theme_pubr` in seaborn
 Run date and commits: `result/provenance.tsv` (branch b907df5, master 2a756d9).
 
-Publication: [Kim H, Kim RS, Mirdita M, Yoon J, Steinegger M. Structural motif search across the
-protein-universe with Folddisco. *Nature Biotechnology* (2026)](https://www.nature.com/articles/s41587-026-03162-9).
-
 ## Setup
 
 `scripts/lib.sh` reads every path from the environment, so nothing is tied to one machine.
